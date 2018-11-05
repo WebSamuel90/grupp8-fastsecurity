@@ -1,7 +1,8 @@
 <?php
 require __DIR__.'/header.php';
  ?>
- <body>
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+
    <main class="wrapper">
      <section class="section parallax bg1">
        <h1>Such Adorableness</h1>
@@ -11,6 +12,52 @@ require __DIR__.'/header.php';
        <div class="n1"><p>hej</p></div>
        <div class="n2"><p>då</p></div>
      </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+     <section class="section static">
+       <h1>Boring</h1>
+       <div class="n1"><p>hej</p></div>
+       <div class="n2"><p>då</p></div>
+     </section>
+
      <section class="section parallax bg2">
        <h1>SO FWUFFY AWWW</h1>
      </section>
