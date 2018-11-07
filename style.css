@@ -13,8 +13,9 @@
   font-size: 6vh;
 }
 
- .hero-title {
+ .hero-text {
    font-size: 9vh;
+   color: white;
 }
  .button {
    font-size: 3vh;

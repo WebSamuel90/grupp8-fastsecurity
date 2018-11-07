@@ -22,7 +22,8 @@ require __DIR__.'/header.php';
     </header>
     <!--/END NAVBAR-->
     <header class="hero-header">
-      <h1 class="hero-title">The Title of this Hero Module</h1>
+      <h3 class="hero-text">You are special</h3>
+      <h2 class="hero-text">Fast Security, FS.1.0
     </header>
     <footer class="hero-footer">
       <a class="button button-primary" href="#">button one</a>
