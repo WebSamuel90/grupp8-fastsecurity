@@ -2,19 +2,33 @@
 require __DIR__.'/header.php';
  ?>
  <body>
-   <main class="wrapper">
-     <section class="section parallax bg1">
-       <h1>Such Adorableness</h1>
-     </section>
-     <section class="section static">
-       <h1>Boring</h1>
-       <div class="n1"><p>hej</p></div>
-       <div class="n2"><p>då</p></div>
-     </section>
-     <section class="section parallax bg2">
-       <h1>SO FWUFFY AWWW</h1>
-     </section>
- </main>
+
+
+
+   <!--HEADER-->
+   <header id="header">
+     <a id="logo" href="#">logo</a>
+     <nav><a id="menu-icon">&#8801;</a></nav>
+   </header>
+   <!--/END HEADER-->
+
+   <!--HERO-->
+   <section class="hero">
+    <header id="header">
+      <a id="logo" href="#">logo</a>
+      <nav><a id="menu-icon">&#8801;</a></nav>
+    </header>
+    <header class="hero-header">
+      <h1 class="hero-title">The Title of this Hero Module</h1>
+    </header>
+    <footer class="hero-footer">
+      <a class="button button-primary" href="#">button one</a>
+      <a class="button" href="#">button two</a>
+    </footer>
+  </section>
+  <!--/END HERO-->
+
+
  <?php
  require __DIR__.'/footer.php';
   ?>
