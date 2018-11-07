@@ -38,12 +38,25 @@
 }
 /*HERO AND NAVBAR*/
 
+/*CONTENT SECTIONS*/
 .div1{
   height: 400px;
-  background-color: red;
+  background-color: tomato;
 
 }
 .div2{
   height: 600px;
   background-color: gray;
+}
+/*CONTENT SECTIONS*/
+.box{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  padding: 50px;
+  margin-left: 50px;
 }

@@ -21,16 +21,22 @@ require __DIR__.'/header.php';
     </footer>
   </section>
   <!--/END HERO-->
+
   <section>
     <div class="div1">
-      test
-    </div>
-    <div class="div2">
-
+      <div class="box">
+        box
+      </div>
+      <div class="box">
+        box2
+      </div>
     </div>
   </section>
-
-
+  <section>
+    <div class="div2">
+      box1
+    </div>
+  </section>
  <?php
  require __DIR__.'/footer.php';
   ?>
