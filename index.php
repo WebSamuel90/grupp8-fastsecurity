@@ -6,18 +6,21 @@ require __DIR__.'/header.php';
 
 
    <!--HEADER-->
-   <header id="header">
+   <!--<header id="header">
      <a id="logo" href="#">logo</a>
      <nav><a id="menu-icon">&#8801;</a></nav>
-   </header>
+   </header>-->
    <!--/END HEADER-->
 
    <!--HERO-->
    <section class="hero">
+     <!--NAVBAR-->
     <header id="header">
-      <a id="logo" href="#">logo</a>
+      <p></p>
+      <h2 id="menu">MENU</h2>
       <nav><a id="menu-icon">&#8801;</a></nav>
     </header>
+    <!--/END NAVBAR-->
     <header class="hero-header">
       <h1 class="hero-title">The Title of this Hero Module</h1>
     </header>
