@@ -2,16 +2,6 @@
 require __DIR__.'/header.php';
  ?>
  <body>
-
-
-
-   <!--HEADER-->
-   <!--<header id="header">
-     <a id="logo" href="#">logo</a>
-     <nav><a id="menu-icon">&#8801;</a></nav>
-   </header>-->
-   <!--/END HEADER-->
-
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
@@ -22,8 +12,8 @@ require __DIR__.'/header.php';
     </header>
     <!--/END NAVBAR-->
     <header class="hero-header">
-      <h3 class="hero-text">You are special</h3>
-      <h2 class="hero-text">Fast Security, FS.1.0
+      <p class="hero-text">You are special</p>
+      <p class="hero-text">Fast Security, FS.1.0</p>
     </header>
     <footer class="hero-footer">
       <a class="button button-primary" href="#">button one</a>
@@ -31,6 +21,11 @@ require __DIR__.'/header.php';
     </footer>
   </section>
   <!--/END HERO-->
+  <section>
+    <div class="section2">
+
+    </div>
+  </section>
 
 
  <?php
