@@ -60,3 +60,41 @@
   }
 
 /* End of email form */
+
+
+/*HERO AND NAVBAR*/
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  font-size: 5vh;
+}
+#menu-icon {
+  font-size: 6vh;
+}
+
+ .hero-title {
+   font-size: 9vh;
+}
+ .button {
+   font-size: 3vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+  background-image: url("images/car1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-footer {
+  display: flex;
+}
+/*HERO AND NAVBAR*/
+
