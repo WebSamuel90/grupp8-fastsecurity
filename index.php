@@ -22,7 +22,10 @@ require __DIR__.'/header.php';
   </section>
   <!--/END HERO-->
   <section>
-    <div class="section2">
+    <div class="div1">
+      test
+    </div>
+    <div class="div2">
 
     </div>
   </section>

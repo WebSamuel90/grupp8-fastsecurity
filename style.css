@@ -38,8 +38,12 @@
 }
 /*HERO AND NAVBAR*/
 
-.section2{
+.div1{
   height: 400px;
   background-color: red;
 
+}
+.div2{
+  height: 600px;
+  background-color: gray;
 }
