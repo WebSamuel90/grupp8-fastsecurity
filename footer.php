@@ -1,3 +1,4 @@
-    <script type="text/javascript" src="js/totop.js"></script>
+
+    <script type="text/javascript" src="js/toggle-sign-up.js"></script>
   </body>
 </html>
