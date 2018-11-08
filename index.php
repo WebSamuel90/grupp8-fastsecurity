@@ -1,15 +1,16 @@
 <?php
 require __DIR__.'/header.php';
  ?>
+
  <body>
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
-    <header id="header">
-      <p></p>
-      <h2 id="menu">MENU</h2>
-      <nav><a id="menu-icon">&#8801;</a></nav>
-    </header>
+    <div id="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div>
     <!--/END NAVBAR-->
     <header class="hero-header">
       <p class="hero-text">You are special</p>
@@ -37,6 +38,7 @@ require __DIR__.'/header.php';
       box1
     </div>
   </section>
+
  <?php
  require __DIR__.'/footer.php';
   ?>
