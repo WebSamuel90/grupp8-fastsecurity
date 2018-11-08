@@ -5,7 +5,8 @@ require __DIR__.'/header.php';
  <body>
      <!--TOGGLE EMAILFORM-->
      <sidebar class="sidebar-signup">
-       <div class="toggle-signup"></div>
+       <div class="toggle-signup"><i class="fas fa-plus"></i><i class="far fa-envelope"></i></div>
+       <div class="scroll-signup">
        <h2>Sign up for newsletter</h2>
        <form>
          <label for="Name">Name:</label>
@@ -16,6 +17,7 @@ require __DIR__.'/header.php';
          <textarea name="name" placeholder="Message (optional)" id="Message"></textarea>
          <input type="submit" value="Send" />
        </form>
+     </div>
      </sidebar>
    <!--END TOGGLE EMAILFORM-->
 
@@ -41,6 +43,28 @@ require __DIR__.'/header.php';
     </footer>
   </section>
   <!--/END HERO-->
+
+  <!-- BOTTOM CARDS -->
+  <section class="cards">
+    <div class="card rain">
+      <i class="fas fa-cloud-rain"></i>
+      <h2>RAIN</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+    <div class="card start">
+      <i class="far fa-flag"></i>
+      <h2>START</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+    <div class="card on">
+      <i class="fas fa-toggle-on"></i>
+      <h2>ON</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+  </section>
 
  <?php
  require __DIR__.'/footer.php';
