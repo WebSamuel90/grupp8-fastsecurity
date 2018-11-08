@@ -20,30 +20,30 @@ require __DIR__.'/header.php';
      </div>
      </sidebar>
    <!--END TOGGLE EMAILFORM-->
-
-   <!--HEADER-->
-   <header id="header">
-     <a id="logo" href="#">logo</a>
-     <nav><a id="menu-icon">&#8801;</a></nav>
-   </header>
-   <!--/END HEADER-->
+   <!-- PROGRESSBAR -->
+   <sidebar class="progressbar-side">
+     <progress id="progressbar" value="0" max="100"></progress>
+   </sidebar>
+   <!-- END PROGRESSBAR -->
 
    <!--HERO-->
    <section class="hero">
-    <header id="header">
-      <a id="logo" href="#">logo</a>
-      <nav><a id="menu-icon">&#8801;</a></nav>
-    </header>
-    <header class="hero-header">
-      <h1 class="hero-title">The Title of this Hero Module</h1>
-    </header>
-    <footer class="hero-footer">
-      <a class="button button-primary" href="#">button one</a>
-      <a class="button" href="#">button two</a>
-    </footer>
+     <!--NAVBAR-->
+     <div id="navbar">
+       <a href="#home">Home</a>
+       <div class="downArrow">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <a href="#contact">Contact</a>
+     </div>
+    <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
-
+   
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
@@ -65,8 +65,6 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
-
-
 
  <?php
  require __DIR__.'/footer.php';

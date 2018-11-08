@@ -2,10 +2,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+  font-family: "AktivGrotesk-Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+  font-family: "AktivGrotesk-Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+}
+
 body {
   background-color: #212121;
+  font-family: "AktivGrotesk-Regular";
 }
-/* Email form  */
+
+
+/* EMAIL FORM */
 .sidebar-signup {
   position: fixed;
   top: 50%;
@@ -62,17 +76,17 @@ body {
   margin-left: -20px;
   }
 
-  .toggle-signup > i {
-    margin: 2px 0;
-  }
+.toggle-signup > i {
+  margin: 2px 0;
+}
 
-  .toggle-signup:before , i {
-    font-family: "Font Awesome 5 Free";
-    font-size:28px;
-    color: #fff;
-  }
-  .toggle-signup.active:before, i {
-  }
+.toggle-signup:before , i {
+  font-family: "Font Awesome 5 Free";
+  font-size:28px;
+  color: #fff;
+}
+.toggle-signup.active:before, i {
+}
 
 @media screen and (max-width: 768px) {
   .sidebar-signup{
@@ -97,27 +111,90 @@ body {
     overflow-y: auto;
   }
 }
-/* End of email form */
+/* END EMAIL FORM */
 
+/* PROGRESSBAR */
+.progressbar-side {
+  color: aqua;
+}
+.progressbar-side progress {
+  position:fixed;
+  height: 3px;
+  top: 50%;
+  left: -60px;
+  transform: rotate(90deg);
+}
 
-/*HERO AND NAVBAR*/
-#header {
+/* END PROGRESSBAR */
+
+}
+/*NAVBAR ICON*/
+.downArrow{
+  position:relative;
+  width: 50px;
+  height: 50px;
+  /*background: #ccc;*/
+  transform: rotate(45deg);
+  
+.downArrow span{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border:none;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+/*END NAVBAR ICON*/
+
+/*NAVBAR*/
+/* Style the navbar */
+#navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-}
-#logo {
-  font-size: 5vh;
-}
-#menu-icon {
-  font-size: 6vh;
+
+  background-color: rgba(255, 0, 0, 0.2);
 }
 
- .hero-title {
-   font-size: 9vh;
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
 }
- .button {
-   font-size: 3vh;
+
+/* Page content */
+/*.content {
+  padding: 16px;
+}*/
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement
+(as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/*.sticky + .content {
+  padding-top: 60px;
+}*/
+
+/*END NAVBAR*/
+
+/*HERO*/
+ .hero-text {
+   display: flex;
+   font-size: 9vh;
+   color: white;
 }
 
 .hero {
@@ -131,10 +208,29 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hero-footer {
-  display: flex;
+/*ENDHERO*/
+
+
+
+/*REMOVE CONTENT SECTIONS*/
+.div1{
+  height: 400px;
+  background-color: tomato;
+
 }
-/*HERO AND NAVBAR*/
+.div2{
+  height: 600px;
+  background-color: gray;
+}
+/*CONTENT SECTIONS*/
+.box{
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  padding: 50px;
+  margin-left: 50px;
+}
+  
 
 /* BOTTOM CARDS */
 .cards {
@@ -167,3 +263,4 @@ body {
   }
 }
 /* END BOTTOM CARDS */
+
