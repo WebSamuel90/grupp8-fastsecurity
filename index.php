@@ -20,6 +20,7 @@ require __DIR__.'/header.php';
      </div>
      </sidebar>
    <!--END TOGGLE EMAILFORM-->
+
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
      <progress id="progressbar" value="0" max="100"></progress>
@@ -32,26 +33,28 @@ require __DIR__.'/header.php';
      <div id="navbar">
        <a href="#home">Home</a>
        <div class="downArrow">
+         <!-- <span></span>
          <span></span>
          <span></span>
          <span></span>
-         <span></span>
-         <span></span>
+         <span></span> -->
        </div>
        <a href="#contact">Contact</a>
      </div>
     <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
-   
-  <!-- SECOND FRAME -->
-  <section class="second-frame">
-    <div class="scd-text">
-      
+
+  <!-- GALLERY-->
+  <section class="gallery">
+    <div class="big picture-one"></div>
+    <div class="under">
+      <div class="small picture-two"></div>
+      <div class="small picture-three"></div>
     </div>
   </section>
-  <!-- END SECOND FRAME -->
-   
+  <!--END GALLERY-->
+
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
@@ -73,7 +76,7 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
-   
+
  <?php
  require __DIR__.'/footer.php';
   ?>
