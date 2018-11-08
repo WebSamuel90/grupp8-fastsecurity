@@ -26,36 +26,31 @@ require __DIR__.'/header.php';
    </sidebar>
    <!-- END PROGRESSBAR -->
 
-   <!--HEADER-->
-   <header id="header">
-     <a id="logo" href="#">logo</a>
-     <nav><a id="menu-icon">&#8801;</a></nav>
-   </header>
-   <!--/END HEADER-->
-
    <!--HERO-->
    <section class="hero">
-    <header id="header">
-      <a id="logo" href="#">logo</a>
-      <nav><a id="menu-icon">&#8801;</a></nav>
-    </header>
-    <header class="hero-header">
-      <h1 class="hero-title">The Title of this Hero Module</h1>
-    </header>
-    <footer class="hero-footer">
-      <a class="button button-primary" href="#">button one</a>
-      <a class="button" href="#">button two</a>
-    </footer>
+     <!--NAVBAR-->
+     <div id="navbar">
+       <a href="#home">Home</a>
+       <div class="downArrow">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <a href="#contact">Contact</a>
+     </div>
+    <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
    
-   <!-- Second Frame -->
+  <!-- SECOND FRAME -->
   <section class="second-frame">
     <div class="scd-text">
       
     </div>
   </section>
-    <!-- Second Frame -->
+  <!-- END SECOND FRAME -->
    
   <!-- BOTTOM CARDS -->
   <section class="cards">
@@ -78,9 +73,7 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
-
-  
-
+   
  <?php
  require __DIR__.'/footer.php';
   ?>
