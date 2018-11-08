@@ -20,6 +20,11 @@ require __DIR__.'/header.php';
      </div>
      </sidebar>
    <!--END TOGGLE EMAILFORM-->
+   <!-- PROGRESSBAR -->
+   <sidebar class="progressbar-side">
+     <progress id="progressbar" value="0" max="100"></progress>
+   </sidebar>
+   <!-- END PROGRESSBAR -->
 
    <!--HEADER-->
    <header id="header">

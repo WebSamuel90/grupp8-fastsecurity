@@ -2,10 +2,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+  font-family: "AktivGrotesk-Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+  font-family: "AktivGrotesk-Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+}
+
 body {
   background-color: #212121;
+  font-family: "AktivGrotesk-Regular";
 }
-/* Email form  */
+
+
+/* EMAIL FORM */
 .sidebar-signup {
   position: fixed;
   top: 50%;
@@ -62,17 +76,17 @@ body {
   margin-left: -20px;
   }
 
-  .toggle-signup > i {
-    margin: 2px 0;
-  }
+.toggle-signup > i {
+  margin: 2px 0;
+}
 
-  .toggle-signup:before , i {
-    font-family: "Font Awesome 5 Free";
-    font-size:28px;
-    color: #fff;
-  }
-  .toggle-signup.active:before, i {
-  }
+.toggle-signup:before , i {
+  font-family: "Font Awesome 5 Free";
+  font-size:28px;
+  color: #fff;
+}
+.toggle-signup.active:before, i {
+}
 
 @media screen and (max-width: 768px) {
   .sidebar-signup{
@@ -97,7 +111,21 @@ body {
     overflow-y: auto;
   }
 }
-/* End of email form */
+/* END EMAIL FORM */
+
+/* PROGRESSBAR */
+.progressbar-side {
+  color: aqua;
+}
+.progressbar-side progress {
+  position:fixed;
+  height: 3px;
+  top: 50%;
+  left: -60px;
+  transform: rotate(90deg);
+}
+
+/* END PROGRESSBAR */
 
 
 /*HERO AND NAVBAR*/
