@@ -48,7 +48,15 @@ require __DIR__.'/header.php';
     </footer>
   </section>
   <!--/END HERO-->
-
+  <!-- GALLERY-->
+  <section class="gallery">
+    <div class="big picture-one"></div>
+    <div class="under">
+      <div class="small picture-two"></div>
+      <div class="small picture-three"></div>
+    </div>
+  </section>
+  <!--END GALLERY-->
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
