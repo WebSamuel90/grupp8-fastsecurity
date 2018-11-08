@@ -43,15 +43,17 @@ require __DIR__.'/header.php';
     <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
-   
-  <!-- SECOND FRAME -->
-  <section class="second-frame">
-    <div class="scd-text">
-      
+
+  <!-- GALLERY-->
+  <section class="gallery">
+    <div class="big picture-one"></div>
+    <div class="under">
+      <div class="small picture-two"></div>
+      <div class="small picture-three"></div>
     </div>
   </section>
-  <!-- END SECOND FRAME -->
-   
+  <!--END GALLERY-->
+
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
@@ -73,7 +75,7 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
-   
+
  <?php
  require __DIR__.'/footer.php';
   ?>
