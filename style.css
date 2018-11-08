@@ -136,6 +136,29 @@ body {
 }
 /*HERO AND NAVBAR*/
 
+/*Second Frame */
+.second-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  background-image: url("images/Render_05.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scd-text {
+  background-color: aqua;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+  border: 10px;
+  margin: 10px;
+}
+
+/*End Second Frame */
 
 /* BOTTOM CARDS */
 .cards {
@@ -168,3 +191,4 @@ body {
   }
 }
 /* END BOTTOM CARDS */
+

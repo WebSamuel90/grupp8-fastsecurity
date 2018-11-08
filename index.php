@@ -43,7 +43,15 @@ require __DIR__.'/header.php';
     </footer>
   </section>
   <!--/END HERO-->
-
+   
+   <!-- Second Frame -->
+  <section class="second-frame">
+    <div class="scd-text">
+      
+    </div>
+  </section>
+    <!-- Second Frame -->
+   
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
@@ -65,6 +73,8 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
+
+  
 
  <?php
  require __DIR__.'/footer.php';
