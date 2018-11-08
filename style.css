@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #212121;
+}
 /* Email form  */
 .sidebar-signup {
   position: fixed;
@@ -131,3 +135,36 @@
   display: flex;
 }
 /*HERO AND NAVBAR*/
+
+
+/* BOTTOM CARDS */
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards i {
+  padding: 10px 10px 15px 10px;
+  font-size: 40px;
+}
+
+.cards h2, .card p{
+  padding: 10px 5px;
+  margin: 0;
+  color: #fff;
+}
+
+.card {
+  background-color: #383838;
+  text-align: center;
+  margin: 15px;
+  padding: 30px 20px;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px){
+  .cards {
+    flex-direction: row;
+  }
+}
+/* END BOTTOM CARDS */

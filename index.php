@@ -44,6 +44,28 @@ require __DIR__.'/header.php';
   </section>
   <!--/END HERO-->
 
+  <!-- BOTTOM CARDS -->
+  <section class="cards">
+    <div class="card rain">
+      <i class="fas fa-cloud-rain"></i>
+      <h2>RAIN</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+    <div class="card start">
+      <i class="far fa-flag"></i>
+      <h2>START</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+    <div class="card on">
+      <i class="fas fa-toggle-on"></i>
+      <h2>ON</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+    </div>
+  </section>
+
  <?php
  require __DIR__.'/footer.php';
   ?>
