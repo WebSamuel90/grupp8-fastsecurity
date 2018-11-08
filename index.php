@@ -5,7 +5,8 @@ require __DIR__.'/header.php';
  <body>
      <!--TOGGLE EMAILFORM-->
      <sidebar class="sidebar-signup">
-       <div class="toggle-signup"></div>
+       <div class="toggle-signup"><i class="fas fa-plus"></i><i class="far fa-envelope"></i></div>
+       <div class="scroll-signup">
        <h2>Sign up for newsletter</h2>
        <form>
          <label for="Name">Name:</label>
@@ -16,6 +17,7 @@ require __DIR__.'/header.php';
          <textarea name="name" placeholder="Message (optional)" id="Message"></textarea>
          <input type="submit" value="Send" />
        </form>
+     </div>
      </sidebar>
    <!--END TOGGLE EMAILFORM-->
 
