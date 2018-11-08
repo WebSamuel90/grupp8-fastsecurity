@@ -135,7 +135,8 @@ body {
   height: 50px;
   /*background: #ccc;*/
   transform: rotate(45deg);
-  
+}
+
 .downArrow span{
   position:absolute;
   top:0;
@@ -229,7 +230,7 @@ body {
   padding: 50px;
   margin-left: 50px;
 }
-  
+
 /*SECOND FRAME*/
 .second-frame {
   display: flex;

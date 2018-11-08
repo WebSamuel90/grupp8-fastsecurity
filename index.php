@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
-     <div id="navbar">
+     <!--div id="navbar">
        <a href="#home">Home</a>
        <div class="downArrow">
          <span></span>
@@ -39,19 +39,19 @@ require __DIR__.'/header.php';
          <span></span>
        </div>
        <a href="#contact">Contact</a>
-     </div>
+     </div-->
     <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
-   
+
   <!-- SECOND FRAME -->
   <section class="second-frame">
     <div class="scd-text">
-      
+
     </div>
   </section>
   <!-- END SECOND FRAME -->
-   
+
   <!-- BOTTOM CARDS -->
   <section class="cards">
     <div class="card rain">
@@ -73,7 +73,7 @@ require __DIR__.'/header.php';
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
-   
+
  <?php
  require __DIR__.'/footer.php';
   ?>
