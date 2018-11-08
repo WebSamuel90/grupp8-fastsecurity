@@ -1,3 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url(fonts/AktivGrotesk-Bold.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf);
+  font-family: "AktivGrotesk-Medium";
+  src: url(fonts/AktivGrotesk-Medium.otf);
+  font-family: "AktivGrotesk-Regular";
+  src: url(fonts/AktivGrotesk-Regular.otf);
+}
+
+body {
+  background-color: #212121;
+  font-family: "AktivGrotesk-Regular";
+}
+
+
+/* EMAIL FORM */
+.sidebar-signup {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50);
+  right: -350px;
+  width: 350px;
+  height: auto;
+  padding: 40px;
+  background: rgb(156, 160, 182);
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  transition: .5s;
+  display: flex;
+}
+.sidebar-signup.active {
+  right: 0px;
+}
+
+.sidebar-signup input , .sidebar-signup textarea {
+  width: 100%;
+  height: 36px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, .5);
+  outline: none;
+}
+
+.sidebar-signup input[type="submit"]{
+  background-color: #3df39e;
+  color: #212121;
+  cursor: pointer;
+}
+
+.sidebar-signup textarea {
+  height: 67px;
+  resize: none;
+}
+
+.toggle-signup {
+  position: absolute;
+  width: 48px;
+  height: 78px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  left: -48px;
+  line-height: 48px;
+  text-align: center;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -20px;
+  }
+
+.toggle-signup > i {
+  margin: 2px 0;
+}
+
+.toggle-signup:before , i {
+  font-family: "Font Awesome 5 Free";
+  font-size:28px;
+  color: #fff;
+}
+.toggle-signup.active:before, i {
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-signup{
+    width: 100%;
+    height: 100%;
+    right: -100%;
+  }
+  .sidebar-signup .toggle-signup {
+    top: 40%;
+    transform: translateY(-50%);
+    transition: 0.5s ease;
+  }
+  .sidebar-signup.active .toggle-signup {
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    margin-left: 0px;
+  }
+  .scroll-signup {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+/* END EMAIL FORM */
+
+/* PROGRESSBAR */
+.progressbar-side {
+  color: aqua;
+}
+.progressbar-side progress {
+  position:fixed;
+  height: 3px;
+  top: 50%;
+  left: -60px;
+  transform: rotate(90deg);
+}
+
+/* END PROGRESSBAR */
+
+}
 /*NAVBAR ICON*/
 .downArrow{
   position:relative;
@@ -5,9 +135,7 @@
   height: 50px;
   /*background: #ccc;*/
   transform: rotate(45deg);
-
-}
-
+  
 .downArrow span{
   position:absolute;
   top:0;
@@ -20,16 +148,14 @@
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
-/*/END NAVBAR ICON*/
+/*END NAVBAR ICON*/
 
-/*NEW NAVBAR*/
+/*NAVBAR*/
 /* Style the navbar */
 #navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 
   background-color: rgba(255, 0, 0, 0.2);
 }
@@ -62,8 +188,7 @@
   padding-top: 60px;
 }*/
 
-
-/*/END NEW NAVBAR*/
+/*END NAVBAR*/
 
 /*HERO*/
  .hero-text {
@@ -83,12 +208,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/*/ENDHERO*/
-
-
-
-
+/*ENDHERO*/
 
 
 /*REMOVE CONTENT SECTIONS*/
@@ -109,3 +229,59 @@
   padding: 50px;
   margin-left: 50px;
 }
+  
+/*SECOND FRAME*/
+.second-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  background-image: url("images/Render_05.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scd-text {
+  background-color: aqua;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+  border: 10px;
+  margin: 10px;
+}
+
+/*END SECOND FRAME*/
+
+/* BOTTOM CARDS */
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards i {
+  padding: 10px 10px 15px 10px;
+  font-size: 40px;
+}
+
+.cards h2, .card p{
+  padding: 10px 5px;
+  margin: 0;
+  color: #fff;
+}
+
+.card {
+  background-color: #383838;
+  text-align: center;
+  margin: 15px;
+  padding: 30px 20px;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px){
+  .cards {
+    flex-direction: row;
+  }
+}
+/* END BOTTOM CARDS */
