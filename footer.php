@@ -1,3 +1,3 @@
-  <script src="stickyNavbar.js"></script>
+  <script src="js/stickyNavbar.js"></script>
 </body>
 </html>

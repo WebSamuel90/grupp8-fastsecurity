@@ -3,14 +3,22 @@ require __DIR__.'/header.php';
  ?>
 
  <body>
-   <div id="navbar">
-     <a href="#home">Home</a>
-     <a href="#news">News</a>
-     <a href="#contact">Contact</a>
-   </div>
+
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
+     <div id="navbar">
+       <a href="#home">Home</a>
+       <div class="downArrow">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <a href="#contact">Contact</a>
+
+     </div>
 
     <!--/END NAVBAR-->
     <header class="hero-header">

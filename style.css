@@ -1,10 +1,37 @@
+/*NAVBAR ICON*/
+.downArrow{
+  position:relative;
+  width: 50px;
+  height: 50px;
+  /*background: #ccc;*/
+  transform: rotate(45deg);
+
+}
+
+.downArrow span{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border:none;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+/*/END NAVBAR ICON*/
 
 /*NEW NAVBAR*/
-
 /* Style the navbar */
 #navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(255, 0, 0, 0.2);
 }
 
 /* Navbar links */
@@ -13,7 +40,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 50px;
   text-decoration: none;
 }
 
@@ -36,16 +63,9 @@
 }
 
 
-/*NEW NAVBAR*/
-
-
-
-
-
+/*/END NEW NAVBAR*/
 
 /*HERO*/
-
-
  .hero-text {
    display: flex;
    font-size: 9vh;
@@ -66,9 +86,14 @@
 .hero-footer {
   display: flex;
 }
-/*HERO AND NAVBAR*/
+/*/ENDHERO*/
 
-/*CONTENT SECTIONS*/
+
+
+
+
+
+/*REMOVE CONTENT SECTIONS*/
 .div1{
   height: 400px;
   background-color: tomato;
