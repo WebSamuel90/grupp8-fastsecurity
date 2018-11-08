@@ -42,6 +42,14 @@ require __DIR__.'/header.php';
   </section>
   <!--/END HERO-->
 
+  <!-- Second Frame -->
+  <section class="second-frame">
+    <div class="scd-text">
+      
+    </div>
+  </section>
+    <!-- Second Frame -->
+
  <?php
  require __DIR__.'/footer.php';
   ?>
