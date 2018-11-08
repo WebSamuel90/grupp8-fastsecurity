@@ -24,17 +24,21 @@ body {
   position: fixed;
   top: 50%;
   transform: translateY(-50);
-  right: -350px;
+  right: 350px;
   width: 350px;
   height: auto;
   padding: 40px;
-  background: rgb(156, 160, 182);
+  background: rgb(156, 160, 182, 0);
   box-shadow: 0 20px 50px rgba(0,0,0,.5);
-  transition: .5s;
-  display: flex;
 }
 .sidebar-signup.active {
-  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 40%;
+  top: 25%;
+  background-color: rgb(156, 160, 182, 1);
+
 }
 
 .sidebar-signup input , .sidebar-signup textarea {
@@ -59,6 +63,7 @@ body {
 
 .toggle-signup {
   position: absolute;
+  right: 0;
   width: 48px;
   height: 78px;
   cursor: pointer;
@@ -93,6 +98,9 @@ body {
     width: 100%;
     height: 100%;
     right: -100%;
+  }
+  .sidebar-signup.active {
+    right: 0;
   }
   .sidebar-signup .toggle-signup {
     top: 40%;
