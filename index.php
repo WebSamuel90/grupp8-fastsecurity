@@ -35,12 +35,18 @@ require __DIR__.'/header.php';
     <div class="stickyMenuTextBar">
      <p class="menuText">Menu</p>
     </div>
+    <!--NAV ICON-->
     <div class="stickyArrowBar">
-       <!--NAV ICON-->
-     <p><i class="down arrow"></i></p>
-       <!--END NAV ICON-->
+      <p><i class="down arrow"></i></p>
     </div>
+    <!--END NAV ICON-->
     <!--/END NAVBAR-->
+    <div class="heroText">
+      <p>You are special</p>
+    </div>
+    <div class="heroText2">
+      <p>FastSecurity, FS.1.0<p>
+    </div>
   </section>
   <!--/END HERO-->
 
