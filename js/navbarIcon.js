@@ -27,3 +27,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+function animateNavbarButton(x) {
+    x.classList.toggle("changeButton");
+}

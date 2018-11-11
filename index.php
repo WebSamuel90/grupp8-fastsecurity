@@ -35,14 +35,17 @@ require __DIR__.'/header.php';
      <!--NAVBAR-->
      <div id="navbar">
 
-       <!--COLLAPSABLE MENU ICON-->
-       <button class="collapsible">Open Collapsible</button>
-       <div class="navbarIconContent">
-         <a href="#home">Home</a>
-         <p>Lorem ipsum...</p>
-         <a href="#contact">Contact</a>
+       <!--ANIMATED ICON-->
+       <div class="AnimatedNavbarButton collapsible" onclick="animateNavbarButton(this)">
+         <div class="bar1"></div><br>
+         <div class="bar2"></div>
+         <div class="navbarIconContent">
+           <a href="#home">Home</a>
+           <p>Lorem ipsum...</p>
+           <a href="#contact">Contact</a>
+         </div>
        </div>
-       <!--COLLAPSABLE MENU ICON-->
+       <!--END ANIMATED ICON-->
 
      </div>
     <!--/END NAVBAR-->
