@@ -21,7 +21,7 @@ require __DIR__.'/header.php';
 
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
-     <progress id="progressbar" value="0" max="100"></progress>
+     <progress class="progressbar" value="0" max="100"></progress>
    </sidebar>
    <!-- END PROGRESSBAR -->
 

@@ -1,30 +1,19 @@
-// const progressbar = document.querySelector('#progressbar')
-//
-//
-// window.addEventListener('scroll', () => {
-//   var s = window.scrollTop(),
-//   d = document.height(),
-//   c = window.height();
-//   scrollPercent = (s / (d-c)) * 100;
-//   var position = scrollPercent;
-//
-// })
-//
-//
-//
-// $(window).scroll(function () {
-//
-//    $("#progressbar").attr('value', position);
-//
-// });
+const progressbar = document.querySelector('.progressbar')
 
-$(window).scroll(function () {
-  var s = $(window).scrollTop(),
-        d = $(document).height(),
-        c = $(window).height();
-        scrollPercent = (s / (d-c)) * 100;
-        var position = scrollPercent;
+  console.log(progressbar);
+console.log(window.pageYOffset)
+  console.log(document.body.scrollHeight);
+progressbar.addEventListener('scroll', (e) => {
+})
 
-   $("#progressbar").attr('value', position);
+//
+//
+window.addEventListener('scroll', (e) => {
+  let s = window.pageYOffset,
+    d = document.documentElement.scrollHeight,
+    c = window.pageYOffset;
+  scrollPercent = (s / (d-c)) * 100;
+  var position = scrollPercent;
+  progressbar.value = position;
 
-});
+})

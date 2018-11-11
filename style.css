@@ -161,22 +161,37 @@ form {
 /* END EMAIL FORM */
 
 /* PROGRESSBAR */
-/* .progressbar-side {
-  color: aqua;
+.progressbar-side {
+  position: fixed;
+  transform: rotate(90deg);
+  top: 50%;
+  left: -108px;
 }
-.progressbar-side progress {
-  position:fixed;
-  height: 3px;
-  top: 50%;
-  left: -60px;
-  transform: rotate(90deg);
-} */
-progress {
-  position:fixed;
-  height: 3px;
-  top: 50%;
-  left: -60px;
-  transform: rotate(90deg);
+
+.progressbar-side .progressbar[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 2px;
+}
+
+.progressbar-side .progressbar[value]::-webkit-progress-bar {
+  background-color: rgba(0,0,0, 0);
+  border-radius: 2px;
+}
+
+.progressbar-side .progressbar[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-90deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #7e3de1, #d22c55, #de473a, #3df39e);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 /* END PROGRESSBAR */
