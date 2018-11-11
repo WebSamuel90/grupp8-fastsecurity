@@ -137,32 +137,34 @@ body {
 }
 /*COLLAPSABLE NAVBAR ICON-----------------------------------------------------*/
 
-.active:after {
-  width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid #555;
+/* .active:after { */
+  /*width: 0;*/
+	/*height: 0;*/
+	/*border-left: 25px solid transparent;*/
+	/*border-right: 25px solid transparent;*/
+	/*border-bottom: 50px solid #555;*/
     /* content: "\2796"; /* Unicode character for "minus" sign (-) */ */
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .navbarIconContent {
-  padding: 0 18px;
+  /*padding: 0 18px;*/
   /*display: none;*/
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*background-color: #f1f1f1;*/
-  background-color: white;
+  /*background-color: white;*/
 
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
+  /*max-height: 0;*/
+  /*transition: max-height 0.2s ease-out;*/
 }
 /*END COLLAPSABLE NAVBAR ICON-------------------------------------------------*/
 
 /* SECOND ANIMATED NAVBAR ICON------------------------------------------------*/
 .AnimatedNavbarButton {
-    display: inline-block;
+  display: flex;
+    /* display: inline-block; */
     cursor: pointer;
+
 }
 
 .bar1{
@@ -170,7 +172,7 @@ body {
   height: 5px;
   background-color: white;
   margin: 6px 0;
-  transition: 0.4;
+  transition: 0.4s;
   transform: rotate(45deg);
 
 }
@@ -184,8 +186,8 @@ body {
 }
 
 .changeButton .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(8px, 8px);
+    transform: rotate(-45deg) translate(8px, 8px);
 }
 
 .changeButton .bar2 {
