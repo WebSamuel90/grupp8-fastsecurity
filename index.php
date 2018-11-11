@@ -32,9 +32,10 @@ require __DIR__.'/header.php';
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
-     <div id="navbar">
+
+    <div class="navbar">
        <!--NAV ICON-->
-       <p>Down arrow: <i class="down"></i></p>
+       <p>Down arrow: <i class="down arrow"></i></p>
        <!--END NAV ICON-->
      </div>
     <!--/END NAVBAR-->
