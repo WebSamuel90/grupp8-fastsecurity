@@ -139,14 +139,14 @@ body {
 
 /* NAVBAR ICON------------------------------------------------*/
 i {
-  border: solid black;
+  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 20px;
 }
 .arrow{
-  border: solid black;
-  border-width: 0 2px 2px 0;
+  border: solid white;
+  border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 20px;
 }
@@ -157,17 +157,20 @@ i {
 /* END NAVBAR ICON------------------------------------------------*/
 
 
-/*NAVBAR*/
-/* The navigation bar */
-.navbar {
+/*STICKY MENU TEXT*/
+
+.stickyMenuTextBar {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    color: white;
 }
 /* Links inside the navbar */
-.navbar a {
+.stickyMenuTextBar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -176,12 +179,39 @@ i {
     text-decoration: none;
 }
 /* Change background on mouse-over */
-.navbar a:hover {
+.stickyMenuTextBar a:hover {
+    background: #ddd;
+    color: black;
+}
+/*END STICKY MENU TEXT*/
+
+/*STICKY ARROW*/
+/* The navigation bar */
+.stickyArrowBar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.stickyArrowBar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.stickyArrowBar a:hover {
     background: #ddd;
     color: black;
 }
 
-/*END NAVBAR*/
+/*END STICKY ARROW*/
 
 /*HERO*/
 .hero-text {
