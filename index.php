@@ -32,13 +32,14 @@ require __DIR__.'/header.php';
      <!--NAVBAR-->
      <div id="navbar">
        <a href="#home">Home</a>
-       <div class="downArrow">
-         <!-- <span></span>
-         <span></span>
-         <span></span>
-         <span></span>
-         <span></span> -->
+
+       <!--COLLAPSABLE MENU ICON-->
+       <button class="collapsible">Open Collapsible</button>
+       <div class="navbarIconContent">
+         <p>Lorem ipsum...</p>
        </div>
+       <!--COLLAPSABLE MENU ICON-->
+
        <a href="#contact">Contact</a>
      </div>
     <!--/END NAVBAR-->

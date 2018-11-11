@@ -135,28 +135,46 @@ body {
 /* END PROGRESSBAR */
 
 }
-/*NAVBAR ICON*/
-.downArrow{
-  position:relative;
-  width: 50px;
-  height: 50px;
-  /*background: #ccc;*/
-  transform: rotate(45deg);
+/*COLLAPSABLE NAVBAR ICON*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.downArrow span{
-  position:absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  border:none;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+/* Style the collapsible content. Note: hidden by default */
+.navbarIconContent {
+  padding: 0 18px;
+  /*display: none;*/
+  overflow: hidden;
+  /*background-color: #f1f1f1;*/
+  background-color: white;
+
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
-/*END NAVBAR ICON*/
+/*END COLLAPSABLE NAVBAR ICON*/
 
 /*NAVBAR*/
 /* Style the navbar */
