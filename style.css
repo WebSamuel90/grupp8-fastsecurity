@@ -135,105 +135,31 @@ body {
 /* END PROGRESSBAR */
 
 }
-/*COLLAPSABLE NAVBAR ICON-----------------------------------------------------*/
 
-/* .active:after { */
-  /*width: 0;*/
-	/*height: 0;*/
-	/*border-left: 25px solid transparent;*/
-	/*border-right: 25px solid transparent;*/
-	/*border-bottom: 50px solid #555;*/
-    /* content: "\2796"; /* Unicode character for "minus" sign (-) */ */
+
+/* NAVBAR ICON------------------------------------------------*/
+i {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 20px;
 }
-
-/* Style the collapsible content. Note: hidden by default */
-.navbarIconContent {
-  /*padding: 0 18px;*/
-  /*display: none;*/
-  /*overflow: hidden;*/
-  /*background-color: #f1f1f1;*/
-  /*background-color: white;*/
-
-  /*max-height: 0;*/
-  /*transition: max-height 0.2s ease-out;*/
+.arrow{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
 }
-/*END COLLAPSABLE NAVBAR ICON-------------------------------------------------*/
-
-/* SECOND ANIMATED NAVBAR ICON------------------------------------------------*/
-.AnimatedNavbarButton {
-  display: flex;
-    /* display: inline-block; */
-    cursor: pointer;
-
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
-
-.bar1{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-  transform: rotate(45deg);
-
-}
-.bar2{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-  transform: rotate(-45deg);
-}
-
-.changeButton .bar1 {
-    -webkit-transform: rotate(-45deg) translate(8px, 8px);
-    transform: rotate(-45deg) translate(8px, 8px);
-}
-
-.changeButton .bar2 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-/* SECOND ANIMATED NAVBAR ICON------------------------------------------------*/
+/* NAVBAR ICON------------------------------------------------*/
 
 
 /*NAVBAR*/
-/* Style the navbar */
-#navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  background-color: rgba(255, 0, 0, 0.2);
-}
 
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 50px;
-  text-decoration: none;
-}
-
-/* Page content */
-/*.content {
-  padding: 16px;
-}*/
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement
-(as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-/*.sticky + .content {
-  padding-top: 60px;
-}*/
 
 /*END NAVBAR*/
 
@@ -248,6 +174,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: center;
+
 
   height: 100vh;
   background-image: url("images/car1.jpg");

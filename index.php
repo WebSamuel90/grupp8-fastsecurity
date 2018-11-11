@@ -33,12 +33,9 @@ require __DIR__.'/header.php';
    <section class="hero">
      <!--NAVBAR-->
      <div id="navbar">
-       <!--ANIMATED ICON-->
-       <div class="AnimatedNavbarButton collapsible" onclick="animateNavbarButton(this)">
-         <div class="bar1"></div>
-         <div class="bar2"></div>
-       </div>
-       <!--END ANIMATED ICON-->
+       <!--NAV ICON-->
+       <p>Down arrow: <i class="down"></i></p>
+       <!--END NAV ICON-->
      </div>
     <!--/END NAVBAR-->
   </section>
