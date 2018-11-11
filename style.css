@@ -16,52 +16,115 @@
 body {
   background-color: #212121;
   font-family: "AktivGrotesk-Regular";
+  margin: 0;
+  padding: 0;
 }
 
 
 /* EMAIL FORM */
-.sidebar-signup {
+.popup {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50);
-  right: 350px;
-  width: 350px;
-  height: auto;
-  padding: 40px;
-  background: rgb(156, 160, 182, 0);
-  box-shadow: 0 20px 50px rgba(0,0,0,.5);
-}
-.sidebar-signup .active {
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 40%;
-  top: 25%;
-  background-color: rgb(156, 160, 182, 1);
-}
-
-.sidebar-signup input, .sidebar-signup textarea {
   width: 100%;
-  height: 36px;
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid rgba(0, 0, 0, .5);
-  outline: none;
+  height: 100%;
+  z-index: -1;
+  opacity: 0;
+
 }
 
-.sidebar-signup input[type="submit"]{
-  background-color: #3df39e;
+.popup.active {
+  z-index: 1;
+  background-color: rgba(0, 32, 91, 0.66);
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.popup-signup {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  padding: 40px;
+  padding-top: 20px;
+  background-color: #212121;
+  color: #fff;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+
+.popup-signup.white, .popup-signup.white i  {
+  background-color: rgb(255, 255, 255);
   color: #212121;
+}
+
+.popup-signup i {
+  align-self: center;
+  padding-bottom: 40px;
   cursor: pointer;
 }
 
-.sidebar-signup textarea {
-  height: 67px;
+.popup-signup h2 {
+  font-size: 16pt;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup-signup input , .popup-signup textarea {
+  width: 100%;
+  height: 36px;
+  padding: 5px 5px 5px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  font-size: 16pt;
+}
+
+.popup-signup.white input , .popup-signup.white textarea {
+  width: 100%;
+  height: 36px;
+  padding: 5px 5px 5px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #212121;
+  outline: none;
+  background: transparent;
+  font-size: 16pt;
+  color: #212121;
+}
+
+.popup-signup input[type="submit"],
+.popup-signup input[type="button"] {
+  background-color: #212121;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 30%;
+  align-self: flex-end;
+  margin-top: 50px;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+.popup-signup.white input[type="submit"],
+.popup-signup.white input[type="button"] {
+  background-color: rgb(0, 32, 91);
+}
+
+.popup-signup textarea {
   resize: none;
 }
 
 .toggle-signup {
-  position: absolute;
+  position: fixed;
   right: 0;
   width: 48px;
   height: 78px;
@@ -69,53 +132,30 @@ body {
   border-radius: 30px;
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0);
-  top: 0;
-  left: -48px;
+  top: 85%;
   line-height: 48px;
   text-align: center;
   transition: 0.5s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: -20px;
-}
-
-.toggle-signup > i {
-  margin: 2px 0;
-}
+  margin-right: 20px;
+  }
 
 .toggle-signup:before , i {
   font-family: "Font Awesome 5 Free";
   font-size:28px;
   color: #fff;
 }
-.toggle-signup .active:before, i {
+
+.toggle-signup.active{
+  z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
-  .sidebar-signup{
-    width: 100%;
-    height: 100%;
-    right: -100%;
-  }
-  .sidebar-signup .active {
-    right: 0;
-  }
-  .sidebar-signup .toggle-signup {
-    top: 40%;
-    transform: translateY(-50%);
-    transition: 0.5s ease;
-  }
-  .sidebar-signup .active .toggle-signup {
-    top: 0;
-    left: 0;
-    transform: translateY(0);
-    margin-left: 0px;
-  }
-  .scroll-signup {
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
+@media screen and (min-width: 768px) {
+  .popup-signup{
+    width: 40%;
+    height: auto;
   }
 }
 /* END EMAIL FORM */
@@ -226,14 +266,6 @@ body {
 }
 
 .gallery .picture-one {
-  object-fit: cover;
-  background-image: url(images/Render_05.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-}
-
-.gallery .picture-one  {
   object-fit: cover;
   background-image: url(images/Render_05.jpg);
   background-position: center;
