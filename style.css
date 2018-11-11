@@ -165,13 +165,13 @@ form {
   position: fixed;
   transform: rotate(90deg);
   top: 50%;
-  left: -108px;
+  left: -158px;
 }
 
 .progressbar-side .progressbar[value] {
   -webkit-appearance: none;
   appearance: none;
-  width: 250px;
+  width: 350px;
   height: 2px;
 }
 

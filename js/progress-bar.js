@@ -6,8 +6,7 @@ console.log(window.pageYOffset)
 progressbar.addEventListener('scroll', (e) => {
 })
 
-//
-//
+
 window.addEventListener('scroll', (e) => {
   let s = window.pageYOffset,
     d = document.documentElement.scrollHeight,
