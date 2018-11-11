@@ -36,7 +36,7 @@ body {
 
 .popup.active {
   z-index: 1;
-  background-color: rgba(0, 32, 91, 0.66);
+  background-color: rgba(0, 32, 91, 0.93);
   opacity: 1;
   transition: opacity 0.2s ease;
 }
@@ -161,10 +161,17 @@ form {
 /* END EMAIL FORM */
 
 /* PROGRESSBAR */
-.progressbar-side {
+/* .progressbar-side {
   color: aqua;
 }
 .progressbar-side progress {
+  position:fixed;
+  height: 3px;
+  top: 50%;
+  left: -60px;
+  transform: rotate(90deg);
+} */
+progress {
   position:fixed;
   height: 3px;
   top: 50%;
