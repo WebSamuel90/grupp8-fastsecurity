@@ -30,6 +30,7 @@ require __DIR__.'/header.php';
      <!--NAVBAR-->
      <div id="navbar">
        <a href="#home">Home</a>
+
        <a href="#contact">Contact</a>
      </div>
     <!--/END NAVBAR-->

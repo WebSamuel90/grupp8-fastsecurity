@@ -147,6 +147,7 @@ form {
   font-size:28px;
   color: #fff;
 }
+
 .toggle-signup.active{
   z-index: 2;
 }
@@ -182,6 +183,7 @@ form {
   /*background: #ccc;*/
   transform: rotate(45deg);
 }
+
 .downArrow span{
   position:absolute;
   top:0;
@@ -237,7 +239,7 @@ form {
 /*END NAVBAR*/
 
 /*HERO*/
- .hero-text {
+.hero-text {
    display: flex;
    font-size: 9vh;
    color: white;
@@ -305,30 +307,7 @@ form {
   height: 30vh;
   width: 50%;
 }
-
-
 /* END GALLERY */
-
-
-/*REMOVE CONTENT SECTIONS*/
-.div1{
-  height: 400px;
-  background-color: tomato;
-
-}
-.div2{
-  height: 600px;
-  background-color: gray;
-}
-/*CONTENT SECTIONS*/
-.box{
-  background-color: black;
-  height: 50px;
-  width: 200px;
-  padding: 50px;
-  margin-left: 50px;
-}
-
 
 /* BOTTOM CARDS */
 .cards {
