@@ -27,20 +27,23 @@ require __DIR__.'/header.php';
    </sidebar>
    <!-- END PROGRESSBAR -->
 
+
+
    <!--HERO-->
    <section class="hero">
+
      <!--NAVBAR-->
      <div id="navbar">
-       <a href="#home">Home</a>
 
        <!--COLLAPSABLE MENU ICON-->
        <button class="collapsible">Open Collapsible</button>
        <div class="navbarIconContent">
+         <a href="#home">Home</a>
          <p>Lorem ipsum...</p>
+         <a href="#contact">Contact</a>
        </div>
        <!--COLLAPSABLE MENU ICON-->
 
-       <a href="#contact">Contact</a>
      </div>
     <!--/END NAVBAR-->
   </section>
