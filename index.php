@@ -33,7 +33,7 @@ require __DIR__.'/header.php';
    <section class="hero">
      <!--NAVBAR-->
     <div class="stickyMenuTextBar">
-     <p>Menu</p>
+     <p class="menuText">Menu</p>
     </div>
     <div class="stickyArrowBar">
        <!--NAV ICON-->

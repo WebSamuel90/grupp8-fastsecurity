@@ -149,6 +149,7 @@ i {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 20px;
+  margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
 }
 .down {
     transform: rotate(45deg);
@@ -158,6 +159,9 @@ i {
 
 
 /*STICKY MENU TEXT*/
+.menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
+  margin-right: 15px;
+}
 
 .stickyMenuTextBar {
     display: flex;
