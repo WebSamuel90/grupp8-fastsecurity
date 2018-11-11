@@ -36,6 +36,15 @@ require __DIR__.'/header.php';
     <!--/END NAVBAR-->
   </section>
   <!--/END HERO-->
+  <!-- SECTION ONE -->
+  <section class="section-one">
+    <img src="images/Render_10.jpg" />
+    <p>Don't be a baby! You avoid getting shot in real life all the time,
+      Morty! Just do the same thing here and we'll be fine!</p>
+    <p>My name is Slip- Slippery Stair. I'll take ya down there for 25
+      shmeckels! There is no god, in your face! One dot muthafucka!</p>
+  </section>
+  <!-- END SECTION ONE -->
 
   <!-- GALLERY-->
   <section class="gallery">
