@@ -58,9 +58,17 @@ body {
   color: #212121;
 }
 
-.popup-signup i {
+.popup-signup input::placeholder , .popup-signup textarea::placeholder {
+  color: #fff;
+}
+
+.popup-signup.white input::placeholder , .popup-signup.white textarea::placeholder {
+  color: #212121;
+}
+.popup-signup img {
   align-self: center;
   padding-bottom: 40px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -118,8 +126,8 @@ form {
 .toggle-signup {
   position: fixed;
   right: 0;
-  width: 48px;
-  height: 78px;
+  width: 60px;
+  height: 90px;
   cursor: pointer;
   border-radius: 30px;
   border: 1px solid #fff;
@@ -134,9 +142,9 @@ form {
   margin-right: 20px;
   }
 
-.toggle-signup:before , i {
-  font-family: "Font Awesome 5 Free";
-  font-size:28px;
+.toggle-signup:before , img {
+  padding: 4px;
+  font-size:20px;
   color: #fff;
 }
 

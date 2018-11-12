@@ -1,12 +1,16 @@
 <?php
 require __DIR__.'/header.php';
+
+// if (isset[$_GET['language']]) {
+//   $language = $_GET['language']
+// }
  ?>
 
  <body>
      <!--TOGGLE EMAILFORM-->
      <div class="popup">
      <sidebar class="popup-signup">
-       <i class="fas fa-chevron-down"></i>
+       <img src="images/icons_menu_arrow.svg" />
        <h2>CONTACT FAST SECURITY</h2>
        <form>
          <input type="text" name="" placeholder="Name" id="Name" />
@@ -16,7 +20,7 @@ require __DIR__.'/header.php';
        </form>
      </sidebar>
    </div>
-   <div class="toggle-signup"><i class="fas fa-plus"></i><i class="far fa-envelope"></i></div>
+   <div class="toggle-signup"><img src="images/icons_plus.svg" /><img src="images/icons_mail.svg"/></div>
    <!--END TOGGLE EMAILFORM-->
 
    <!-- PROGRESSBAR -->
