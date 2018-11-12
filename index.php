@@ -8,12 +8,12 @@ require __DIR__.'/header.php';
      <div class="popup">
      <sidebar class="popup-signup">
        <img src="images/icons_menu_arrow.svg" />
-       <h2>CONTACT FAST SECURITY</h2>
+       <h2><?= $lang['popup'][0]; ?></h2>
        <form>
-         <input type="text" name="" placeholder="Name" id="Name" />
-         <input type="email" name="" placeholder="E-mail" id="Email" />
-         <textarea name="message" placeholder="Message" id="Message"></textarea>
-         <input type="submit" value="SEND" />
+         <input type="text" name="" placeholder="<?= $lang['popup'][1]; ?>" id="Name" />
+         <input type="email" name="" placeholder="<?= $lang['popup'][2]; ?>" id="Email" />
+         <textarea name="message" placeholder="<?= $lang['popup'][3]; ?>" id="Message"></textarea>
+         <input type="submit" value="<?= $lang['popup'][4]; ?>" />
        </form>
      </sidebar>
    </div>

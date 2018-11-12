@@ -74,6 +74,7 @@ body {
 
 .popup-signup h2 {
   font-size: 14pt;
+  text-transform: uppercase;
 }
 
 .popup-signup form {
@@ -93,7 +94,14 @@ body {
   outline: none;
   background: transparent;
   font-size: 16pt;
+  text-transform: capitalize;
 }
+
+.popup-signup input[type='email'] {
+  text-transform: none;
+}
+
+
 
 .popup-signup.white input , .popup-signup.white textarea {
   border-bottom: 1px solid #212121;
@@ -112,6 +120,7 @@ body {
   margin-top: 50px;
   padding: 0;
   padding-bottom: 2px;
+  text-transform: uppercase;
 }
 
 .popup-signup.white input[type="submit"],
