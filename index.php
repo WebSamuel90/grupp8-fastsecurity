@@ -1,22 +1,23 @@
 <?php
 require __DIR__.'/header.php';
+
  ?>
 
  <body>
      <!--TOGGLE EMAILFORM-->
      <div class="popup">
      <sidebar class="popup-signup">
-       <i class="fas fa-chevron-down"></i>
-       <h2>CONTACT FAST SECURITY</h2>
+       <img src="images/icons_menu_arrow.svg" />
+       <h2><?= $lang['popup'][0]; ?></h2>
        <form>
-         <input type="text" name="" placeholder="Name" id="Name" />
-         <input type="email" name="" placeholder="E-mail" id="Email" />
-         <textarea name="message" placeholder="Message" id="Message"></textarea>
-         <input type="submit" value="SEND" />
+         <input type="text" name="" placeholder="<?= $lang['popup'][1]; ?>" id="Name" />
+         <input type="email" name="" placeholder="<?= $lang['popup'][2]; ?>" id="Email" />
+         <textarea name="message" placeholder="<?= $lang['popup'][3]; ?>" id="Message"></textarea>
+         <input type="submit" value="<?= $lang['popup'][4]; ?>" />
        </form>
      </sidebar>
    </div>
-   <div class="toggle-signup"><i class="fas fa-plus"></i><i class="far fa-envelope"></i></div>
+   <div class="toggle-signup"><img src="images/icons_plus.svg" /><img src="images/icons_mail.svg"/></div>
    <!--END TOGGLE EMAILFORM-->
 
    <!-- PROGRESSBAR -->
@@ -53,6 +54,20 @@ require __DIR__.'/header.php';
     </div>
   </section>
   <!--/END HERO-->
+  <!-- SECTION ONE -->
+  <section class="section-one">
+    <img src="images/Render_10.jpg" />
+    <p><?= $lang['sectionOne01']; ?></p>
+    <p><?= $lang['sectionOne02']; ?></p>
+  </section>
+  <!-- END SECTION ONE -->
+
+  <!-- TRANSLATE -->
+  <form class="language">
+    <input type="submit" name="language" value="Sv">
+    <input type="submit" name="language" value="En">
+  </form>
+  <!-- END TRANSLATE -->
 
   <!-- GALLERY-->
   <section class="gallery">
@@ -63,6 +78,7 @@ require __DIR__.'/header.php';
     </div>
   </section>
   <!--END GALLERY-->
+
 
   <!-- BOTTOM CARDS -->
   <section class="cards">
