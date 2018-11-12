@@ -1,6 +1,6 @@
 <?php
-  declare(strict_type=1);
-
+  declare(strict_types=1);
+  
   $lang = [
     'hero' => 'Hello',
     'sectionOne01' => 'Don\'t be a baby! You avoid getting shot in real life all the time,

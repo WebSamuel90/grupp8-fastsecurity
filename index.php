@@ -1,9 +1,6 @@
 <?php
 require __DIR__.'/header.php';
 
-// if (isset[$_GET['language']]) {
-//   $language = $_GET['language']
-// }
  ?>
 
  <body>
@@ -43,12 +40,17 @@ require __DIR__.'/header.php';
   <!-- SECTION ONE -->
   <section class="section-one">
     <img src="images/Render_10.jpg" />
-    <p>Don't be a baby! You avoid getting shot in real life all the time,
-      Morty! Just do the same thing here and we'll be fine!</p>
-    <p>My name is Slip- Slippery Stair. I'll take ya down there for 25
-      shmeckels! There is no god, in your face! One dot muthafucka!</p>
+    <p><?= $lang['sectionOne01']; ?></p>
+    <p><?= $lang['sectionOne02']; ?></p>
   </section>
   <!-- END SECTION ONE -->
+
+  <!-- TRANSLATE -->
+  <form class="language">
+    <input type="submit" name="language" value="Sv">
+    <input type="submit" name="language" value="En">
+  </form>
+  <!-- END TRANSLATE -->
 
   <!-- GALLERY-->
   <section class="gallery">
@@ -59,6 +61,7 @@ require __DIR__.'/header.php';
     </div>
   </section>
   <!--END GALLERY-->
+
 
   <!-- BOTTOM CARDS -->
   <section class="cards">

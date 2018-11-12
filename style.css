@@ -76,7 +76,7 @@ body {
   font-size: 14pt;
 }
 
-form {
+.popup-signup form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,6 +260,12 @@ form {
 
 /*END NAVBAR*/
 
+/* TRANSLATE */
+.language {
+  margin-left: 20px;
+}
+/* END TRANSLATE */
+
 /*HERO*/
 .hero-text {
    display: flex;
@@ -283,7 +289,7 @@ form {
 
 /* SECTION ONE */
 .section-one {
-  height: 100vh;
+  height: 100%;
 }
 
 .section-one img {
@@ -294,9 +300,12 @@ form {
 
 .section-one p {
   padding: 20px 20px 10px 20px;
-  font-weight: bold;
 }
 
+/* Touching the second child in div */
+.section-one > :nth-child(2){
+  font-weight: bold;
+}
 
 
 /* END SECTION ONE */

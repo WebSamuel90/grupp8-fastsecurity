@@ -1,3 +1,21 @@
+<?php
+declare(strict_types=1);
+
+if (isset($_GET['language'])) {
+  $language = $_GET['language'];
+
+  if ($language == 'En') {
+    require __DIR__.'/english.php';
+  }
+  elseif ($language == 'Sv') {
+    require __DIR__.'/swedish.php';
+  }
+}
+else {
+  require __DIR__.'/swedish.php';
+}
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
