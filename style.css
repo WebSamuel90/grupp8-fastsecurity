@@ -175,83 +175,111 @@ form {
 /* END PROGRESSBAR */
 
 }
-/*NAVBAR ICON*/
-.downArrow{
-  position:relative;
-  width: 50px;
-  height: 50px;
-  /*background: #ccc;*/
-  transform: rotate(45deg);
+
+
+/* NAVBAR ICON------------------------------------------------*/
+i {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 20px;
+}
+.arrow{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
+  margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+/* END NAVBAR ICON------------------------------------------------*/
+
+
+/*STICKY MENU TEXT*/
+.menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
+  margin-right: 15px;
 }
 
-.downArrow span{
-  position:absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  border:none;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+.stickyMenuTextBar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: white;
 }
-/*END NAVBAR ICON*/
+/* Links inside the navbar */
+.stickyMenuTextBar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.stickyMenuTextBar a:hover {
+    background: #ddd;
+    color: black;
+}
+/*END STICKY MENU TEXT*/
 
-/*NAVBAR*/
-/* Style the navbar */
-#navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: rgba(255, 0, 0, 0.2);
+/*STICKY ARROW*/
+/* The navigation bar */
+.stickyArrowBar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.stickyArrowBar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.stickyArrowBar a:hover {
+    background: #ddd;
+    color: black;
 }
 
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 50px;
-  text-decoration: none;
-}
-
-/* Page content */
-/*.content {
-  padding: 16px;
-}*/
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement
-(as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-/*.sticky + .content {
-  padding-top: 60px;
-}*/
-
-/*END NAVBAR*/
+/*END STICKY ARROW*/
 
 /*HERO*/
-.hero-text {
+.heroText {
    display: flex;
-   font-size: 9vh;
+   justify-content: center;
+   font-size: 4vh;
    color: white;
+}
+.heroText2 {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  color: white;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: center;
+
 
   height: 100vh;
-  background-image: url("images/car1.jpg");
+  background-image: url("images/render_10.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
