@@ -4,8 +4,8 @@ const toggle = document.querySelector('.toggle-signup');
 const sidebar = document.querySelector('.popup-signup');
 const popup = document.querySelector('.popup');
 const submit = document.querySelector('input[type="submit"]')
-const arrow = document.querySelector('.popup-signup i')
 const form = document.querySelector('form')
+const arrowImg = document.querySelector('.popup-signup img')
 
 
 toggle.addEventListener('click', () => {
@@ -16,13 +16,17 @@ toggle.addEventListener('click', () => {
 
 sidebar.addEventListener('click', (e) => {
   sidebar.classList.add('white');
+  arrowImg.src = 'images/icons_menu_arrow_active.svg';
 })
 
 toggle.addEventListener('click', (e) => {
   sidebar.classList.remove('white');
+
+  //Ta bort den inlaggda bilden
+  // arrowImg.src = '';
 })
 
-arrow.addEventListener('click', () => {
+arrowImg.addEventListener('click', () => {
   popup.classList.remove('active');
   form.reset();
 })
