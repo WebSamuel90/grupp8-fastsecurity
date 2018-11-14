@@ -207,6 +207,12 @@ i {
 
 }
 /*END MENU CONTAINER*/
+/*NAVBAR CONTAINER*/
+.navbarContainer{
+  display: flex;
+  justify-content: center;
+}
+/*END NAVBAR CONTAINER*/
 /*MENU*/
 .menu{
   height:0;
@@ -244,7 +250,7 @@ i {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.5);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -272,10 +278,11 @@ i {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 255, 0, 0.5);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 5%; /* Full width */
+    height: 10%;
 }
 /* Links inside the navbar */
 .stickyArrowBar a {

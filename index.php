@@ -36,12 +36,14 @@ require __DIR__.'/header.php';
    </div>
     <!--END MENU-->
     <!--NAVBAR-->
-   <div class="stickyMenuTextBar">
-    <p class="menuText">Menu</p>
-   </div>
-   <!--NAV ICON-->
-   <div class="stickyArrowBar">
-     <p><i class="down arrow"></i></p>
+  <div class="navbarContainer">
+     <div class="stickyMenuTextBar">
+      <p class="menuText">Menu</p>
+     </div>
+     <!--NAV ICON-->
+     <div class="stickyArrowBar">
+       <p><i class="down arrow"></i></p>
+     </div>
    </div>
    <!--END NAV ICON-->
    <!--/END NAVBAR-->
