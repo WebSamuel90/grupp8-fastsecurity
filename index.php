@@ -74,10 +74,10 @@ require __DIR__.'/header.php';
       <div class="box big">
         <img src="images/Render_05.jpg" alt="">
       </div>
-      <div class="box">
+      <div class="box small top">
         <img  src="images/Render_06.jpg" alt="">
       </div>
-      <div class="box">
+      <div class="box small bottom">
         <img src="images/Render_08.jpg" alt="">
       </div>
   </section>

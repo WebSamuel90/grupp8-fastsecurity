@@ -397,6 +397,7 @@ i {
 } */
 /* END GALLERY */
 
+
 .gallery {
   height: 100vh;
   width: 100vw;
@@ -417,6 +418,51 @@ i {
   height: 65%;
   width: 100%;
 }
+
+
+@media screen and (min-width: 768px)
+{
+  .gallery {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: -1;
+  }
+
+  .box {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .box.big {
+    order: -1;
+    height: 100%;
+    width: 60%;
+  }
+
+  .small.top {
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 50%;
+    width: 40%;
+  }
+
+  .small.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    height: 48.5%;
+    width: 40%;
+  }
+}
+
+
+
 
 /* BOTTOM CARDS */
 .cards {
