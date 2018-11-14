@@ -177,6 +177,7 @@ form {
 }
 
 
+
 /* NAVBAR ICON------------------------------------------------*/
 i {
   border: solid white;
@@ -197,6 +198,42 @@ i {
 }
 /* END NAVBAR ICON------------------------------------------------*/
 
+
+
+/*MENU CONTAINER*/
+.menuContainer{
+  display: flex;
+  justify-content: center;
+
+}
+/*END MENU CONTAINER*/
+/*MENU*/
+.menu{
+  height:0;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+
+}
+/*END MENU*/
+
+/*MENU POPUP*/
+.menuPopUp{
+  position: fixed;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+
+/*END MENU POPUP*/
 
 /*STICKY MENU TEXT*/
 .menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/

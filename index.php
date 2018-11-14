@@ -28,25 +28,27 @@ require __DIR__.'/header.php';
 
 
    <!--MENU-->
-   <div class="menu">
-     <a href="#">Contact</a><br>
-     <a href="#">Home</a>
+   <div class="menuContainer">
+     <div class="menu">
+       <a href="#">Contact</a><br>
+       <a href="#">Home</a>
+     </div>
    </div>
     <!--END MENU-->
+    <!--NAVBAR-->
+   <div class="stickyMenuTextBar">
+    <p class="menuText">Menu</p>
+   </div>
+   <!--NAV ICON-->
+   <div class="stickyArrowBar">
+     <p><i class="down arrow"></i></p>
+   </div>
+   <!--END NAV ICON-->
+   <!--/END NAVBAR-->
 
    <!--HERO-->
    <section class="hero">
-     <!--NAVBAR-->
 
-    <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-    </div>
-    <!--NAV ICON-->
-    <div class="stickyArrowBar">
-      <p><i class="down arrow"></i></p>
-    </div>
-    <!--END NAV ICON-->
-    <!--/END NAVBAR-->
     <div class="heroText">
       <p>You are special</p>
     </div>
