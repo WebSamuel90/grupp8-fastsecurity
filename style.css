@@ -241,6 +241,10 @@ i {
 
 /*END MENU POPUP*/
 
+/*TOGGLE NAVBAR*/
+
+/*TOGGLE NAVBAR*/
+
 /*STICKY MENU TEXT*/
 .menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
   margin-right: 15px;
@@ -250,7 +254,7 @@ i {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(255, 0, 0, 0.5);
+    /* background-color: rgba(255, 0, 0, 0.5); */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -278,11 +282,12 @@ i {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 255, 0, 0.5);
+    /* background-color: rgba(0, 255, 0, 0.5); */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 5%; /* Full width */
+    width: 100%; /* Full width */
     height: 10%;
+    margin-top: 10px;
 }
 /* Links inside the navbar */
 .stickyArrowBar a {

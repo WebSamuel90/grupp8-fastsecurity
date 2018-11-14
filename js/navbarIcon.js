@@ -6,6 +6,8 @@ const menuPopUp = document.querySelector(".menuPopUp");
 const stickyMenuTextBar = document.querySelector('.stickyMenuTextBar');
 const stickyArrowBar = document.querySelector('.stickyArrowBar');
 
+const toggleNavbar = document.querySelector('.toggleNavbar');
+
 
 stickyArrowBar.addEventListener('click', () => {
   menu.classList.toggle('menuPopUp');
