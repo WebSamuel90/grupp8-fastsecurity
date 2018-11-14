@@ -27,6 +27,13 @@ require __DIR__.'/header.php';
 
 
 
+   <!--MENU-->
+   <div class="menu">
+     <a href="#">Contact</a><br>
+     <a href="#">Home</a>
+   </div>
+    <!--END MENU-->
+
    <!--HERO-->
    <section class="hero">
      <!--NAVBAR-->
@@ -39,11 +46,6 @@ require __DIR__.'/header.php';
       <p><i class="down arrow"></i></p>
     </div>
     <!--END NAV ICON-->
-     <div id="navbar">
-       <a href="#home">Home</a>
-
-       <a href="#contact">Contact</a>
-     </div>
     <!--/END NAVBAR-->
     <div class="heroText">
       <p>You are special</p>
