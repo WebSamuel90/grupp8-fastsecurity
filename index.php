@@ -26,25 +26,24 @@ require __DIR__.'/header.php';
    </sidebar>
    <!-- END PROGRESSBAR -->
 
-
+   <!--NAVBAR-->
+   <div class="stickyMenuTextBar">
+     <p class="menuText">Menu</p>
+   </div>
+   <!--NAV ICON-->
+   <div class="stickyArrowBar">
+     <p><i class="down arrow"></i></p>
+   </div>
+   <!--END NAV ICON-->
+   <div id="navbar">
+     <a href="#home">Home</a>
+     <a href="#contact">Contact</a>
+   </div>
+   <!--/END NAVBAR-->
 
    <!--HERO-->
    <section class="hero">
-     <!--NAVBAR-->
 
-     <div class="stickyMenuTextBar">
-       <p class="menuText">Menu</p>
-     </div>
-     <!--NAV ICON-->
-     <div class="stickyArrowBar">
-       <p><i class="down arrow"></i></p>
-     </div>
-     <!--END NAV ICON-->
-     <div id="navbar">
-       <a href="#home">Home</a>
-       <a href="#contact">Contact</a>
-     </div>
-     <!--/END NAVBAR-->
      <!-- ROTATING TEXT -->
      <h2 class="sentence">Ex
          <div class="slidingVertical">
@@ -54,6 +53,7 @@ require __DIR__.'/header.php';
        </div>
      </h2>
      <!-- END ROTATING TEXT -->
+
    </section>
   <!--/END HERO-->
 
