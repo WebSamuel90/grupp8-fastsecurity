@@ -5,19 +5,23 @@ require __DIR__.'/header.php';
 
  <body>
      <!--TOGGLE EMAILFORM-->
-     <div class="popup">
-     <sidebar class="popup-signup">
-       <img src="images/icons_menu_arrow.svg" />
-       <h2><?= $lang['popup'][0]; ?></h2>
-       <form>
-         <input type="text" name="" placeholder="<?= $lang['popup'][1]; ?>" id="Name" />
-         <input type="email" name="" placeholder="<?= $lang['popup'][2]; ?>" id="Email" />
-         <textarea name="message" placeholder="<?= $lang['popup'][3]; ?>" id="Message"></textarea>
-         <input type="submit" value="<?= $lang['popup'][4]; ?>" />
+  <div class="popup">
+    <sidebar class="popup-signup">
+      <img src="images/icons_menu_arrow.svg" />
+      <h2><?= $lang['popup'][0]; ?></h2>
+      <form>
+       <input type="text" name="" placeholder="<?= $lang['popup'][1]; ?>" id="Name" />
+       <input type="email" name="" placeholder="<?= $lang['popup'][2]; ?>" id="Email" />
+       <textarea name="message" placeholder="<?= $lang['popup'][3]; ?>" id="Message"></textarea>
+       <input type="submit" value="<?= $lang['popup'][4]; ?>" />
        </form>
      </sidebar>
    </div>
-   <div class="toggle-signup"><img src="images/icons_plus.svg" /><img src="images/icons_mail.svg"/></div>
+
+   <div class="toggle-signup">
+     <img class="plus" src="images/icons_plus_02.svg" />
+     <img class="mail" src="images/icons_mail_02.svg"/>
+   </div>
    <!--END TOGGLE EMAILFORM-->
 
    <!-- PROGRESSBAR -->

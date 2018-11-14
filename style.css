@@ -141,25 +141,39 @@ body {
 .toggle-signup {
   position: fixed;
   right: 0;
-  width: 60px;
-  height: 90px;
+  width: 40px;
+  height: 65px;
   cursor: pointer;
   border-radius: 30px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   background-color: rgba(255, 255, 255, 0);
   top: 85%;
-  line-height: 48px;
   text-align: center;
   transition: 0.5s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-right: 20px;
+  line-height: 40px;
   }
 
+  .toggle-signup .plus {
+    width: 30px;
+    color: #fff;
+    padding-bottom: 3px;
+  }
+
+  .toggle-signup .mail {
+    width: 25px;
+    color: #fff;
+    padding-bottom: 3px;
+  }
+
+
 .toggle-signup:before , .toggle-signup img {
-  padding: 4px;
-  font-size:20px;
+  /* padding: 4px; */
+  /* font-size: 16px; */
   color: #fff;
 }
 
