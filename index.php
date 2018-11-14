@@ -32,28 +32,31 @@ require __DIR__.'/header.php';
    <section class="hero">
      <!--NAVBAR-->
 
-    <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-    </div>
-    <!--NAV ICON-->
-    <div class="stickyArrowBar">
-      <p><i class="down arrow"></i></p>
-    </div>
-    <!--END NAV ICON-->
+     <div class="stickyMenuTextBar">
+       <p class="menuText">Menu</p>
+     </div>
+     <!--NAV ICON-->
+     <div class="stickyArrowBar">
+       <p><i class="down arrow"></i></p>
+     </div>
+     <!--END NAV ICON-->
      <div id="navbar">
        <a href="#home">Home</a>
-
        <a href="#contact">Contact</a>
      </div>
-    <!--/END NAVBAR-->
-    <div class="heroText">
-      <p>You are special</p>
-    </div>
-    <div class="heroText2">
-      <p>FastSecurity, FS.1.0<p>
-    </div>
-  </section>
+     <!--/END NAVBAR-->
+     <!-- ROTATING TEXT -->
+     <h2 class="sentence">Ex
+         <div class="slidingVertical">
+         <span>pedience defined</span>
+         <span>pand your horizons</span>
+         <span>perience aeromotive perfection</span>
+       </div>
+     </h2>
+     <!-- END ROTATING TEXT -->
+   </section>
   <!--/END HERO-->
+
   <!-- SECTION ONE -->
   <section class="section-one">
     <img src="images/Render_10.jpg" />
