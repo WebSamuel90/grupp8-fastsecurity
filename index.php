@@ -71,11 +71,15 @@ require __DIR__.'/header.php';
 
   <!-- GALLERY-->
   <section class="gallery">
-    <div class="big picture-one"></div>
-    <div class="under">
-      <div class="small picture-two"></div>
-      <div class="small picture-three"></div>
-    </div>
+      <div class="box big">
+        <img src="images/Render_05.jpg" alt="">
+      </div>
+      <div class="box">
+        <img  src="images/Render_06.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="images/Render_08.jpg" alt="">
+      </div>
   </section>
   <!--END GALLERY-->
 
@@ -85,19 +89,19 @@ require __DIR__.'/header.php';
     <div class="card rain">
       <i class="fas fa-cloud-rain"></i>
       <h2>RAIN</h2>
-      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      <p>Many People still think Saab makes cars, and that is correct. We are
       on the go for the future. Saab is very much alive and well.</p>
     </div>
     <div class="card start">
       <i class="far fa-flag"></i>
       <h2>START</h2>
-      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      <p>Many People still think Saab makes cars, and that is correct. We are
       on the go for the future. Saab is very much alive and well.</p>
     </div>
     <div class="card on">
       <i class="fas fa-toggle-on"></i>
       <h2>ON</h2>
-      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      <p>Many People still think Saab makes cars, and that is correct. We are
       on the go for the future. Saab is very much alive and well.</p>
     </div>
   </section>
