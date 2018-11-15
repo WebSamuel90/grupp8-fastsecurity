@@ -30,8 +30,18 @@ require __DIR__.'/header.php';
    <!--MENU-->
    <div class="menuContainer">
      <div class="menu">
-       <a href="#">Contact</a><br>
-       <a href="#">Home</a>
+       <div class="homeDiv">
+         <ul>
+           <li><b>HOME</b></li>
+           <li><b>COMPANY</b></li>
+           <li></li>
+         </ul>
+       </div>
+       <div class="vesselDiv">
+         <li></li>
+         <li></li>
+         <li></li>
+       </div>
      </div>
    </div>
     <!--END MENU-->
