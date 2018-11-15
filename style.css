@@ -399,6 +399,85 @@ body {
 
 /* END ROTATING TEXT */
 
+/* A NEW ERA */
+.a-new-era {
+  height: 100vh;
+  background-color: #212121;
+}
+
+.a-new-era .header {
+  height: 20vh;
+  margin: 60px 0 0px 60px;
+}
+
+.a-new-era .header h3 {
+  font-family: "AktivGrotesk-Light";
+  font-weight: 100;
+  font-size: 54pt;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  color: #5c5c5c;
+}
+
+.a-new-era .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 50px;
+  width: 100%;
+}
+.a-new-era .header h5, .article h5 {
+  font-family: "AktivGrotesk-Light";
+  font-weight: 100;
+  font-size: 20pt;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.a-new-era .article h5 {
+  font-family: "AktivGrotesk-Bold";
+  color: #fff;
+  text-transform: uppercase;
+  line-height: normal;
+  margin: 10px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.a-new-era .article p {
+  font-family: "AktivGrotesk-Regular";
+  color: #fff;
+  margin: 10px;
+  font-size: 14pt;
+}
+
+@media screen and (min-width: 768px) {
+  .a-new-era {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .a-new-era .header {
+    align-self: flex-start;
+    top: 0;
+  }
+
+  .a-new-era .article {
+    align-self: center;
+    width: 50%;
+  }
+
+}
+
+
+
+/* END ONE  */
 
 /* SECTION ONE */
 .section-one {

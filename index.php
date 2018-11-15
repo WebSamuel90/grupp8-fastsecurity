@@ -60,6 +60,22 @@ require __DIR__.'/header.php';
 
    </section>
   <!--/END HERO-->
+  
+  <!-- A NEW ERA -->
+  <section class="a-new-era">
+    <article class="header">
+      <h3>00</h3>
+      <h5>a new era</h5>
+    </article>
+    <article class="article">
+      <h5>An epoch in the making</h5>
+      <p>Many people still think Saab makes cars, and that is correct.
+        We are on the go for the future. Saab is very much alive and well,
+        as one of the world’s most innovative companies. And now we are
+        proud to present our car for the future: FastSecurity, FS.</p>
+    </article>
+  </section>
+  <!-- A NEW ERA -->
 
   <!-- SECTION ONE -->
   <section class="section-one">
