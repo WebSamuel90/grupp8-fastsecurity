@@ -6,12 +6,14 @@
 @font-face {
   font-family: "AktivGrotesk-Bold";
   src: url(fonts/AktivGrotesk-Bold.otf);
-  font-family: "AktivGrotesk-Light";
-  src: url(fonts/AktivGrotesk-Light.otf);
+  /* font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.otf); */
   font-family: "AktivGrotesk-Medium";
   src: url(fonts/AktivGrotesk-Medium.otf);
   font-family: "AktivGrotesk-Regular";
   src: url(fonts/AktivGrotesk-Regular.otf);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.woff);
 }
 
 body {
@@ -332,7 +334,7 @@ body {
 /* ROTATING TEXT */
 .sentence {
   font-family: "AktivGrotesk-Light";
-  font-weight: 100;
+  /* font-weight: 100; */
   font-size: 16pt;
   letter-spacing: 0.67em;
   line-height: 22pt;
