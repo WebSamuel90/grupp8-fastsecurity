@@ -5,13 +5,11 @@
 
 @font-face {
   font-family: "AktivGrotesk-Bold";
-  src: url(fonts/AktivGrotesk-Bold.otf);
-  /* font-family: "AktivGrotesk-Light";
-  src: url(fonts/AktivGrotesk-Light.otf); */
+  src: url(fonts/AktivGrotesk-Bold.woff);
   font-family: "AktivGrotesk-Medium";
-  src: url(fonts/AktivGrotesk-Medium.otf);
+  src: url(fonts/AktivGrotesk-Medium.woff);
   font-family: "AktivGrotesk-Regular";
-  src: url(fonts/AktivGrotesk-Regular.otf);
+  src: url(fonts/AktivGrotesk-Regular.woff);
   font-family: "AktivGrotesk-Light";
   src: url(fonts/AktivGrotesk-Light.woff);
 }
@@ -591,6 +589,7 @@ body {
   padding: 10px 5px;
   margin: 0;
   color: #fff;
+  font-family: "AktivGrotesk-Regular";
 }
 
 .card {
