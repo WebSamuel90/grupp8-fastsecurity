@@ -70,14 +70,14 @@ require __DIR__.'/header.php';
   <!-- END TRANSLATE -->
 
   <!-- GALLERY-->
-  <section class="gallery">
-      <div class="box big">
+  <section class="gallery container">
+      <div class="box big item1">
         <img src="images/Render_05.jpg" alt="">
       </div>
-      <div class="box">
+      <div class="box item2">
         <img  src="images/Render_06.jpg" alt="">
       </div>
-      <div class="box">
+      <div class="box item3">
         <img src="images/Render_08.jpg" alt="">
       </div>
   </section>
