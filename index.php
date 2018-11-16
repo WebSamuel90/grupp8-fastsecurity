@@ -44,16 +44,14 @@ require __DIR__.'/header.php';
    <div class="menuContainer">
      <div class="menu">
        <div class="homeDiv">
-         <ul>
-           <li><b>HOME</b></li>
-           <li><b>COMPANY</b></li>
-           <li></li>
-         </ul>
+         <a href="#">HOME</a>
+         <a href="#">COMPANY</a>
+         <a href="#">STORIES</a>
+         <a href="#">RESERVE</a>
+         <a href="#">AEROMOTIVE</a>
        </div>
        <div class="vesselDiv">
-         <li></li>
-         <li></li>
-         <li></li>
+
        </div>
      </div>
    </div>
