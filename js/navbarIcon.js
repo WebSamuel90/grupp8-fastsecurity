@@ -15,7 +15,7 @@ stickyArrowBar.addEventListener('click', () => {
 // stickyMenuTextBar.addEventListener('click', () => {
 //   menu.classList.toggle('menuPopUp');
 // })
-
+//
 // function addPopupOnMenuIcon(){
 //   const menu = document.getElementsByClassName("menu");
 //   menu.classList.add("menuPopUp");
