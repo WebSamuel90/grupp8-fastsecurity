@@ -230,7 +230,6 @@ body {
 
 /* NAVBAR ICON------------------------------------------------*/
 .stickyArrowBar i {
-  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 20px;
@@ -241,10 +240,12 @@ body {
   display: inline-block;
   padding: 20px;
   margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
+  z-index: 100;
 }
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+
 }
 /* END NAVBAR ICON------------------------------------------------*/
 
@@ -306,20 +307,6 @@ body {
     width: 100%; /* Full width */
     color: white;
 }
-/* Links inside the navbar */
-.stickyMenuTextBar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Change background on mouse-over */
-.stickyMenuTextBar a:hover {
-    background: #ddd;
-    color: black;
-}
 /*END STICKY MENU TEXT*/
 
 /*STICKY ARROW*/
@@ -332,7 +319,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    height: 10%;
+    height: 20%;
     margin-top: 10px;
 }
 /* Links inside the navbar */
@@ -349,7 +336,6 @@ body {
     background: #ddd;
     color: black;
 }
-
 /*END STICKY ARROW*/
 
 /* TRANSLATE */
