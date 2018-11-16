@@ -34,12 +34,12 @@ require __DIR__.'/header.php';
    <!--DESKTOP NAVBAR---------------------------------------------------------->
    <div class="menuContainer">
      <div class="menu">
-       <a href="#"></a>
-       <a href="#"></a>
-       <a href="#"></a>
-       <a href="#"></a>
+       <a href="#">HOME</a>
+       <a href="#">COMPANY</a>
+       <a href="#">STORIES</a>
+       <a href="#">RESERVE</a>
+       <a href="#">AEROMOTIVE</a>
      </div>
-
    </div>
    <!--END DESKTOP NAVBAR---------------------------------------------------------->
 
@@ -69,11 +69,6 @@ require __DIR__.'/header.php';
    <div class="mobileMenuContainer">
      <div class="mobileMenu">
        <div class="homeDiv">
-         <a href="#">HOME</a>
-         <a href="#">COMPANY</a>
-         <a href="#">STORIES</a>
-         <a href="#">RESERVE</a>
-         <a href="#">AEROMOTIVE</a>
        </div>
        <div class="vesselDiv">
        </div>
