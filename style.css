@@ -227,130 +227,115 @@ body {
 
 
 
+/* MOBILE NAVBAR -------------------------------------------------------------*/
+/* NAVBAR ICONs*/
+@media screen and (max-width: 768px){
+  .stickyArrowBar i {
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 20px;
+  }
+  .arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
+    z-index: 100;
+  }
+  .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
 
-/* NAVBAR ICON------------------------------------------------*/
-.stickyArrowBar i {
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 20px;
-}
-.arrow{
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 20px;
-  margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
-}
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-/* END NAVBAR ICON------------------------------------------------*/
+  }
+  /* END NAVBAR ICON*/
 
-
-/*MENU FOLDER-----------------------------------------------------------------*/
-/*MENU CONTAINER*/
-.menuContainer{
-  display: flex;
-  justify-content: center;
-
-}
-/*END MENU CONTAINER*/
-/*NAVBAR CONTAINER*/
-.navbarContainer{
-  display: flex;
-  justify-content: center;
-}
-/*END NAVBAR CONTAINER*/
-/*MENU*/
-.menu{
-   height:0;
-   overflow:hidden;
-   display: flex;
-   justify-content: center;
-   position: fixed;
-   cursor: pointer;
-   border: 1px solid #fff;
-   background-color: rgba(255, 255, 255, 1);
-
-   color: #00205A;
-   font-family: "AktivGrotesk-Regular";
-   align-items: center;
-   width: 100%;
-   transition: all 0.2s ease-in-out;
-}
-/*END MENU*/
-
-/*MENU POPUP*/
-.menuPopUp{
-  height: 80%;
-  opacity: 1;
-  border-bottom: 10px solid #00205A;
-}
-
-/*END MENU POPUP*/
-
-/*STICKY MENU TEXT*/
-.menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
-  margin-right: 15px;
-}
-
-.stickyMenuTextBar {
+  /*MENU CONTAINER*/
+  .menuContainer{
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    /* background-color: rgba(255, 0, 0, 0.5); */
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    color: white;
-}
-/* Links inside the navbar */
-.stickyMenuTextBar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Change background on mouse-over */
-.stickyMenuTextBar a:hover {
-    background: #ddd;
-    color: black;
-}
-/*END STICKY MENU TEXT*/
 
-/*STICKY ARROW*/
-/* The navigation bar */
-.stickyArrowBar {
+  }
+  /*END MENU CONTAINER*/
+  /*NAVBAR CONTAINER*/
+  .navbarContainer{
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    /* background-color: rgba(0, 255, 0, 0.5); */
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    height: 10%;
-    margin-top: 10px;
-}
-/* Links inside the navbar */
-.stickyArrowBar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Change background on mouse-over */
-.stickyArrowBar a:hover {
-    background: #ddd;
-    color: black;
-}
+  }
+  /*END NAVBAR CONTAINER*/
+  /*MENU*/
+  .menu{
+     height:0;
+     overflow:hidden;
+     display: flex;
+     justify-content: center;
+     position: fixed;
+     cursor: pointer;
+     border: 1px solid #fff;
+     background-color: rgba(255, 255, 255, 1);
 
-/*END STICKY ARROW*/
+     color: #00205A;
+     font-family: "AktivGrotesk-Regular";
+     align-items: center;
+     width: 100%;
+     transition: all 0.2s ease-in-out;
+  }
+  /*END MENU*/
+
+  /*MENU POPUP*/
+  .menuPopUp{
+    height: 80%;
+    opacity: 1;
+    border-bottom: 10px solid #00205A;
+  }
+  /*END MENU POPUP*/
+
+  /*STICKY MENU TEXT*/
+  .menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
+    margin-right: 15px;
+  }
+
+  .stickyMenuTextBar {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      /* background-color: rgba(255, 0, 0, 0.5); */
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+      color: white;
+  }
+  /*END STICKY MENU TEXT*/
+
+  /*STICKY ARROW*/
+  .stickyArrowBar {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      /* background-color: rgba(0, 255, 0, 0.5); */
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+      height: 20%;
+      margin-top: 10px;
+  }
+  /* Links inside the navbar */
+  /* .stickyArrowBar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  } */
+  /* Change background on mouse-over */
+  /* .stickyArrowBar a:hover {
+      background: #ddd;
+      color: black;
+  } */
+  /*END STICKY ARROW*/
+}
+  /*END MOBILE NAVBAR-----------------------------------------------------------*/
 
 /* TRANSLATE */
 .language {
