@@ -76,7 +76,7 @@ require __DIR__.'/header.php';
 
      <!-- ROTATING TEXT -->
      <h2 class="sentence">Ex
-         <div class="slidingVertical">
+         <div class="sliding-vertical">
          <span>pedience defined</span>
          <span>pand your horizons</span>
          <span>perience aeromotive perfection</span>
@@ -89,60 +89,92 @@ require __DIR__.'/header.php';
   <!--/END HERO-->
 
 
-    <!-- NEW ERA DESIGN -->
-      <section class="section">
-        <article class="article">
-          <h5>An epoch in the making</h5>
-          <p>Many people still think Saab makes cars, and that is correct.
-            We are on the go for the future. Saab is very much alive and well,
-            as one of the world’s most innovative companies. And now we are
-            proud to present our car for the future: FastSecurity, FS.</p>
-          </article>
+    <!-- 01 NEW ERA DESIGN-->
+    <section class="section">
+      <article class="article">
+        <h5>An epoch in the making</h5>
+        <p>Many people still think Saab makes cars, and that is correct.
+          We are on the go for the future. Saab is very much alive and well,
+          as one of the world’s most innovative companies. And now we are
+          proud to present our car for the future: FastSecurity, FS.</p>
+      </article>
+      <article class="header">
+        <h3>01</h3>
+        <h5>new era design</h5>
+      </article>
+      <article class="footer">
+        <img src="images/Preview_19.png" />
+      </article>
+      <article class="footer-info">
+        <div class="over">
+          <p>over</p>
+          <h6>900</h6>
+          <p>Mile range (epa)</p>
+        </div>
+        <div class="under">
+          <p>over</p>
+          <h6>900</h6>
+          <p>Mile range (epa)</p>
+        </div>
+        <div class="over">
+          <p>over</p>
+          <h6>900</h6>
+          <p>Mile range (epa)</p>
+        </div>
+      </article>
+      <article class="button">
+        <input type="submit" value="Details" />
+      </article>
+
+      <section class="content">
         <article class="header">
-          <h3>01</h3>
-          <h5>new era design</h5>
+          <h5>Aeromotive Luxury</h5>
+          <hr />
         </article>
-        <article class="footer">
-          <img src="images/Preview_19.png" />
-        </article>
-        <article class="footer-info">
-          <div class="over">
-            <p>over</p>
-            <h6>900</h6>
-            <p>Mile range (epa)</p>
-          </div>
-          <div class="under">
-            <p>over</p>
-            <h6>900</h6>
-            <p>Mile range (epa)</p>
-          </div>
-          <div class="over">
-            <p>over</p>
-            <h6>900</h6>
-            <p>Mile range (epa)</p>
-          </div>
-        </article>
-        <article class="button">
-          <input type="submit" value="Details" />
+        <article class="article">
+          <p>A stunning view deserves sublime first class comfort.
+            The interior’s masterpiece-like proportions of the FS 0.1
+            are sculpted to deliver expansive convenience to driver and
+            passenger alike. </p>
         </article>
       </section>
 
-    <!-- END NEW ERA DESIGN -->
+        <!-- GALLERY-->
+      <section class="gallery">
+        <div class="box big">
+          <img src="images/Render_05.jpg" alt="">
+        </div>
+        <div class="box">
+          <img  src="images/Render_06.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="images/Render_08.jpg" alt="">
+        </div>
+      </section>
+        <!--END GALLERY-->
 
-    <!-- AEROMOTIVE LUXURY -->
-    <section class="content">
-      <article class="header">
-        <h5>Aeromotive Luxury</h5>
-        <hr />
-      </article>
-      <article class="article">
-        <p>A stunning view deserves sublime first class comfort.
-          The interior’s masterpiece-like proportions of the FS 0.1
-          are sculpted to deliver expansive convenience to driver and
-          passenger alike. </p>
-      </article>
+        <section class="content">
+          <article class="header">
+            <h5>Commune. Drive</h5>
+            <hr />
+          </article>
+          <article class="article">
+            <p>Designed for you, is the on-board assistant
+              Artemys that not only tracks personal usage
+              patterns and behaviors but naturally communicates
+              your everyday digital life. Have a talk and the
+              smart AI will soon adjust, queuing the right track,
+              setting up the right temperature or
+              shifting color scheme.</p>
+            </article>
+          <article class="picture">
+            <img src="images/Preview_16.jpg" alt="">
+          </article>
+        </section>
+
     </section>
-    <!-- END AEROMOTIVE LUXURY -->
+
+    <!-- END 01 NEW ERA DESIGN -->
 
   <!-- SECTION ONE -->
   <!-- <section class="section-one">
@@ -159,144 +191,101 @@ require __DIR__.'/header.php';
   </form>
   <!-- END TRANSLATE -->
 
-  <!-- GALLERY-->
-  <section class="gallery">
-      <div class="box big">
-        <img src="images/Render_05.jpg" alt="">
-      </div>
-      <div class="box">
-        <img  src="images/Render_06.jpg" alt="">
-      </div>
-      <div class="box">
-        <img src="images/Render_08.jpg" alt="">
-      </div>
-  </section>
-  <!--END GALLERY-->
-  <!-- COMMUNE. DRIVE -->
-  <section class="content">
+  <!-- 02 ENERGY -->
+  <section class="section">
     <article class="header">
-      <h5>Commune. Drive</h5>
-      <hr />
+      <h3>02</h3>
+      <h5>energy</h5>
     </article>
     <article class="article">
-      <p>Designed for you, is the on-board assistant
-        Artemys that not only tracks personal usage
-        patterns and behaviors but naturally communicates
-        your everyday digital life. Have a talk and the
-        smart AI will soon adjust, queuing the right track,
-        setting up the right temperature or
-        shifting color scheme.</p>
+      <h5>Engines powered by cellava</h5>
+      <p>Fast Security’s proprietary fuel changes
+        performance standards by means unmeasurable.
+        The pure bio-mass enforces an unparalleled
+        engine capacity with little environmental
+        strain.</p>
     </article>
-    <article class="picture">
-      <img src="images/Preview_16.jpg" alt="">
-    </article>
-  </section>
-  <!-- COMMUNE. DRIVE-->
 
-  <!-- NEW ERA DESIGN -->
-    <section class="section">
+    <section class="content">
       <article class="header">
-        <h3>02</h3>
-        <h5>energy</h5>
+        <h5>Cellava Unleashed</h5>
+        <hr />
       </article>
       <article class="article">
-        <h5>Engines powered by cellava</h5>
-        <p>Fast Security’s proprietary fuel changes
-          performance standards by means unmeasurable.
-          The pure bio-mass enforces an unparalleled
-          engine capacity with little environmental
-          strain.</p>
+        <p>FS 0.1’s top-class engines house unrivaled energy
+          capacity. The integrated core reactor, developed
+          entirely in-house, fuse the very elements of existence
+          using Cellava — a supreme source of energy. To put it
+          short: a system that turns impossibilities into possibilities.</p>
         </article>
-    </section>
-  <!-- END NEW ERA DESIGN -->
+        <article class="picture">
+          <img src="images/Preview_09.jpg" alt="">
+        </article>
+      </section>
 
-  <!-- COMMUNE. DRIVE -->
-  <section class="content">
-    <article class="header">
-      <h5>Cellava Unleashed</h5>
-      <hr />
-    </article>
-    <article class="article">
-      <p>FS 0.1’s top-class engines house unrivaled energy
-        capacity. The integrated core reactor, developed
-        entirely in-house, fuse the very elements of existence
-        using Cellava — a supreme source of energy. To put it
-        short: a system that turns impossibilities into possibilities.</p>
-    </article>
-    <article class="picture">
-      <img src="images/Preview_09.jpg" alt="">
-    </article>
-  </section>
-  <!-- COMMUNE. DRIVE-->
-
-  <!-- COMMUNE. DRIVE -->
-  <section class="content">
-    <article class="header">
-      <h5>Fly far, far away</h5>
-      <hr />
-    </article>
-    <article class="article">
-      <p>The next level engine technology developed for the FS 0.1 enables
-        1000 miles of flying range. Take wing and go wherever the winds may
-        guide you — running dry on gas is a vague prospect with the FS 0.1.</p>
-    </article>
-    <article class="picture">
-      <img src="images/Preview_12.jpg" alt="">
-    </article>
-  </section>
-  <!-- COMMUNE. DRIVE-->
-
-  <!-- NEW ERA DESIGN -->
-    <section class="section">
-      <article class="fly">
+      <section class="content">
         <article class="header">
-          <h3>03</h3>
-          <h5>fly</h5>
+          <h5>Fly far, far away</h5>
+          <hr />
         </article>
+        <article class="article">
+          <p>The next level engine technology developed for the FS 0.1 enables
+            1000 miles of flying range. Take wing and go wherever the winds may
+            guide you — running dry on gas is a vague prospect with the FS 0.1.</p>
+        </article>
+        <article class="picture">
+          <img src="images/Preview_12.jpg" alt="">
+        </article>
+      </section>
+  </section>
+  <!-- END 02 ENERGY -->
+
+  <!-- 03 FLY -->
+  <section class="section">
+    <article class="fly">
+      <article class="header">
+        <h3>03</h3>
+        <h5>fly</h5>
+        </article>
+    </article>
+    <section class="content white">
+      <article class="header">
+        <h5>Challenge the Gales</h5>
+        <hr />
+      </article>
+      <article class="article">
+          <p>Hugging the wind currents is not a risk thanks
+            to FS 0.1’s perfectly calibrated air glide turbine.
+            Swiftly reaching top speeds, the FS 0.1’s advanced
+            accelerator appendage, meticulous wind sheering dimensions,
+            lightweight composition and gravity defying air pressure
+            technology deliver accurate steering and a smooth ride.</p>
+      </article>
+      <article class="picture">
+        <img src="images/Preview_06.jpg" alt="">
       </article>
     </section>
-  <!-- END NEW ERA DESIGN -->
-
-  <!-- COMMUNE. DRIVE -->
-  <section class="content white">
-    <article class="header">
-      <h5>Challenge the Gales</h5>
-      <hr />
-    </article>
-    <article class="article">
-      <p>Hugging the wind currents is not a risk thanks
-        to FS 0.1’s perfectly calibrated air glide turbine.
-        Swiftly reaching top speeds, the FS 0.1’s advanced
-        accelerator appendage, meticulous wind sheering dimensions,
-        lightweight composition and gravity defying air pressure
-        technology deliver accurate steering and a smooth ride.</p>
-    </article>
-    <article class="picture">
-      <img src="images/Preview_06.jpg" alt="">
-    </article>
+    <section class="content gray">
+      <article class="header">
+        <h5>Guardian Angel</h5>
+        <hr />
+      </article>
+      <article class="article">
+        <p>Artemys, the seamlessly integrated AI to FS
+          0.1’s security system, keeps you safe and acts
+          like a real-time guardian. The practically
+          neuron-like AI connection comes with all round
+          vision-tracking, GPS monitoring and  sensor
+          based safety-measures. Artemys provides comfort
+          on levels way beyond the tangible.</p>
+      </article>
+      <article class="picture">
+        <img src="images/Preview_05.jpg" alt="">
+      </article>
+    </section>
   </section>
-  <!-- COMMUNE. DRIVE-->
+  <!-- END 03 FLY -->
 
-  <!-- COMMUNE. DRIVE -->
-  <section class="content gray">
-    <article class="header">
-      <h5>Guardian Angel</h5>
-      <hr />
-    </article>
-    <article class="article">
-      <p>Artemys, the seamlessly integrated AI to FS
-        0.1’s security system, keeps you safe and acts
-        like a real-time guardian. The practically
-        neuron-like AI connection comes with all round
-        vision-tracking, GPS monitoring and  sensor
-        based safety-measures. Artemys provides comfort
-        on levels way beyond the tangible.</p>
-    </article>
-    <article class="picture">
-      <img src="images/Preview_05.jpg" alt="">
-    </article>
-  </section>
-  <!-- COMMUNE. DRIVE-->
   <!-- FOOTER -->
   <footer class="footer-of-page">
     <h5>Receive the Latest FS News</h5>
