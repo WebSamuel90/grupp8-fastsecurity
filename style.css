@@ -252,6 +252,7 @@ body {
       padding-right: 15%;
       font-size: 3vh;
       color: white;
+      z-index: 2
 
 
     }
