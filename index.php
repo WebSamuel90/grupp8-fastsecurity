@@ -39,11 +39,6 @@ require __DIR__.'/header.php';
      <p><i class="down arrow"></i></p>
    </div>
    <!--END NAV ICON-->
-   <div id="navbar">
-     <a href="#home">Home</a>
-     <a href="#contact">Contact</a>
-   </div>
-   <!--/END NAVBAR-->
 
    <!--MENU-->
    <div class="menuContainer">
@@ -91,15 +86,8 @@ require __DIR__.'/header.php';
 
    </section>
 
-    <div class="heroText">
-      <p>You are special</p>
-    </div>
-    <div class="heroText2">
-      <p>FastSecurity, FS.1.0<p>
-    </div>
-  </section>
   <!--/END HERO-->
-  
+
   <!-- A NEW ERA -->
   <section class="a-new-era">
     <article class="header">
