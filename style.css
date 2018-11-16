@@ -227,6 +227,7 @@ body {
 
 
 
+
 /* NAVBAR ICON------------------------------------------------*/
 .stickyArrowBar i {
   border: solid white;
@@ -248,6 +249,48 @@ body {
 /* END NAVBAR ICON------------------------------------------------*/
 
 
+/*MENU FOLDER-----------------------------------------------------------------*/
+/*MENU CONTAINER*/
+.menuContainer{
+  display: flex;
+  justify-content: center;
+
+}
+/*END MENU CONTAINER*/
+/*NAVBAR CONTAINER*/
+.navbarContainer{
+  display: flex;
+  justify-content: center;
+}
+/*END NAVBAR CONTAINER*/
+/*MENU*/
+.menu{
+   height:0;
+   overflow:hidden;
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   cursor: pointer;
+   border: 1px solid #fff;
+   background-color: rgba(255, 255, 255, 1);
+
+   color: #00205A;
+   font-family: "AktivGrotesk-Regular";
+   align-items: center;
+   width: 100%;
+   transition: all 0.2s ease-in-out;
+}
+/*END MENU*/
+
+/*MENU POPUP*/
+.menuPopUp{
+  height: 80%;
+  opacity: 1;
+  border-bottom: 10px solid #00205A;
+}
+
+/*END MENU POPUP*/
+
 /*STICKY MENU TEXT*/
 .menuText{ /*This is because the whole site is to far left for some reason, a quick fix*/
   margin-right: 15px;
@@ -257,7 +300,7 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(255, 0, 0, 0.5); */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -285,10 +328,12 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 255, 0, 0.5); */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    height: 10%;
+    margin-top: 10px;
 }
 /* Links inside the navbar */
 .stickyArrowBar a {

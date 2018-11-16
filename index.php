@@ -45,6 +45,37 @@ require __DIR__.'/header.php';
    </div>
    <!--/END NAVBAR-->
 
+   <!--MENU-->
+   <div class="menuContainer">
+     <div class="menu">
+       <div class="homeDiv">
+         <ul>
+           <li><b>HOME</b></li>
+           <li><b>COMPANY</b></li>
+           <li></li>
+         </ul>
+       </div>
+       <div class="vesselDiv">
+         <li></li>
+         <li></li>
+         <li></li>
+       </div>
+     </div>
+   </div>
+    <!--END MENU-->
+    <!--NAVBAR-->
+  <div class="navbarContainer">
+     <div class="stickyMenuTextBar">
+      <p class="menuText">Menu</p>
+     </div>
+     <!--NAV ICON-->
+     <div class="stickyArrowBar">
+       <p><i class="down arrow"></i></p>
+     </div>
+   </div>
+   <!--END NAV ICON-->
+   <!--/END NAVBAR-->
+
    <!--HERO-->
    <section class="hero">
 
@@ -59,6 +90,14 @@ require __DIR__.'/header.php';
      <!-- END ROTATING TEXT -->
 
    </section>
+
+    <div class="heroText">
+      <p>You are special</p>
+    </div>
+    <div class="heroText2">
+      <p>FastSecurity, FS.1.0<p>
+    </div>
+  </section>
   <!--/END HERO-->
   
   <!-- A NEW ERA -->
