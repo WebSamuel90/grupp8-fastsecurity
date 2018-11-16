@@ -1,5 +1,17 @@
 
-const boxes = document.querySelectorAll(".box");
+const boxes = document.querySelectorAll(".box")
+
+// boxes.forEach((box) => {
+//
+//     box.addEventListener('click', () => {
+//
+//       if (box.classList.contains('top')) {
+//         box.classList.remove('top');
+//         box.classList.add('big');
+//       }
+//     })
+// })
+
 
 boxes.forEach(function (box) {
   box.addEventListener('click', function () {

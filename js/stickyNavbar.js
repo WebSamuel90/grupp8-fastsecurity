@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyNavbar()};
 
@@ -18,5 +18,3 @@ function stickyNavbar() {
     navbar.classList.remove("sticky");
   }
 }
-=======
->>>>>>> a5182295b781263b5f0a707423fa45e5132d5038
