@@ -164,25 +164,24 @@ require __DIR__.'/header.php';
       </section>
         <!--END GALLERY-->
 
-        <section class="content">
-          <article class="header">
-            <h5>Commune. Drive</h5>
-            <hr />
-          </article>
-          <article class="article">
-            <p>Designed for you, is the on-board assistant
-              Artemys that not only tracks personal usage
-              patterns and behaviors but naturally communicates
-              your everyday digital life. Have a talk and the
-              smart AI will soon adjust, queuing the right track,
-              setting up the right temperature or
-              shifting color scheme.</p>
-            </article>
-          <article class="picture">
-            <img src="images/Preview_16.jpg" alt="">
-          </article>
-        </section>
-
+      <section class="content">
+        <article class="header">
+          <h5>Commune. Drive</h5>
+          <hr />
+        </article>
+        <article class="article">
+          <p>Designed for you, is the on-board assistant
+            Artemys that not only tracks personal usage
+            patterns and behaviors but naturally communicates
+            your everyday digital life. Have a talk and the
+            smart AI will soon adjust, queuing the right track,
+            setting up the right temperature or
+            shifting color scheme.</p>
+        </article>
+        <article class="picture">
+          <img src="images/Preview_16.jpg" alt="">
+        </article>
+      </section>
     </section>
 
     <!-- END 01 NEW ERA DESIGN -->
