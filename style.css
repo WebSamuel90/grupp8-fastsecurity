@@ -1,16 +1,17 @@
 * {
   box-sizing: border-box;
+  font-variant-ligatures: none;
 }
 
 @font-face {
   font-family: "AktivGrotesk-Bold";
-  src: url(fonts/AktivGrotesk-Bold.otf);
-  font-family: "AktivGrotesk-Light";
-  src: url(fonts/AktivGrotesk-Light.otf);
+  src: url(fonts/AktivGrotesk-Bold.woff);
   font-family: "AktivGrotesk-Medium";
-  src: url(fonts/AktivGrotesk-Medium.otf);
+  src: url(fonts/AktivGrotesk-Medium.woff);
   font-family: "AktivGrotesk-Regular";
-  src: url(fonts/AktivGrotesk-Regular.otf);
+  src: url(fonts/AktivGrotesk-Regular.woff);
+  font-family: "AktivGrotesk-Light";
+  src: url(fonts/AktivGrotesk-Light.woff);
 }
 
 body {
@@ -36,7 +37,7 @@ body {
 
 .popup.active {
   z-index: 1;
-  background-color: rgba(0, 32, 91, 0.66);
+  background-color: rgba(0, 32, 91, 0.93);
   opacity: 1;
   transition: opacity 0.2s ease;
 }
@@ -58,17 +59,31 @@ body {
   color: #212121;
 }
 
-.popup-signup i {
+.popup-signup input::placeholder , .popup-signup textarea::placeholder {
+  color: #fff;
+}
+
+.popup-signup.white input::placeholder , .popup-signup.white textarea::placeholder {
+  color: #212121;
+}
+
+.toggle-signup > :nth-child(1){
+  align-self: center;
+  width: 37px;
+}
+.popup-signup img {
   align-self: center;
   padding-bottom: 40px;
+  width: 40px;
   cursor: pointer;
 }
 
 .popup-signup h2 {
-  font-size: 16pt;
+  font-size: 14pt;
+  text-transform: uppercase;
 }
 
-form {
+.popup-signup form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,18 +100,17 @@ form {
   outline: none;
   background: transparent;
   font-size: 16pt;
+  text-transform: capitalize;
 }
 
+.popup-signup input[type='email'] {
+  text-transform: none;
+}
+
+
+
 .popup-signup.white input , .popup-signup.white textarea {
-  width: 100%;
-  height: 36px;
-  padding: 5px 5px 5px 0;
-  margin-bottom: 10px;
-  border: none;
   border-bottom: 1px solid #212121;
-  outline: none;
-  background: transparent;
-  font-size: 16pt;
   color: #212121;
 }
 
@@ -112,6 +126,7 @@ form {
   margin-top: 50px;
   padding: 0;
   padding-bottom: 2px;
+  text-transform: uppercase;
 }
 
 .popup-signup.white input[type="submit"],
@@ -126,25 +141,39 @@ form {
 .toggle-signup {
   position: fixed;
   right: 0;
-  width: 48px;
-  height: 78px;
+  width: 40px;
+  height: 65px;
   cursor: pointer;
   border-radius: 30px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   background-color: rgba(255, 255, 255, 0);
   top: 85%;
-  line-height: 48px;
   text-align: center;
   transition: 0.5s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-right: 20px;
+  line-height: 40px;
   }
 
-.toggle-signup:before , i {
-  font-family: "Font Awesome 5 Free";
-  font-size:28px;
+  .toggle-signup .plus {
+    width: 30px;
+    color: #fff;
+    padding-bottom: 3px;
+  }
+
+  .toggle-signup .mail {
+    width: 25px;
+    color: #fff;
+    padding-bottom: 3px;
+  }
+
+
+.toggle-signup:before , .toggle-signup img {
+  /* padding: 4px; */
+  /* font-size: 16px; */
   color: #fff;
 }
 
@@ -162,24 +191,45 @@ form {
 
 /* PROGRESSBAR */
 .progressbar-side {
-  color: aqua;
-}
-.progressbar-side progress {
-  position:fixed;
-  height: 3px;
-  top: 50%;
-  left: -60px;
+  position: fixed;
   transform: rotate(90deg);
+  top: 50%;
+  left: -158px;
+}
+
+.progressbar-side .progressbar[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 350px;
+  height: 2px;
+}
+
+.progressbar-side .progressbar[value]::-webkit-progress-bar {
+  background-color: rgba(0,0,0, 0);
+  border-radius: 2px;
+}
+
+.progressbar-side .progressbar[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-90deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #7e3de1, #d22c55, #de473a, #3df39e);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 /* END PROGRESSBAR */
 
-}
 
 
 
 /* NAVBAR ICON------------------------------------------------*/
-i {
+.stickyArrowBar i {
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -302,85 +352,271 @@ i {
 
 /*END STICKY ARROW*/
 
-/*HERO*/
-.heroText {
-   display: flex;
-   justify-content: center;
-   font-size: 4vh;
-   color: white;
+/* TRANSLATE */
+.language {
+  margin-left: 20px;
 }
-.heroText2 {
-  display: flex;
-  justify-content: center;
-  font-size: 6vh;
-  color: white;
-}
+/* END TRANSLATE */
+
+/* HERO */
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   justify-content: center;
-
-
   height: 100vh;
-  background-image: url("images/render_10.jpg");
+  width: 100%;
+  background-image: url("images/Preview_17.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/*ENDHERO*/
+/* END HERO */
 
+/* ROTATING TEXT */
+.sentence {
+  font-family: "AktivGrotesk-Light";
+  /* font-weight: 100; */
+  font-size: 16pt;
+  letter-spacing: 0.67em;
+  line-height: 22pt;
+  width: 50%;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.slidingVertical span{
+	animation: topToBottom 12.5s linear infinite 0s;
+	-ms-animation: topToBottom 12.5s linear infinite 0s;
+	-webkit-animation: topToBottom 12.5s linear infinite 0s;
+	color: #f2f2f2;
+	opacity: 0;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 8.5s;
+	-ms-animation-delay: 8.5s;
+	-webkit-animation-delay: 8.5s;
+}
+.slidingVertical span:nth-child(4){
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+@-moz-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateY(50px); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateY(50px); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateY(50px); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+/* END ROTATING TEXT */
+
+/* A NEW ERA */
+.a-new-era {
+  height: 100vh;
+  background-color: #212121;
+}
+
+.a-new-era .header {
+  height: 20vh;
+  margin: 60px 0 0px 60px;
+}
+
+.a-new-era .header h3 {
+  font-family: "AktivGrotesk-Light";
+  font-weight: 100;
+  font-size: 54pt;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  color: #5c5c5c;
+}
+
+.a-new-era .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 50px;
+  width: 100%;
+}
+.a-new-era .header h5, .article h5 {
+  font-family: "AktivGrotesk-Light";
+  font-weight: 100;
+  font-size: 20pt;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.a-new-era .article h5 {
+  font-family: "AktivGrotesk-Bold";
+  color: #fff;
+  text-transform: uppercase;
+  line-height: normal;
+  margin: 10px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.a-new-era .article p {
+  font-family: "AktivGrotesk-Regular";
+  color: #fff;
+  margin: 10px;
+  font-size: 14pt;
+}
+
+@media screen and (min-width: 768px) {
+  .a-new-era {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .a-new-era .header {
+    align-self: flex-start;
+    top: 0;
+  }
+
+  .a-new-era .article {
+    align-self: center;
+    width: 50%;
+  }
+
+}
+
+
+
+/* END ONE  */
+
+/* SECTION ONE */
+.section-one {
+  height: 100%;
+}
+
+.section-one img {
+  object-fit: cover;
+  height: 65%;
+  width: 100%;
+}
+
+.section-one p {
+  padding: 20px 20px 10px 20px;
+}
+
+/* Touching the second child in div */
+.section-one > :nth-child(2){
+  font-weight: bold;
+}
+
+
+/* END SECTION ONE */
 
 /* GALLERY */
+
 .gallery {
-  width: 100%;
   height: 100vh;
-}
-
-.gallery .picture-one {
-  object-fit: cover;
-  background-image: url(images/Render_05.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-}
-
-.gallery .under {
+  width: 100vw;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.gallery .picture-two {
-  cursor: pointer;
-  object-fit: cover;
-  background-image: url(images/Render_06.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 30vh;
+.box {
   width: 50%;
-}
-
-.gallery .picture-two.big{
-  cursor: pointer;
+  height: 35%;
+  overflow: hidden;
   object-fit: cover;
-  background-image: url(images/Render_06.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-}
-
-
-.gallery .picture-three {
   cursor: pointer;
-  object-fit: cover;
-  background-image: url(images/Render_08.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 30vh;
-  width: 50%;
 }
+
+.box img {
+  padding: 4px;
+}
+
+.big {
+  order: -1;
+  height: 65%;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px)
+{
+  .gallery {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: -1;
+  }
+
+  .box {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .box.big {
+    order: -1;
+    height: 100%;
+    width: 60%;
+  }
+
+  .box.top {
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 50%;
+    width: 40%;
+  }
+
+  .box.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    height: 48.5%;
+    width: 40%;
+  }
+}
+
 /* END GALLERY */
+
+
 
 /* BOTTOM CARDS */
 .cards {
@@ -391,12 +627,14 @@ i {
 .cards i {
   padding: 10px 10px 15px 10px;
   font-size: 40px;
+  color: #fff;
 }
 
 .cards h2, .card p{
   padding: 10px 5px;
   margin: 0;
   color: #fff;
+  font-family: "AktivGrotesk-Regular";
 }
 
 .card {
