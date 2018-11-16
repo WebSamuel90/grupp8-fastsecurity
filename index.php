@@ -30,7 +30,20 @@ require __DIR__.'/header.php';
    </sidebar>
    <!-- END PROGRESSBAR -->
 
-   <!--NAVBAR-->
+
+   <!--DESKTOP NAVBAR---------------------------------------------------------->
+   <div class="menuContainer">
+     <div class="menu">
+       <a href="#"></a>
+       <a href="#"></a>
+       <a href="#"></a>
+       <a href="#"></a>
+     </div>
+
+   </div>
+   <!--DESKTOP NAVBAR---------------------------------------------------------->
+   <!--MOBILE NAVBAR----------------------------------------------------------->
+   <!--MOBILE ICON-->
    <div class="stickyMenuTextBar">
      <p class="menuText">Menu</p>
    </div>
@@ -39,10 +52,21 @@ require __DIR__.'/header.php';
      <p><i class="down arrow"></i></p>
    </div>
    <!--END NAV ICON-->
+ <div class="navbarContainer">
+    <div class="stickyMenuTextBar">
+     <p class="menuText">Menu</p>
+    </div>
+    <!--NAV ICON-->
+    <div class="stickyArrowBar">
+      <p><i class="down arrow"></i></p>
+    </div>
+  </div>
+  <!--END MOBILE ICON-->
+  <!--END NAV ICON-->
 
-   <!--MENU-->
-   <div class="menuContainer">
-     <div class="menu">
+   <!--MOBILE MENU-->
+   <div class="mobileMenuContainer">
+     <div class="mobileMenu">
        <div class="homeDiv">
          <a href="#">HOME</a>
          <a href="#">COMPANY</a>
@@ -51,23 +75,11 @@ require __DIR__.'/header.php';
          <a href="#">AEROMOTIVE</a>
        </div>
        <div class="vesselDiv">
-
        </div>
      </div>
    </div>
-    <!--END MENU-->
-    <!--NAVBAR-->
-  <div class="navbarContainer">
-     <div class="stickyMenuTextBar">
-      <p class="menuText">Menu</p>
-     </div>
-     <!--NAV ICON-->
-     <div class="stickyArrowBar">
-       <p><i class="down arrow"></i></p>
-     </div>
-   </div>
-   <!--END NAV ICON-->
-   <!--/END NAVBAR-->
+    <!--END MOBILEMENU-->
+    <!--/END MOBILE NAVBAR----------------------------------------------------->
 
    <!--HERO-->
    <section class="hero">

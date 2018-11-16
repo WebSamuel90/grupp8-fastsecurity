@@ -228,10 +228,11 @@ body {
 
 /*DESKTOP NAVBAR*/
 @media screen and (min-width: 768px){
-  .navbarContainer, .stickyMenuTextBar, .menuText, .stickyArrowBar, .down, .arrow{ /*Removing classes from mobile content*/
+  .navbarContainer, .stickyMenuTextBar, .menuText, .stickyArrowBar, .down,
+   .arrow, .mobileMenuContainer, .mobileMenu, .homeDiv, .vesselDiv{ /*Removing classes from mobile content*/
     display: none;
   }
-  
+
 
   .menu{
       display: flex;
@@ -272,7 +273,7 @@ body {
   /* END NAVBAR ICON*/
 
   /*MENU CONTAINER*/
-  .menuContainer{
+  .mobileMenuContainer{
     display: flex;
     justify-content: center;
 
@@ -285,7 +286,7 @@ body {
   }
   /*END NAVBAR CONTAINER*/
   /*MENU*/
-  .menu{
+  .mobileMenu{
      height:0;
      overflow:hidden;
      display: flex;

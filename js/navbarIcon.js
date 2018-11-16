@@ -1,6 +1,6 @@
 'use strict';
 
-const menu = document.querySelector(".menu");
+const menu = document.querySelector(".mobileMenu");
 const menuPopUp = document.querySelector(".menuPopUp");
 
 const stickyMenuTextBar = document.querySelector('.stickyMenuTextBar');
