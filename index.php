@@ -99,7 +99,7 @@ require __DIR__.'/header.php';
     </div>
   </section>
   <!--/END HERO-->
-  
+
   <!-- A NEW ERA -->
   <section class="a-new-era">
     <article class="header">
@@ -136,10 +136,10 @@ require __DIR__.'/header.php';
       <div class="box big">
         <img src="images/Render_05.jpg" alt="">
       </div>
-      <div class="box top">
+      <div class="box">
         <img  src="images/Render_06.jpg" alt="">
       </div>
-      <div class="box bottom">
+      <div class="box">
         <img src="images/Render_08.jpg" alt="">
       </div>
   </section>

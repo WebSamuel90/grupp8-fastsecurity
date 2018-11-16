@@ -24,5 +24,5 @@ else {
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <title>Document</title>
+  <title>TestCar</title>
 </head>
