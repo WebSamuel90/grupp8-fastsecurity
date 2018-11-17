@@ -268,6 +268,10 @@ body {
 /* MOBILE NAVBAR -------------------------------------------------------------*/
 /* NAVBAR ICONs*/
 @media screen and (max-width: 768px){
+  .menuContainer, .menu {
+    display: none;
+  }
+
   .stickyArrowBar i {
     border-width: 0 2px 2px 0;
     display: inline-block;
