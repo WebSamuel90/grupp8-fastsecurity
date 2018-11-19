@@ -283,11 +283,12 @@ body {
     display: inline-block;
     padding: 20px;
     margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
-    z-index: 100;
+    z-index: 2;
   }
   .down {
       transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
+      z-index: 2;
 
   }
   /* END NAVBAR ICON*/
