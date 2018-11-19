@@ -233,17 +233,33 @@ body {
     display: none;
   }
 
+  .menuContainer{
+    display: flex;
+    justify-content: center;
+  }
 
   .menu{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       overflow: hidden;
-      background-color: rgba(255, 0, 0, 0.5);
+      /* background-color: rgba(255, 0, 0, 0.5); */
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
       color: white;
+      padding-top: 2%;
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size: 3vh;
+      color: white;
+      z-index: 2
 
+
+    }
+    .menu a{
+      text-decoration: none;
+      color:inherit;
+      font-family: "AktivGrotesk-Light";
     }
 
 }
@@ -252,6 +268,10 @@ body {
 /* MOBILE NAVBAR -------------------------------------------------------------*/
 /* NAVBAR ICONs*/
 @media screen and (max-width: 768px){
+  .menuContainer, .menu {
+    display: none;
+  }
+
   .stickyArrowBar i {
     border-width: 0 2px 2px 0;
     display: inline-block;
