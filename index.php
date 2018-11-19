@@ -98,24 +98,21 @@ require __DIR__.'/header.php';
     <!-- 01 NEW ERA DESIGN-->
     <section class="section">
       <article class="article">
-        <h5>An epoch in the making</h5>
-        <p>Many people still think Saab makes cars, and that is correct.
-          We are on the go for the future. Saab is very much alive and well,
-          as one of the world’s most innovative companies. And now we are
-          proud to present our car for the future: FastSecurity, FS.</p>
+        <h5><?= $lang['01'][0][0] ?></h5>
+        <p><?= $lang['01'][0][1] ?></p>
       </article>
       <article class="header">
         <h3>01</h3>
-        <h5>new era design</h5>
+        <h5><?= $lang['01'][0][2] ?></h5>
       </article>
       <article class="footer">
         <img src="images/Preview_19.png" />
       </article>
       <article class="footer-info">
         <div class="over">
-          <p>over</p>
+          <p><?= $lang['01'][0][3] ?></p>
           <h6>900</h6>
-          <p>Mile range (epa)</p>
+          <p><?= $lang['01'][0][4] ?></p>
         </div>
         <div class="under">
           <p>over</p>
@@ -134,14 +131,11 @@ require __DIR__.'/header.php';
 
       <section class="content">
         <article class="title">
-          <h5>Aeromotive Luxury</h5>
+          <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
         </article>
         <article class="article">
-          <p>A stunning view deserves sublime first class comfort.
-            The interior’s masterpiece-like proportions of the FS 0.1
-            are sculpted to deliver expansive convenience to driver and
-            passenger alike. </p>
+          <p><?= $lang['01'][1][1] ?></p>
         </article>
       </section>
 
@@ -161,17 +155,11 @@ require __DIR__.'/header.php';
 
       <section class="content">
         <article class="title">
-          <h5>Commune. Drive</h5>
+          <h5><?= $lang['01'][2][0] ?></h5>
           <hr />
         </article>
         <article class="article">
-          <p>Designed for you, is the on-board assistant
-            Artemys that not only tracks personal usage
-            patterns and behaviors but naturally communicates
-            your everyday digital life. Have a talk and the
-            smart AI will soon adjust, queuing the right track,
-            setting up the right temperature or
-            shifting color scheme.</p>
+          <p><?= $lang['01'][2][1] ?></p>
         </article>
         <article class="picture">
           <img src="images/Preview_16.jpg" alt="">
@@ -200,28 +188,20 @@ require __DIR__.'/header.php';
   <section class="section">
     <article class="header">
       <h3>02</h3>
-      <h5>energy</h5>
+      <h5><?= $lang['02'][0][0] ?></h5>
     </article>
     <article class="article">
-      <h5>Engines powered by cellava</h5>
-      <p>Fast Security’s proprietary fuel changes
-        performance standards by means unmeasurable.
-        The pure bio-mass enforces an unparalleled
-        engine capacity with little environmental
-        strain.</p>
+      <h5><?= $lang['02'][0][1] ?></h5>
+      <p><?= $lang['02'][0][2] ?></p>
     </article>
 
     <section class="content">
       <article class="title">
-        <h5>Cellava Unleashed</h5>
+        <h5><?= $lang['02'][0][3] ?></h5>
         <hr />
       </article>
       <article class="article">
-        <p>FS 0.1’s top-class engines house unrivaled energy
-          capacity. The integrated core reactor, developed
-          entirely in-house, fuse the very elements of existence
-          using Cellava — a supreme source of energy. To put it
-          short: a system that turns impossibilities into possibilities.</p>
+        <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture">
           <img src="images/Preview_09.jpg" alt="">

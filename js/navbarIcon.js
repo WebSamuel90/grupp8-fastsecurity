@@ -13,6 +13,7 @@ const down = document.querySelector('.down')
 
 arrow.addEventListener('click', () => {
   menu.classList.toggle('menuPopUp');
+
 })
 down.addEventListener('click', () => {
   menu.classList.toggle('menuPopUp');

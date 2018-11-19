@@ -326,7 +326,7 @@ body {
   /*END MENU*/
 
   /*MENU POPUP*/
-  .menuPopUp{
+.menuPopUp{
     height: 80%;
     opacity: 1;
     border-bottom: 10px solid #00205A;
