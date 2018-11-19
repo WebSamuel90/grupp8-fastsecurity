@@ -648,12 +648,13 @@ body {
   justify-content: space-around;
 }
 
-.content .header {
+
+.content .title {
   align-self: flex-start;
 }
 
 
-.content .header h5 {
+.content .title h5 {
   font-size: 2.08em;
   font-family: "AktivGrotesk-Medium";
   color: #fff;
@@ -662,7 +663,7 @@ body {
   align-self: flex-start;
 }
 
-.content .header hr {
+.content .title hr {
   align-self: flex-start;
   margin: 0;
   border: 2px solid #fff;
@@ -701,11 +702,11 @@ body {
   margin-bottom: -1px;
 }
 
-.content.white .header h5 {
+.content.white .title h5 {
   color: rgb(5, 5, 5);
 }
 
-.content.white .header hr {
+.content.white .title hr {
   border-color: rgb(5, 5, 5);
 }
 
@@ -717,12 +718,12 @@ body {
   background-color: rgb(211, 211, 211);
 }
 
-.content.gray .header h5 {
+.content.gray .title h5 {
   margin-top: 124px;
   color: rgb(5, 5, 5);
 }
 
-.content.gray .header hr {
+.content.gray .title hr {
   border-color: rgb(5, 5, 5);
 }
 

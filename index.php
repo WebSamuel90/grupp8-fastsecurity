@@ -133,7 +133,7 @@ require __DIR__.'/header.php';
       </article>
 
       <section class="content">
-        <article class="header">
+        <article class="title">
           <h5>Aeromotive Luxury</h5>
           <hr />
         </article>
@@ -160,7 +160,7 @@ require __DIR__.'/header.php';
         <!--END GALLERY-->
 
       <section class="content">
-        <article class="header">
+        <article class="title">
           <h5>Commune. Drive</h5>
           <hr />
         </article>
@@ -212,7 +212,7 @@ require __DIR__.'/header.php';
     </article>
 
     <section class="content">
-      <article class="header">
+      <article class="title">
         <h5>Cellava Unleashed</h5>
         <hr />
       </article>
@@ -229,7 +229,7 @@ require __DIR__.'/header.php';
       </section>
 
       <section class="content">
-        <article class="header">
+        <article class="title">
           <h5>Fly far, far away</h5>
           <hr />
         </article>
@@ -254,7 +254,7 @@ require __DIR__.'/header.php';
         </article>
     </article>
     <section class="content white">
-      <article class="header">
+      <article class="title">
         <h5>Challenge the Gales</h5>
         <hr />
       </article>
@@ -271,7 +271,7 @@ require __DIR__.'/header.php';
       </article>
     </section>
     <section class="content gray">
-      <article class="header">
+      <article class="title">
         <h5>Guardian Angel</h5>
         <hr />
       </article>
