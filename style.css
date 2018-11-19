@@ -768,6 +768,13 @@ body {
     cursor: pointer;
   }
 
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
   .big {
     order: -1;
     height: 100%;
@@ -786,6 +793,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 124px;
+  }
+
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
 
