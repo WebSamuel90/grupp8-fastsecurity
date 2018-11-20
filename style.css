@@ -37,7 +37,7 @@ body {
 
 .popup.active {
   z-index: 1;
-  background-color: rgba(0, 32, 91, 0.93);
+  background-color: rgba(0, 33, 88, 0.90);
   opacity: 1;
   transition: opacity 0.2s ease;
 }
