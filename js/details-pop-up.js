@@ -1,13 +1,12 @@
 
 
 const buttonDiv = document.querySelector('.details.popup');
-const details = document.querySelector('input[value="Details"]');
+const details = document.querySelector('.button.details input');
 const box = document.querySelector('.popup-details');
 //gör medtoder tillgängliga. spread operatior.
 // const arrowClose = [...document.querySelectorAll('.arrow-close')];
 const arrowClose = document.querySelector('.arrow-close');
 // console.log(typeof arrowClose);
-console.log(box);
 
 details.addEventListener('click', () => {
   buttonDiv.classList.add('active');

@@ -2,7 +2,7 @@
   declare(strict_types=1);
 
   $lang = [
-    'hero' => 'Hello',
+    'hero' => ['Ex', 'pedience defined', 'pand your horizons', 'perience aeromotive perfection'],
     '01' => [
               [
               'An epoch in the making',
@@ -42,18 +42,20 @@
               'Fly far, far away',
               'The next level engine technology developed for the FS 0.1 enables 1000 miles of flying range. Take wing and go wherever the winds may guide you — running dry on gas is a vague prospect with the FS 0.1.'
             ],
-            [
-              'fly',
-              'Challenge the Gales',
-              'Hugging the wind currents is not a risk thanks to FS 0.1’s perfectly calibrated air glide turbine. Swiftly reaching top speeds, the FS 0.1’s advanced accelerator appendage, meticulous wind sheering dimensions, lightweight composition and gravity defying air pressure technology deliver accurate steering and a smooth ride.',
-              'Guardian Angel',
-              'Artemys, the seamlessly integrated AI to FS 0.1’s security system, keeps you safe and acts like a real-time guardian. The practically neuron-like AI connection comes with all round vision-tracking, GPS monitoring and  sensor based safety-measures. Artemys provides comfort on levels way beyond the tangible.'
-            ]
+          ],
+    '03' => [
+            'fly',
+            'Challenge the Gales',
+            'Hugging the wind currents is not a risk thanks to FS 0.1’s perfectly calibrated air glide turbine. Swiftly reaching top speeds, the FS 0.1’s advanced accelerator appendage, meticulous wind sheering dimensions, lightweight composition and gravity defying air pressure technology deliver accurate steering and a smooth ride.',
+            'Guardian Angel',
+            'Artemys, the seamlessly integrated AI to FS 0.1’s security system, keeps you safe and acts like a real-time guardian. The practically neuron-like AI connection comes with all round vision-tracking, GPS monitoring and  sensor based safety-measures. Artemys provides comfort on levels way beyond the tangible.'
           ],
 
   'popup' => [
                 'Contact fast Security', 'Name', 'E-mail', 'Message', 'send'
-               ]
+              ],
+  'popup-details' => 'Download Broshure',
+  'details-button' => 'Details'
   ];
 
  ?>

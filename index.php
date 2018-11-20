@@ -28,7 +28,7 @@ require __DIR__.'/header.php';
 <div class="details popup">
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
-    <h2>Download broschure</h2>
+    <h2><?= $lang['popup-details']; ?></h2>
     <img src="images/Download-button-01.svg" class="download-button"/>
    </sidebar>
  </div>
@@ -92,11 +92,11 @@ require __DIR__.'/header.php';
    <section class="hero">
 
      <!-- ROTATING TEXT -->
-     <h2 class="sentence">Ex
+     <h2 class="sentence"><?= $lang['hero'][0]; ?>
          <div class="sliding-vertical">
-         <span>pedience defined</span>
-         <span>pand your horizons</span>
-         <span>perience aeromotive perfection</span>
+         <span><?= $lang['hero'][1]; ?></span>
+         <span><?= $lang['hero'][2]; ?></span>
+         <span><?= $lang['hero'][3]; ?></span>
        </div>
      </h2>
      <!-- END ROTATING TEXT -->
@@ -137,7 +137,7 @@ require __DIR__.'/header.php';
         </div>
       </article>
       <article class="button details">
-        <input type="submit" value="Details" />
+        <input type="submit" value="<?= $lang['details-button']; ?>" />
       </article>
 
       <section class="content">
@@ -221,13 +221,11 @@ require __DIR__.'/header.php';
 
       <section class="content">
         <article class="title">
-          <h5>Fly far, far away</h5>
+          <h5><?= $lang['02'][0][5] ?></h5>
           <hr />
         </article>
         <article class="article">
-          <p>The next level engine technology developed for the FS 0.1 enables
-            1000 miles of flying range. Take wing and go wherever the winds may
-            guide you — running dry on gas is a vague prospect with the FS 0.1.</p>
+          <p><?= $lang['02'][0][6] ?></p>
         </article>
         <article class="picture">
           <img src="images/Preview_12.jpg" alt="">
@@ -241,21 +239,16 @@ require __DIR__.'/header.php';
     <article class="fly">
       <article class="header">
         <h3>03</h3>
-        <h5>fly</h5>
+        <h5><?= $lang['03'][0] ?></h5>
         </article>
     </article>
     <section class="content white">
       <article class="title">
-        <h5>Challenge the Gales</h5>
+        <h5><?= $lang['03'][1] ?></h5>
         <hr />
       </article>
       <article class="article">
-          <p>Hugging the wind currents is not a risk thanks
-            to FS 0.1’s perfectly calibrated air glide turbine.
-            Swiftly reaching top speeds, the FS 0.1’s advanced
-            accelerator appendage, meticulous wind sheering dimensions,
-            lightweight composition and gravity defying air pressure
-            technology deliver accurate steering and a smooth ride.</p>
+          <p><?= $lang['03'][2] ?></p>
       </article>
       <article class="picture">
         <img src="images/Preview_06.jpg" alt="">
@@ -263,17 +256,11 @@ require __DIR__.'/header.php';
     </section>
     <section class="content gray">
       <article class="title">
-        <h5>Guardian Angel</h5>
+        <h5><?= $lang['03'][3] ?></h5>
         <hr />
       </article>
       <article class="article">
-        <p>Artemys, the seamlessly integrated AI to FS
-          0.1’s security system, keeps you safe and acts
-          like a real-time guardian. The practically
-          neuron-like AI connection comes with all round
-          vision-tracking, GPS monitoring and  sensor
-          based safety-measures. Artemys provides comfort
-          on levels way beyond the tangible.</p>
+        <p><?= $lang['03'][4] ?></p>
       </article>
       <article class="picture">
         <img src="images/Preview_05.jpg" alt="">
