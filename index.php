@@ -24,6 +24,17 @@ require __DIR__.'/header.php';
    </div>
    <!--END TOGGLE EMAILFORM-->
 
+   <!-- DETAILS -->
+<div class="details popup">
+  <sidebar class="popup-details">
+    <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
+    <h2>Download broschure</h2>
+    <img src="images/Download-button-01.svg" class="download-button"/>
+   </sidebar>
+ </div>
+
+ <!--END DETIALS-->
+
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
      <progress class="progressbar" value="0" max="100"></progress>
@@ -125,7 +136,7 @@ require __DIR__.'/header.php';
           <p>Mile range (epa)</p>
         </div>
       </article>
-      <article class="button">
+      <article class="button details">
         <input type="submit" value="Details" />
       </article>
 
