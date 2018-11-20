@@ -306,7 +306,7 @@ body {
     justify-content: center;
   }
   /*END NAVBAR CONTAINER*/
-  /*MENU*/
+  /*MOBILE MENU*/
   .mobileMenu{
      height:0;
      overflow:hidden;
@@ -322,7 +322,18 @@ body {
      align-items: center;
      width: 100%;
      transition: all 0.2s ease-in-out;
+     z-index:3;
   }
+  /*INNER MENU CONTENT*/
+  .insideCompany{
+    font-weight: lighter;
+    padding-right: 50%;
+
+  }
+  .insideVessel{
+
+  }
+  /*END INNER MENU CONTENT*/
   /*END MENU*/
 
   /*MENU POPUP*/

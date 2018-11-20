@@ -69,8 +69,26 @@ require __DIR__.'/header.php';
    <div class="mobileMenuContainer">
      <div class="mobileMenu">
        <div class="homeDiv">
+         <p>HOME</p>
+         <p>COMPANY</p>
+          <div class="insideCompany">
+            <hr>
+            <p>PHILOSOPHY</p>
+            <p>LEADERSHIP</p>
+          </div>
+        <p>STORIES</p>
+        <p>RESERVE</p>
        </div>
        <div class="vesselDiv">
+        <p>VESSEL</p>
+          <div class="insideVessel">
+            <hr>
+            <p>GALLERY</p>
+            <p>HOOVER</p>
+            <p>ENERGY</p>
+            <p>FUEL</p>
+            <p>DETAILS</p>
+          </div>
        </div>
      </div>
    </div>
