@@ -159,7 +159,7 @@ require __DIR__.'/header.php';
       </article>
 
       <section class="content">
-        <article class="title">
+        <article class="title right">
           <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
         </article>
@@ -198,13 +198,6 @@ require __DIR__.'/header.php';
 
     <!-- END 01 NEW ERA DESIGN -->
 
-  <!-- SECTION ONE -->
-  <!-- <section class="section-one">
-    <img src="images/Render_10.jpg" />
-    <p><?= $lang['sectionOne01']; ?></p>
-    <p><?= $lang['sectionOne02']; ?></p>
-  </section> -->
-  <!-- END SECTION ONE -->
 
   <!-- TRANSLATE -->
   <form class="language">
@@ -214,7 +207,7 @@ require __DIR__.'/header.php';
   <!-- END TRANSLATE -->
 
   <!-- 02 ENERGY -->
-  <section class="section">
+  <section class="section two">
     <article class="header">
       <h3>02</h3>
       <h5><?= $lang['02'][0][0] ?></h5>
@@ -225,11 +218,11 @@ require __DIR__.'/header.php';
     </article>
 
     <section class="content">
-      <article class="title">
+      <article class="title right">
         <h5><?= $lang['02'][0][3] ?></h5>
         <hr />
       </article>
-      <article class="article">
+      <article class="article right">
         <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture">
@@ -253,7 +246,7 @@ require __DIR__.'/header.php';
   <!-- END 02 ENERGY -->
 
   <!-- 03 FLY -->
-  <section class="section">
+  <section class="section three">
     <article class="fly">
       <article class="header">
         <h3>03</h3>

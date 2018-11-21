@@ -671,16 +671,6 @@ body {
   align-content: space-around;
 }
 
-
-/* .section .button.details.active {
-  opacity: 1;
-  transition: opacity 0.2s ease;
-  z-index: 1;
-} */
-
-/* .section .button input[value="Details"].pop-up {
-} */
-
 .section .button input[type="submit"],
 .section .button input[type="button"] {
   font-family: "AktivGrotesk-Light";
@@ -716,7 +706,8 @@ body {
   }
   .section .header {
     align-self: flex-start;
-    top: 0;
+    margin-left: 100px;
+    letter-spacing: 2px
   }
 
   .section .article {
@@ -768,17 +759,40 @@ body {
     top: 29%;;
     right: 10%;
   }
+
+  .section.two .header {
+    align-self: flex-end;
+    margin-right: 100px;
+  }
+
   .section .header h3 {
-    font-size: 120pt;
+    font-size: 115pt;
+    margin-bottom: -20px;
   }
   .section .header h5 {
-    font-size: 29pt;
+    font-size: 28pt;
     width: 250px;
     line-height: 40px;
+    padding-left: 10px;
   }
 
   .section .article h5 {
-    font-size: 2.5em;
+    font-size: 32pt;
+    margin-bottom: 25px;
+  }
+  .section .article p {
+    font-size: 18pt;
+    line-height: 35px;
+  }
+  .section.two .article p, .section.two .article h5 {
+    width: 700px;
+  }
+
+  .section.two .article {
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-top: 325px;
+    margin-left: 100px;
   }
 }
 
@@ -801,11 +815,12 @@ body {
 
 .content .title h5 {
   font-size: 2.08em;
-  font-family: "AktivGrotesk-Medium";
+  font-family: "AktivGrotesk-Light";
   color: #fff;
   line-height: normal;
   margin: 0 0 0 38.66px;
   align-self: flex-start;
+  font-weight: lighter;
 }
 
 .content .title hr {
@@ -887,31 +902,49 @@ body {
   object-position: 34% 66%;
 }
 
-/* CONTENT */
+@media screen and (min-width: 768px) {
 
-/* SECTION ONE */
-.section-one {
-  height: 100%;
+  .content .title {
+    width: 500px;
+  }
+
+  .content .title.right {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .content .title.right h5 {
+    margin:  0 150px 0 0 ;
+    align-self: flex-end;
+  }
+
+  .content .title h5 {
+    font-size: 40pt;
+    text-align: right;
+  }
+
+  .content .title.right hr {
+    align-self: flex-end;
+    width: 183px;
+  }
+
+  .content .article.right {
+    height: auto;
+    align-self: flex-end;
+    margin-left: 0px;
+    margin-right: 110px;
+    margin-top: 100px;
+  }
+  .content .article.right p{
+    width: 600px;
+    font-size: 18pt;
+    line-height: 35px;
+  }
 }
-
-.section-one img {
-  object-fit: cover;
-  height: 65%;
-  width: 100%;
-}
-
-.section-one p {
-  padding: 20px 20px 10px 20px;
-}
-
-/* Touching the second child in div */
-.section-one > :nth-child(2){
-  font-weight: bold;
-}
-
-
-/* END SECTION ONE */
-
+/* END CONTENT */
 
 /* GALLERY */
 
