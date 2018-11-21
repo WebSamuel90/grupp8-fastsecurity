@@ -271,7 +271,7 @@ body {
   .menuContainer, .menu {
     display: none;
   }
-  
+
 @media screen and (min-width: 768px){
   .stickyArrowBar i {
     border-width: 0 2px 2px 0;
