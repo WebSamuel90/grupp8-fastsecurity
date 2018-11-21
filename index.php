@@ -125,7 +125,7 @@ require __DIR__.'/header.php';
 
 
     <!-- 01 NEW ERA DESIGN-->
-    <section class="section">
+    <section class="section one">
       <article class="article">
         <h5><?= $lang['01'][0][0] ?></h5>
         <p><?= $lang['01'][0][1] ?></p>
@@ -144,14 +144,14 @@ require __DIR__.'/header.php';
           <p><?= $lang['01'][0][4] ?></p>
         </div>
         <div class="under">
-          <p>over</p>
-          <h6>900</h6>
-          <p>Mile range (epa)</p>
+          <p>under</p>
+          <h6>2,5</h6>
+          <p>SEC/O-60 MPH</p>
         </div>
         <div class="over">
           <p>over</p>
-          <h6>900</h6>
-          <p>Mile range (epa)</p>
+          <h6>200</h6>
+          <p>MPH</p>
         </div>
       </article>
       <article class="button details">

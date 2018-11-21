@@ -521,7 +521,6 @@ body {
 .section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light";
   font-weight: 100;
-  font-size: 2.5em;
   line-height: 20px;
   margin: 0;
   padding: 0;
@@ -669,15 +668,15 @@ body {
   width: 152px;
   font-size: 16pt;
   text-transform: uppercase;
+  align-content: space-around;
 }
+
 
 /* .section .button.details.active {
   opacity: 1;
   transition: opacity 0.2s ease;
   z-index: 1;
 } */
-
-
 
 /* .section .button input[value="Details"].pop-up {
 } */
@@ -723,6 +722,63 @@ body {
   .section .article {
     align-self: center;
     width: 50%;
+  }
+  .popup-details{
+    width: 40%;
+    height: 460px;
+    justify-content: space-around;
+  }
+  .popup-details .download-button {
+    padding-bottom: 10px;
+    width: 150px;
+    cursor: pointer;
+  }
+  .section .footer-info {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 21.33px;
+  }
+  .section .footer-info .over,
+  .section .footer-info .under {
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    margin-top: -150px;
+  }
+  .section .footer {
+    z-index: 1;
+  }
+  .section .footer-info .over p,
+  .section .footer-info .under p {
+    font-size: 20pt;
+  }
+
+  .section .footer-info .over h6,
+  .section .footer-info .under h6 {
+    font-size: 60pt;
+    font-weight: lighter;
+  }
+  .section.one {
+    position: relative;
+  }
+  .section.one .button {
+    position: absolute;
+    top: 29%;;
+    right: 10%;
+  }
+  .section .header h3 {
+    font-size: 120pt;
+  }
+  .section .header h5 {
+    font-size: 29pt;
+    width: 250px;
+    line-height: 40px;
+  }
+
+  .section .article h5 {
+    font-size: 2.5em;
   }
 }
 
