@@ -40,7 +40,20 @@ require __DIR__.'/header.php';
      <progress class="progressbar" value="0" max="100"></progress>
    </sidebar>
    <!-- END PROGRESSBAR -->
-   
+
+
+   <!--DESKTOP NAVBAR-->
+   <div class="desktop-navbar-container">
+     <div class="desktop-navbar">
+       <a href="#">HOME</a>
+       <a href="#">COMPANY</a>
+       <a href="#">STORIES</a>
+       <a href="#">RESERVE</a>
+       <a href="#">AEROMOTIVE</a>
+     </div>
+   </div>
+   <!--END DESKTOP NAVBAR-->
+
 
    <!--HERO-->
    <section class="hero">

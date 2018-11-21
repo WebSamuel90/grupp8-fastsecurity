@@ -234,8 +234,15 @@ body {
 }
 /* END TRANSLATE */
 
-/* HERO */
+/*DESKTOP NAVBAR--------------------------------------------------------------*/
+.desktop-navbar-container{
+  display: flex;
+  position: fixed;
+  
+}
+/*END DESKTOP NAVBAR----------------------------------------------------------*/
 
+/* HERO */
 .hero {
   display: flex;
   flex-direction: column;
