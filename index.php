@@ -163,7 +163,7 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
         </article>
-        <article class="article">
+        <article class="article right">
           <p><?= $lang['01'][1][1] ?></p>
         </article>
       </section>
@@ -225,7 +225,7 @@ require __DIR__.'/header.php';
       <article class="article right">
         <p><?= $lang['02'][0][4] ?></p>
         </article>
-        <article class="picture">
+        <article class="picture right">
           <img src="images/Preview_09.jpg" alt="">
         </article>
       </section>
@@ -235,10 +235,10 @@ require __DIR__.'/header.php';
           <h5><?= $lang['02'][0][5] ?></h5>
           <hr />
         </article>
-        <article class="article">
+        <article class="article left">
           <p><?= $lang['02'][0][6] ?></p>
         </article>
-        <article class="picture">
+        <article class="picture left">
           <img src="images/Preview_12.jpg" alt="">
         </article>
       </section>
