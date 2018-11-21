@@ -12,7 +12,7 @@
                 proud to present our car for the future: FastSecurity, FS.',
               'new era design',
               'over',
-              'Mile range (epa)',
+              'Mile range (EPA)',
               ],
               [
               'Aeromotive Luxury',

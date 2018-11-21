@@ -42,9 +42,9 @@ require __DIR__.'/header.php';
    <!-- END PROGRESSBAR -->
 
 
-   <!--DESKTOP NAVBAR---------------------------------------------------------->
-   <div class="menuContainer">
-     <div class="menu">
+   <!--DESKTOP NAVBAR-->
+   <div class="desktop-navbar-container">
+     <div class="desktop-navbar">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
        <a href="#">STORIES</a>
@@ -52,59 +52,8 @@ require __DIR__.'/header.php';
        <a href="#">AEROMOTIVE</a>
      </div>
    </div>
-   <!--END DESKTOP NAVBAR---------------------------------------------------------->
+   <!--END DESKTOP NAVBAR-->
 
-   <!--MOBILE NAVBAR----------------------------------------------------------->
-   <!--MOBILE ICON-->
-   <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-   </div>
-   <!--NAV ICON-->
-   <div class="stickyArrowBar">
-     <p><i class="down arrow"></i></p>
-   </div>
-   <!--END NAV ICON-->
- <div class="navbarContainer">
-    <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-    </div>
-    <!--NAV ICON-->
-    <div class="stickyArrowBar">
-      <p><i class="down arrow"></i></p>
-    </div>
-  </div>
-  <!--END MOBILE ICON-->
-  <!--END NAV ICON-->
-
-   <!--MOBILE MENU-->
-   <div class="mobileMenuContainer">
-     <div class="mobileMenu">
-       <div class="homeDiv">
-         <p>HOME</p>
-         <p>COMPANY</p>
-          <div class="insideCompany">
-            <hr>
-            <p>PHILOSOPHY</p>
-            <p>LEADERSHIP</p>
-          </div>
-        <p>STORIES</p>
-        <p>RESERVE</p>
-       </div>
-       <div class="vesselDiv">
-        <p>VESSEL</p>
-          <div class="insideVessel">
-            <hr>
-            <p>GALLERY</p>
-            <p>HOOVER</p>
-            <p>ENERGY</p>
-            <p>FUEL</p>
-            <p>DETAILS</p>
-          </div>
-       </div>
-     </div>
-   </div>
-    <!--END MOBILEMENU-->
-    <!--/END MOBILE NAVBAR----------------------------------------------------->
 
    <!--HERO-->
    <section class="hero">
@@ -125,7 +74,7 @@ require __DIR__.'/header.php';
 
 
     <!-- 01 NEW ERA DESIGN-->
-    <section class="section">
+    <section class="section one">
       <article class="article">
         <h5><?= $lang['01'][0][0] ?></h5>
         <p><?= $lang['01'][0][1] ?></p>
@@ -144,14 +93,14 @@ require __DIR__.'/header.php';
           <p><?= $lang['01'][0][4] ?></p>
         </div>
         <div class="under">
-          <p>over</p>
-          <h6>900</h6>
-          <p>Mile range (epa)</p>
+          <p>under</p>
+          <h6>2,5</h6>
+          <p>SEC/O-60 MPH</p>
         </div>
         <div class="over">
           <p>over</p>
-          <h6>900</h6>
-          <p>Mile range (epa)</p>
+          <h6>200</h6>
+          <p>MPH</p>
         </div>
       </article>
       <article class="button details">
@@ -159,11 +108,11 @@ require __DIR__.'/header.php';
       </article>
 
       <section class="content">
-        <article class="title">
+        <article class="title right">
           <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
         </article>
-        <article class="article">
+        <article class="article right">
           <p><?= $lang['01'][1][1] ?></p>
         </article>
       </section>
@@ -198,13 +147,6 @@ require __DIR__.'/header.php';
 
     <!-- END 01 NEW ERA DESIGN -->
 
-  <!-- SECTION ONE -->
-  <!-- <section class="section-one">
-    <img src="images/Render_10.jpg" />
-    <p><?= $lang['sectionOne01']; ?></p>
-    <p><?= $lang['sectionOne02']; ?></p>
-  </section> -->
-  <!-- END SECTION ONE -->
 
   <!-- TRANSLATE -->
   <form class="language">
@@ -214,7 +156,7 @@ require __DIR__.'/header.php';
   <!-- END TRANSLATE -->
 
   <!-- 02 ENERGY -->
-  <section class="section">
+  <section class="section two">
     <article class="header">
       <h3>02</h3>
       <h5><?= $lang['02'][0][0] ?></h5>
@@ -225,14 +167,14 @@ require __DIR__.'/header.php';
     </article>
 
     <section class="content">
-      <article class="title">
+      <article class="title right">
         <h5><?= $lang['02'][0][3] ?></h5>
         <hr />
       </article>
-      <article class="article">
+      <article class="article right">
         <p><?= $lang['02'][0][4] ?></p>
         </article>
-        <article class="picture">
+        <article class="picture right">
           <img src="images/Preview_09.jpg" alt="">
         </article>
       </section>
@@ -242,10 +184,10 @@ require __DIR__.'/header.php';
           <h5><?= $lang['02'][0][5] ?></h5>
           <hr />
         </article>
-        <article class="article">
+        <article class="article left">
           <p><?= $lang['02'][0][6] ?></p>
         </article>
-        <article class="picture">
+        <article class="picture left">
           <img src="images/Preview_12.jpg" alt="">
         </article>
       </section>
@@ -253,7 +195,7 @@ require __DIR__.'/header.php';
   <!-- END 02 ENERGY -->
 
   <!-- 03 FLY -->
-  <section class="section">
+  <section class="section three">
     <article class="fly">
       <article class="header">
         <h3>03</h3>
