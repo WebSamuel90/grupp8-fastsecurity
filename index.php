@@ -42,9 +42,9 @@ require __DIR__.'/header.php';
    <!-- END PROGRESSBAR -->
 
 
-   <!--DESKTOP NAVBAR---------------------------------------------------------->
-   <div class="menuContainer">
-     <div class="menu">
+   <!--DESKTOP NAVBAR-->
+   <div class="desktop-navbar-container">
+     <div class="desktop-navbar">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
        <a href="#">STORIES</a>
@@ -52,59 +52,8 @@ require __DIR__.'/header.php';
        <a href="#">AEROMOTIVE</a>
      </div>
    </div>
-   <!--END DESKTOP NAVBAR---------------------------------------------------------->
+   <!--END DESKTOP NAVBAR-->
 
-   <!--MOBILE NAVBAR----------------------------------------------------------->
-   <!--MOBILE ICON-->
-   <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-   </div>
-   <!--NAV ICON-->
-   <div class="stickyArrowBar">
-     <p><i class="down arrow"></i></p>
-   </div>
-   <!--END NAV ICON-->
- <div class="navbarContainer">
-    <div class="stickyMenuTextBar">
-     <p class="menuText">Menu</p>
-    </div>
-    <!--NAV ICON-->
-    <div class="stickyArrowBar">
-      <p><i class="down arrow"></i></p>
-    </div>
-  </div>
-  <!--END MOBILE ICON-->
-  <!--END NAV ICON-->
-
-   <!--MOBILE MENU-->
-   <div class="mobileMenuContainer">
-     <div class="mobileMenu">
-       <div class="homeDiv">
-         <p>HOME</p>
-         <p>COMPANY</p>
-          <div class="insideCompany">
-            <hr>
-            <p>PHILOSOPHY</p>
-            <p>LEADERSHIP</p>
-          </div>
-        <p>STORIES</p>
-        <p>RESERVE</p>
-       </div>
-       <div class="vesselDiv">
-        <p>VESSEL</p>
-          <div class="insideVessel">
-            <hr>
-            <p>GALLERY</p>
-            <p>HOOVER</p>
-            <p>ENERGY</p>
-            <p>FUEL</p>
-            <p>DETAILS</p>
-          </div>
-       </div>
-     </div>
-   </div>
-    <!--END MOBILEMENU-->
-    <!--/END MOBILE NAVBAR----------------------------------------------------->
 
    <!--HERO-->
    <section class="hero">
