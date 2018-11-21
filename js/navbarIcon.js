@@ -1,26 +1,52 @@
 'use strict';
 
-const menu = document.querySelector(".menu");
+
+const mobileMenu = document.querySelector(".mobileMenu");
 const menuPopUp = document.querySelector(".menuPopUp");
 
-const stickyMenuTextBar = document.querySelector('.stickyMenuTextBar');
-const stickyArrowBar = document.querySelector('.stickyArrowBar');
 
-const toggleNavbar = document.querySelector('.toggleNavbar');
+const arrow = document.querySelector(".arrow");
 
-const arrow = document.querySelector('.arrow')
-const down = document.querySelector('.down')
-
-arrow.addEventListener('click', () => {
-  menu.classList.toggle('menuPopUp');
-})
-down.addEventListener('click', () => {
-  menu.classList.toggle('menuPopUp');
+arrow.addEventListener('click', ()=>{
+  mobileMenu.classList.toggle('menuPopUp');
 })
 
-stickyArrowBar.addEventListener('click', () => {
-  menu.classList.toggle('menuPopUp');
-})
+
+
+
+//------------------------------------------------------------------------------
+// OLD, SUPPOSEDLY NOT WORKING CODE
+//------------------------------------------------------------------------------
+// const menu = document.querySelector(".mobileMenu");
+// const menuPopUp = document.querySelector(".menuPopUp");
+//
+// const stickyMenuTextBar = document.querySelector('.stickyMenuTextBar');
+// const stickyArrowBar = document.querySelector('.stickyArrowBar');
+//
+// const toggleNavbar = document.querySelector('.toggleNavbar');
+//
+// const arrow = document.querySelector('.arrow')
+// const down = document.querySelector('.down')
+//
+// arrow.addEventListener('click', () => {
+//   menu.classList.toggle('menuPopUp');
+//
+// })
+// down.addEventListener('click', () => {
+//   menu.classList.toggle('menuPopUp');
+// })
+//
+// stickyArrowBar.addEventListener('click', () => {
+//   menu.classList.toggle('menuPopUp');
+// })
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+
+
+
+
+
+
 // stickyMenuTextBar.addEventListener('click', () => {
 //   menu.classList.toggle('menuPopUp');
 // })

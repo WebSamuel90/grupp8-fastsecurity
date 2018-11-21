@@ -37,7 +37,7 @@ body {
 
 .popup.active {
   z-index: 1;
-  background-color: rgba(0, 32, 91, 0.93);
+  background-color: rgba(0, 33, 88, 0.90);
   opacity: 1;
   transition: opacity 0.2s ease;
 }
@@ -226,9 +226,52 @@ body {
 /* END PROGRESSBAR */
 
 
+/*DESKTOP NAVBAR*/
+@media screen and (min-width: 768px){
+  .navbarContainer, .stickyMenuTextBar, .menuText, .stickyArrowBar, .down,
+   .arrow, .mobileMenuContainer, .mobileMenu, .homeDiv, .vesselDiv{ /*Removing classes from mobile content*/
+    display: none;
+  }
+
+  .menuContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu{
+      display: flex;
+      justify-content: space-around;
+      overflow: hidden;
+      /* background-color: rgba(255, 0, 0, 0.5); */
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+      color: white;
+      padding-top: 2%;
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size: 3vh;
+      color: white;
+      z-index: 2
+
+
+    }
+    .menu a{
+      text-decoration: none;
+      color:inherit;
+      font-family: "AktivGrotesk-Light";
+    }
+
+}
+/*END DESKTOP NAVBAR*/
 
 /* MOBILE NAVBAR -------------------------------------------------------------*/
 /* NAVBAR ICONs*/
+@media screen and (max-width: 768px){
+  .menuContainer, .menu {
+    display: none;
+  }
+  
 @media screen and (min-width: 768px){
   .stickyArrowBar i {
     border-width: 0 2px 2px 0;
@@ -241,17 +284,18 @@ body {
     display: inline-block;
     padding: 20px;
     margin-right: 15px; /*This is because the whole site is to far left for some reason, a quick fix*/
-    z-index: 100;
+    z-index: 2;
   }
   .down {
       transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
+      z-index: 2;
 
   }
   /* END NAVBAR ICON*/
 
   /*MENU CONTAINER*/
-  .menuContainer{
+  .mobileMenuContainer{
     display: flex;
     justify-content: center;
 
@@ -263,8 +307,8 @@ body {
     justify-content: center;
   }
   /*END NAVBAR CONTAINER*/
-  /*MENU*/
-  .menu{
+  /*MOBILE MENU*/
+  .mobileMenu{
      height:0;
      overflow:hidden;
      display: flex;
@@ -279,11 +323,22 @@ body {
      align-items: center;
      width: 100%;
      transition: all 0.2s ease-in-out;
+     z-index:3;
   }
+  /*INNER MENU CONTENT*/
+  .insideCompany{
+    font-weight: lighter;
+    padding-right: 50%;
+
+  }
+  .insideVessel{
+
+  }
+  /*END INNER MENU CONTENT*/
   /*END MENU*/
 
   /*MENU POPUP*/
-  .menuPopUp{
+.menuPopUp{
     height: 80%;
     opacity: 1;
     border-bottom: 10px solid #00205A;
@@ -373,7 +428,7 @@ body {
   padding: 0;
 }
 
-.slidingVertical span{
+.sliding-vertical span{
 	animation: topToBottom 12.5s linear infinite 0s;
 	-ms-animation: topToBottom 12.5s linear infinite 0s;
 	-webkit-animation: topToBottom 12.5s linear infinite 0s;
@@ -381,17 +436,17 @@ body {
 	opacity: 0;
 	position: absolute;
 }
-.slidingVertical span:nth-child(2){
+.sliding-vertical span:nth-child(2){
 	animation-delay: 5s;
 	-ms-animation-delay: 5s;
 	-webkit-animation-delay: 5s;
 }
-.slidingVertical span:nth-child(3){
+.sliding-vertical span:nth-child(3){
 	animation-delay: 8.5s;
 	-ms-animation-delay: 8.5s;
 	-webkit-animation-delay: 8.5s;
 }
-.slidingVertical span:nth-child(4){
+.sliding-vertical span:nth-child(4){
 	animation-delay: 10s;
 	-ms-animation-delay: 10s;
 	-webkit-animation-delay: 10s;
@@ -427,18 +482,23 @@ body {
 
 /* END ROTATING TEXT */
 
-/* A NEW ERA */
-.a-new-era {
-  height: 100vh;
+/* SECTION */
+
+.section {
+  height: 100%;
   background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.a-new-era .header {
+.section .header {
+  align-self: flex-start;
   height: 20vh;
-  margin: 60px 0 0px 60px;
+  padding: 0 30px 0 30px;
 }
 
-.a-new-era .header h3 {
+.section .header h3 {
   font-family: "AktivGrotesk-Light";
   font-weight: 100;
   font-size: 54pt;
@@ -448,19 +508,21 @@ body {
   color: #5c5c5c;
 }
 
-.a-new-era .article {
+.section .article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 50px;
+  padding: 117.33px 30px 146.66px 30px;
   width: 100%;
 }
-.a-new-era .header h5, .article h5 {
+
+/* fixa pt till em!!!! */
+.section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light";
   font-weight: 100;
-  font-size: 20pt;
+  font-size: 2.5em;
   line-height: 20px;
   margin: 0;
   padding: 0;
@@ -468,44 +530,309 @@ body {
   color: #fff;
 }
 
-.a-new-era .article h5 {
+.section .header h5 {
+  font-size: 1.5em;
+}
+
+.section .article h5 {
+  font-size: 2.5em;
+}
+
+.section .article h5 {
   font-family: "AktivGrotesk-Bold";
   color: #fff;
   text-transform: uppercase;
   line-height: normal;
-  margin: 10px;
+  /* margin: 10px; */
   margin-bottom: 20px;
   align-self: flex-start;
 }
 
-.a-new-era .article p {
-  font-family: "AktivGrotesk-Regular";
+.section .article p {
+  font-family: "AktivGrotesk-Light";
   color: #fff;
-  margin: 10px;
-  font-size: 14pt;
+  font-size: 1.33em;
+}
+
+.section .footer {
+  margin-bottom: -50px;
+  /* z-index: 1; */
+}
+
+.section .footer img {
+  width: 100vw;
+}
+
+.section .footer-info {
+  display: flex;
+  padding: 0;
+  /* padding: 0 21.33px 21.33px 21.33px; */
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 21.33px 0px 21.33px;
+}
+
+.section .footer-info .over,
+.section .footer-info .under {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 114px; */
+  width: 152px;
+  height: 96px;
+}
+
+.section .footer-info .over {
+  background-color: rgb(46, 46, 46);
+}
+
+.section .footer-info .under {
+  background-color: rgb(31,31,31);
+}
+
+.section .footer-info .over p,
+.section .footer-info .under p {
+  font-family: "AktivGrotesk-Light";
+  margin: 0;
+  font-size: 9pt;
+}
+
+.section .footer-info .over h6,
+.section .footer-info .under h6 {
+  font-family: "AktivGrotesk-Light";
+  margin: 0;
+  font-size: 20pt;
+}
+
+
+.section .button {
+  align-self: center;
+}
+
+.details.popup.active {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  background-color: rgba(0, 33, 88, 0.90);
+}
+
+.details.popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0;
+}
+
+.popup.active {
+  z-index: 1;
+  background-color: rgba(0, 33, 88, 0.90);
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.popup-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  padding: 40px;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  color: #212121;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+
+.popup-details img {
+  align-self: center;
+  padding-bottom: 40px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.popup-details .download-button {
+  padding-bottom: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.popup-details h2 {
+  text-align: center;
+  width: 152px;
+  font-size: 16pt;
+  text-transform: uppercase;
+}
+
+/* .section .button.details.active {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+} */
+
+
+
+/* .section .button input[value="Details"].pop-up {
+} */
+
+.section .button input[type="submit"],
+.section .button input[type="button"] {
+  font-family: "AktivGrotesk-Light";
+  background-color: #212121;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.33em;
+  padding: 5px 30px 1px 30px;
+  margin: 57.33px 0 57.33px 0;
+}
+
+.section .fly {
+  background: url("images/Preview_02.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: -1px;
+}
+.section .fly .header {
+  margin-top: 106.66px
 }
 
 @media screen and (min-width: 768px) {
-  .a-new-era {
+  .section {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .a-new-era .header {
+  .section .header {
     align-self: flex-start;
     top: 0;
   }
 
-  .a-new-era .article {
+  .section .article {
     align-self: center;
     width: 50%;
   }
+}
 
+/* END SECTION  */
+
+/* CONTENT */
+.content {
+  height: 100%;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
+.content .title {
+  align-self: flex-start;
+}
 
-/* END ONE  */
+
+.content .title h5 {
+  font-size: 2.08em;
+  font-family: "AktivGrotesk-Medium";
+  color: #fff;
+  line-height: normal;
+  margin: 0 0 0 38.66px;
+  align-self: flex-start;
+}
+
+.content .title hr {
+  align-self: flex-start;
+  margin: 0;
+  border: 2px solid #fff;
+  width: 61.33px;
+}
+
+.content .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0 38.66px 0 97.33px;
+  margin-top: 38.66px;
+  margin-bottom: 70.66px;
+}
+
+.content .article p {
+  font-family: "AktivGrotesk-Light";
+  font-size: 1.33em;
+  color: #fff;
+  margin: 0;
+}
+
+.content .picture img {
+  width: 100vw;
+  margin: 0;
+  margin-bottom: 124px;
+}
+
+.content.white {
+  background-color: #fff;
+}
+
+.content.white img{
+  margin-bottom: -1px;
+}
+
+.content.white .title h5 {
+  color: rgb(5, 5, 5);
+}
+
+.content.white .title hr {
+  border-color: rgb(5, 5, 5);
+}
+
+.content.white .article p {
+  color: rgb(5, 5, 5);
+}
+
+.content.gray {
+  background-color: rgb(211, 211, 211);
+}
+
+.content.gray .title h5 {
+  margin-top: 124px;
+  color: rgb(5, 5, 5);
+}
+
+.content.gray .title hr {
+  border-color: rgb(5, 5, 5);
+}
+
+.content.gray .article p {
+  color: rgb(5, 5, 5);
+}
+
+.content.gray .picture img{
+  height: 428px;
+  object-fit: cover;
+}
+
+.content.gray .picture img{
+  height: 428px;
+  object-fit: cover;
+  object-position: 34% 66%;
+}
+
+/* CONTENT */
 
 /* SECTION ONE */
 .section-one {
@@ -557,6 +884,7 @@ body {
     width: 100%;
   }
 
+
   .big {
     order: -1;
     height: 100%;
@@ -574,6 +902,13 @@ body {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 124px;
+  }
+
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
 
@@ -600,37 +935,9 @@ body {
 
 /* END GALLERY */
 
-
-/* BOTTOM CARDS */
-.cards {
-  display: flex;
-  flex-direction: column;
+/* FOOTER */
+.footer-of-page {
+  margin-top: -23px;
+  background-color: rgb(211, 211, 211);
 }
-
-.cards i {
-  padding: 10px 10px 15px 10px;
-  font-size: 40px;
-  color: #fff;
-}
-
-.cards h2, .card p{
-  padding: 10px 5px;
-  margin: 0;
-  color: #fff;
-  font-family: "AktivGrotesk-Regular";
-}
-
-.card {
-  background-color: #383838;
-  text-align: center;
-  margin: 15px;
-  padding: 30px 20px;
-  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5);
-}
-
-@media screen and (min-width: 768px){
-  .cards {
-    flex-direction: row;
-  }
-}
-/* END BOTTOM CARDS */
+/* END FOOTER */
