@@ -42,8 +42,17 @@ require __DIR__.'/header.php';
    <!-- END PROGRESSBAR -->
 
 
+
+   <!--MOBILE NAVBAR-->
+   <div class="mobile-navbar-container">
+     <div class="mobile-navbar">
+
+     </div>
+   </div>
+   <!--END MOBILE NAVBAR-->
+
    <!--DESKTOP NAVBAR-->
-   <div class="logo">
+   <div class="desktopLogo">
      <img src="images/Emanuel_Mardsjo_WU_Logo_design_WT.png" alt="Fast Security Logo" width="95px;">
    </div>
    <div class="desktop-navbar-container">
