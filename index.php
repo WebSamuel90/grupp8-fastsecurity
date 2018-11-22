@@ -41,8 +41,6 @@ require __DIR__.'/header.php';
    </sidebar>
    <!-- END PROGRESSBAR -->
 
-
-
    <!--MOBILE NAVBAR-->
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
