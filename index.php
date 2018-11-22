@@ -44,7 +44,7 @@ require __DIR__.'/header.php';
 
    <!--DESKTOP NAVBAR-->
    <div class="logo">
-     <img src="images/Emanuel_Mardsjo_WU_Logo_design_WT.png" alt="Fast Security Logo" width="90px;">
+     <img src="images/Emanuel_Mardsjo_WU_Logo_design_WT.png" alt="Fast Security Logo" width="95px;">
    </div>
    <div class="desktop-navbar-container">
      <!--img src="" alt="TEST"-->
