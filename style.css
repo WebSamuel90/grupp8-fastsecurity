@@ -275,6 +275,20 @@ body {
     text-decoration: none;
   }
 
+  /*MOBILE LOGO*/
+  .mobile-logo{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    color:white;
+    font-family: "AktivGrotesk-light";
+
+
+  }
+  /*END MOBILE LOGO*/
+
   /*MOBILE POPUP*/
   .mobile-navbar-popup{
     height:80%;
@@ -288,7 +302,7 @@ body {
 
 /*DESKTOP NAVBAR--------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
-  .mobile-navbar-container, .desktop-navbar{
+  .mobile-navbar-container, .mobile-navbar-left, .mobile-navbar-right, .mobile-logo{
     display: none;
   }
   .desktop-navbar-container{
@@ -320,7 +334,7 @@ body {
     z-index: 2;
   }
 
-  /*LOGO*/
+  /*DESKTOP LOGO*/
   .desktop-logo{
     position: fixed;
     padding-top: 3%;
@@ -328,7 +342,7 @@ body {
     z-index: 2;
   }
 }
-/*END LOGO*/
+/*END DESKTOP LOGO*/
 /*END DESKTOP NAVBAR----------------------------------------------------------*/
 
 /* HERO */

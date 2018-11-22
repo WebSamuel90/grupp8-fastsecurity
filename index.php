@@ -42,6 +42,10 @@ require __DIR__.'/header.php';
    <!-- END PROGRESSBAR -->
 
    <!--MOBILE NAVBAR-->
+   <div class="mobile-logo">
+     <p>MENU</p>
+     <img src="images/icons_menu_arrow.svg" alt="Fast Security Logo" width="80px;">
+   </div>
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
