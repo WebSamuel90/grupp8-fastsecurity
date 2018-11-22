@@ -156,6 +156,7 @@ body {
   align-items: center;
   margin-right: 20px;
   line-height: 40px;
+  z-index: 2;
   }
 
   .toggle-signup .plus {
@@ -394,7 +395,6 @@ body {
 .section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light";
   font-weight: 100;
-  font-size: 2.5em;
   line-height: 20px;
   margin: 0;
   padding: 0;
@@ -542,18 +542,8 @@ body {
   width: 152px;
   font-size: 16pt;
   text-transform: uppercase;
+  align-content: space-around;
 }
-
-/* .section .button.details.active {
-  opacity: 1;
-  transition: opacity 0.2s ease;
-  z-index: 1;
-} */
-
-
-
-/* .section .button input[value="Details"].pop-up {
-} */
 
 .section .button input[type="submit"],
 .section .button input[type="button"] {
@@ -590,12 +580,116 @@ body {
   }
   .section .header {
     align-self: flex-start;
-    top: 0;
+    margin-left: 7%;
+    letter-spacing: 2px
   }
 
   .section .article {
     align-self: center;
     width: 50%;
+  }
+  .popup-details{
+    width: 40%;
+    height: 460px;
+    justify-content: space-around;
+  }
+  .popup-details .download-button {
+    padding-bottom: 10px;
+    width: 150px;
+    cursor: pointer;
+  }
+  .section .footer-info {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 21.33px;
+  }
+  .section .footer-info .over,
+  .section .footer-info .under {
+    display: flex;
+    width: 33.33%;
+    height: 250px;
+    margin-top: -150px;
+  }
+  .section .footer {
+    /* vill inte använda z-index!!!!!!!!! */
+    /* z-index: 1; */
+  }
+  .section .footer-info .over p,
+  .section .footer-info .under p {
+    font-size: 20pt;
+  }
+
+  .section .footer-info .over h6,
+  .section .footer-info .under h6 {
+    font-size: 60pt;
+    font-weight: lighter;
+  }
+  .section.one {
+    position: relative;
+  }
+  .section.one .button {
+    position: absolute;
+    top: 29%;;
+    right: 10%;
+  }
+
+  .section.two .header {
+    align-self: flex-end;
+    margin-right: 7%;
+  }
+
+  .section .header h3 {
+    font-size: 9.375em;
+    margin-bottom: -20px;
+  }
+  .section .header h5 {
+    font-size: 2.43em;
+    width: 250px;
+    line-height: 40px;
+    padding-left: 10px;
+  }
+
+  .section .article h5 {
+    font-size: 2.75em;
+    margin-bottom: 25px;
+    align-self: center;
+  }
+
+  .section.two .article h5 {
+    align-self: flex-start;
+  }
+
+  .section .article p {
+    font-size: 1.3125em;
+    line-height: 35px;
+  }
+
+  .section.one .article h5 {
+    width: 584px;
+  }
+
+  .section.one .article p {
+    width: 818px;
+  }
+
+  .section.two .article p{
+    width: 698px;
+  }
+
+  .section.two .article h5 {
+    width: 689px;
+  }
+
+  .section.two .article {
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-top: 20%;
+    margin-left: 7%;
+  }
+  .section .article.left {
+    margin-left: 12%;
   }
 }
 
@@ -604,6 +698,7 @@ body {
 /* CONTENT */
 .content {
   height: 100%;
+  width: 100%;
   background-color: #212121;
   display: flex;
   flex-direction: column;
@@ -618,11 +713,12 @@ body {
 
 .content .title h5 {
   font-size: 2.08em;
-  font-family: "AktivGrotesk-Medium";
+  font-family: "AktivGrotesk-Light";
   color: #fff;
   line-height: normal;
   margin: 0 0 0 38.66px;
   align-self: flex-start;
+  font-weight: lighter;
 }
 
 .content .title hr {
@@ -704,31 +800,101 @@ body {
   object-position: 34% 66%;
 }
 
-/* CONTENT */
+@media screen and (min-width: 768px) {
 
-/* SECTION ONE */
-.section-one {
-  height: 100%;
+  .content .title {
+    width: 500px;
+  }
+
+  .content .title.right {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .content .title.right h5 {
+    margin:  0 29% 0 0 ;
+    align-self: flex-end;
+  }
+
+  .content .title h5 {
+    margin:  0 0 0 29%;
+    align-self: flex-start;
+    width: 283px;
+  }
+
+  .content .title.right h5 {
+    text-align: right;
+  }
+
+  .content .title h5 {
+    font-size: 37pt;
+    text-align: left;
+  }
+
+  .content .title hr {
+    align-self: flex-end;
+    width: 163px;
+  }
+
+  .content .article.right {
+    height: auto;
+    align-self: flex-end;
+    margin-left: 0px;
+    margin-right: 9.2%;
+    margin-top: 100px;
+  }
+
+  .content .article, .content .article.left {
+    height: auto;
+    align-self: flex-start;
+    margin-right: 0px;
+    margin-top: 100px;
+    align-items: center;
+  }
+  .content .article p, .content .article.right p{
+    width: 619px;
+    font-size: 18pt;
+    line-height: 35px;
+  }
+
+  .content .picture.right img{
+    width: 60%;
+    margin-left: 7%;
+  }
+
+  .content .picture.left img{
+    width: 60%;
+    margin-left: 30%;
+  }
+
+  .content.white .picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content.white .picture.right {
+    justify-content: flex-end;
+  }
+
+  .content.white .picture.right img {
+    object-fit: cover;
+    object-position: 10% 90%;
+    width: 60%;
+  }
+
+  .content.white .picture img {
+    width: 80%;
+  }
+
+  .content.white {
+    background-image: linear-gradient(#fff, #B2B2B2);
+  }
 }
-
-.section-one img {
-  object-fit: cover;
-  height: 65%;
-  width: 100%;
-}
-
-.section-one p {
-  padding: 20px 20px 10px 20px;
-}
-
-/* Touching the second child in div */
-.section-one > :nth-child(2){
-  font-weight: bold;
-}
-
-
-/* END SECTION ONE */
-
+/* END CONTENT */
 
 /* GALLERY */
 
