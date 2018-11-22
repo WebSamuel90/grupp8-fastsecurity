@@ -46,7 +46,11 @@ require __DIR__.'/header.php';
    <!--MOBILE NAVBAR-->
    <div class="mobile-navbar-container">
      <div class="mobile-navbar">
-
+       <a href="#">HOME</a>
+       <a href="#">COMPANY</a>
+       <a href="#">STORIES</a>
+       <a href="#">RESERVE</a>
+       <a href="#">AEROMOTIVE</a>
      </div>
    </div>
    <!--END MOBILE NAVBAR-->
@@ -56,7 +60,6 @@ require __DIR__.'/header.php';
      <img src="images/Emanuel_Mardsjo_WU_Logo_design_WT.png" alt="Fast Security Logo" width="95px;">
    </div>
    <div class="desktop-navbar-container">
-     <!--img src="" alt="TEST"-->
      <div class="desktop-navbar">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
