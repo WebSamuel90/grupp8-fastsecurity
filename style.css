@@ -261,6 +261,14 @@ body {
   letter-spacing: 2px;
 }
 
+/*LOGO*/
+.logo{
+  position: fixed;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+/*END LOGO*/
+
 /*END DESKTOP NAVBAR----------------------------------------------------------*/
 
 /* HERO */
