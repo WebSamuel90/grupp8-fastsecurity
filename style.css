@@ -937,7 +937,19 @@ body {
 
 /* FOOTER */
 .footer-of-page {
+  height: 100vh;
+  width: 100vw;
   margin-top: -23px;
   background-color: rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
+
+.footer-of-page form {
+  position: relative;
+}
+
 /* END FOOTER */

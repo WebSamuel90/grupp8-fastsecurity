@@ -236,6 +236,11 @@ require __DIR__.'/header.php';
       <input type="email" name="" placeholder="Email" id="Email" />
       <input type="submit" value="subscribe"/>
     </form>
+    <div class="contact.info">
+      <a href="#">CONTACT US</a>
+      <a href="#">+46 131 800 00</a>
+      <a href="#">info@fsproject.com</a>
+    </div>
   </footer>
  <?php
  require __DIR__.'/footer.php';
