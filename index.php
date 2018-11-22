@@ -79,7 +79,9 @@ require __DIR__.'/header.php';
 
     <!-- 01 NEW ERA DESIGN-->
     <section class="section one">
+      <article class="a one">
         <article class="article one">
+          <img src="images/Logo_design_WT_text.png" />
           <h5><?= $lang['01'][0][0] ?></h5>
           <p><?= $lang['01'][0][1] ?></p>
         </article>
@@ -90,6 +92,7 @@ require __DIR__.'/header.php';
         <footer class="footer">
           <img src="images/Preview_19.png" />
         </footer>
+      </article>
 
         <div class="footer-info">
           <div class="over">
