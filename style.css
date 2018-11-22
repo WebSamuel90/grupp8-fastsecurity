@@ -237,23 +237,53 @@ body {
 
 /*MOBILE NAVBAR---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
-  .desktop-navbar-container, .desktop-navbar, .desktopLogo{
+  .desktop-navbar-container, .desktop-navbar, .desktop-logo{
     display:none;
   }
+  .mobile-navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    height: 0;
+    overflow: hidden;
+    width:100%;
+    z-index: 2;
+    opacity: 0;
+  }
+  .mobile-navbar-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    z-index: 2;
+  }
+  .mobile-navbar-left a{
+    text-decoration: none;
+  }
+  .mobile-navbar-right{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    z-index:2;
+  }
+  .mobile-navbar-right a{
+    text-decoration: none;
+  }
+
+  /*MOBILE POPUP*/
+  .mobile-navbar-popup{
+    height:80%;
+    background-color: white;
+    opacity: 1;
+
+  }
+  /*END MOBILE POPUP*/
 }
-
-.mobile-navbar-container{
-
-}
-.mobile-navbar{
-
-}
-/*MOBILE POPUP*/
-.mobile-navbar-popup{
-
-}
-/*END MOBILE POPUP*/
-
 /*END MOBILE NAVBAR-----------------------------------------------------------*/
 
 /*DESKTOP NAVBAR--------------------------------------------------------------*/
@@ -291,7 +321,7 @@ body {
   }
 
   /*LOGO*/
-  .desktopLogo{
+  .desktop-logo{
     position: fixed;
     padding-top: 3%;
     padding-left: 5%;

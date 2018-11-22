@@ -45,10 +45,12 @@ require __DIR__.'/header.php';
 
    <!--MOBILE NAVBAR-->
    <div class="mobile-navbar-container">
-     <div class="mobile-navbar">
+     <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
        <a href="#">STORIES</a>
+     </div>
+     <div class="mobile-navbar-right">
        <a href="#">RESERVE</a>
        <a href="#">AEROMOTIVE</a>
      </div>
@@ -56,7 +58,7 @@ require __DIR__.'/header.php';
    <!--END MOBILE NAVBAR-->
 
    <!--DESKTOP NAVBAR-->
-   <div class="desktopLogo">
+   <div class="desktop-logo">
      <img src="images/Emanuel_Mardsjo_WU_Logo_design_WT.png" alt="Fast Security Logo" width="95px;">
    </div>
    <div class="desktop-navbar-container">
