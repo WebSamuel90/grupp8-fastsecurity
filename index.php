@@ -43,7 +43,7 @@ require __DIR__.'/header.php';
    <!--MOBILE NAVBAR-->
    <div class="mobile-logo">
      <p>MENU</p>
-     <img src="images/icons_menu_arrow.svg" alt="Fast Security Logo" width="50px;">
+     <img src="images/icons_menu_arrow.svg" alt="Fast Security Logo" width="35px;">
    </div>
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
