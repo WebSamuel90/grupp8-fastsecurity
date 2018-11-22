@@ -247,20 +247,32 @@ body {
   padding-top: 4%;
   padding-left: 15%;
   padding-right: 15%;
+  z-index: 2;
 }
 .desktop-navbar{
   display: flex;
   justify-content: space-around;
   width: 100%;
-  font-size: 2.8vh;
+  font-size: 3vh;
+  z-index: 2;
 }
 .desktop-navbar a{
   color: white;
   font-family: "AktivGrotesk-Light";
   text-decoration: none;
-  font-weight: 1000;
+  font-weight: 900;
   letter-spacing: 2px;
+  z-index: 2;
 }
+
+/*LOGO*/
+.logo{
+  position: fixed;
+  padding-top: 3%;
+  padding-left: 5%;
+  z-index: 2;
+}
+/*END LOGO*/
 
 /*END DESKTOP NAVBAR----------------------------------------------------------*/
 
