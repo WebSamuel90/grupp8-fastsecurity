@@ -40,11 +40,10 @@ require __DIR__.'/header.php';
      <progress class="progressbar" value="0" max="100"></progress>
    </sidebar>
    <!-- END PROGRESSBAR -->
-
    <!--MOBILE NAVBAR-->
    <div class="mobile-logo">
      <p>MENU</p>
-     <img src="images/icons_menu_arrow.svg" alt="Fast Security Logo" width="80px;">
+     <img src="images/icons_menu_arrow.svg" alt="Fast Security Logo" width="50px;">
    </div>
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
