@@ -156,6 +156,7 @@ body {
   align-items: center;
   margin-right: 20px;
   line-height: 40px;
+  z-index: 2;
   }
 
   .toggle-signup .plus {
@@ -571,7 +572,7 @@ body {
   }
   .section .header {
     align-self: flex-start;
-    margin-left: 100px;
+    margin-left: 7%;
     letter-spacing: 2px
   }
 
@@ -604,7 +605,8 @@ body {
     margin-top: -150px;
   }
   .section .footer {
-    z-index: 1;
+    /* vill inte använda z-index!!!!!!!!! */
+    /* z-index: 1; */
   }
   .section .footer-info .over p,
   .section .footer-info .under p {
@@ -627,37 +629,59 @@ body {
 
   .section.two .header {
     align-self: flex-end;
-    margin-right: 100px;
+    margin-right: 7%;
   }
 
   .section .header h3 {
-    font-size: 115pt;
+    font-size: 9.375em;
     margin-bottom: -20px;
   }
   .section .header h5 {
-    font-size: 28pt;
+    font-size: 2.43em;
     width: 250px;
     line-height: 40px;
     padding-left: 10px;
   }
 
   .section .article h5 {
-    font-size: 32pt;
+    font-size: 2.75em;
     margin-bottom: 25px;
+    align-self: center;
   }
+
+  .section.two .article h5 {
+    align-self: flex-start;
+  }
+
   .section .article p {
-    font-size: 18pt;
+    font-size: 1.3125em;
     line-height: 35px;
   }
-  .section.two .article p, .section.two .article h5 {
-    width: 700px;
+
+  .section.one .article h5 {
+    width: 584px;
+  }
+
+  .section.one .article p {
+    width: 818px;
+  }
+
+  .section.two .article p{
+    width: 698px;
+  }
+
+  .section.two .article h5 {
+    width: 689px;
   }
 
   .section.two .article {
     align-items: flex-start;
     align-self: flex-start;
-    margin-top: 325px;
-    margin-left: 100px;
+    margin-top: 20%;
+    margin-left: 7%;
+  }
+  .section .article.left {
+    margin-left: 12%;
   }
 }
 
@@ -783,13 +807,14 @@ body {
   }
 
   .content .title.right h5 {
-    margin:  0 150px 0 0 ;
+    margin:  0 29% 0 0 ;
     align-self: flex-end;
   }
 
   .content .title h5 {
-    margin:  0 0 0 150px ;
+    margin:  0 0 0 29%;
     align-self: flex-start;
+    width: 283px;
   }
 
   .content .title.right h5 {
@@ -797,20 +822,20 @@ body {
   }
 
   .content .title h5 {
-    font-size: 40pt;
+    font-size: 37pt;
     text-align: left;
   }
 
   .content .title hr {
     align-self: flex-end;
-    width: 183px;
+    width: 163px;
   }
 
   .content .article.right {
     height: auto;
     align-self: flex-end;
     margin-left: 0px;
-    margin-right: 110px;
+    margin-right: 9.2%;
     margin-top: 100px;
   }
 
@@ -822,19 +847,43 @@ body {
     align-items: center;
   }
   .content .article p, .content .article.right p{
-    width: 600px;
+    width: 619px;
     font-size: 18pt;
     line-height: 35px;
   }
 
   .content .picture.right img{
     width: 60%;
-    margin-left: 100px;
+    margin-left: 7%;
   }
 
   .content .picture.left img{
     width: 60%;
     margin-left: 30%;
+  }
+
+  .content.white .picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content.white .picture.right {
+    justify-content: flex-end;
+  }
+
+  .content.white .picture.right img {
+    object-fit: cover;
+    object-position: 10% 90%;
+    width: 60%;
+  }
+
+  .content.white .picture img {
+    width: 80%;
+  }
+
+  .content.white {
+    background-image: linear-gradient(#fff, #B2B2B2);
   }
 }
 /* END CONTENT */
