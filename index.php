@@ -75,47 +75,49 @@ require __DIR__.'/header.php';
 
     <!-- 01 NEW ERA DESIGN-->
     <section class="section one">
-      <article class="article">
-        <h5><?= $lang['01'][0][0] ?></h5>
-        <p><?= $lang['01'][0][1] ?></p>
-      </article>
-      <article class="header">
-        <h3>01</h3>
-        <h5><?= $lang['01'][0][2] ?></h5>
-      </article>
-      <article class="footer">
-        <img src="images/Preview_19.png" />
-      </article>
-      <article class="footer-info">
-        <div class="over">
-          <p><?= $lang['01'][0][3] ?></p>
-          <h6>900</h6>
-          <p><?= $lang['01'][0][4] ?></p>
-        </div>
-        <div class="under">
-          <p>under</p>
-          <h6>2,5</h6>
-          <p>SEC/O-60 MPH</p>
-        </div>
-        <div class="over">
-          <p>over</p>
-          <h6>200</h6>
-          <p>MPH</p>
-        </div>
-      </article>
-      <article class="button details">
-        <input type="submit" value="<?= $lang['details-button']; ?>" />
-      </article>
+        <article class="article one">
+          <h5><?= $lang['01'][0][0] ?></h5>
+          <p><?= $lang['01'][0][1] ?></p>
+        </article>
+        <article class="header">
+          <h3>01</h3>
+          <h5><?= $lang['01'][0][2] ?></h5>
+        </article>
+        <footer class="footer">
+          <img src="images/Preview_19.png" />
+        </footer>
 
-      <section class="content">
-        <article class="title right">
+        <div class="footer-info">
+          <div class="over">
+            <p><?= $lang['01'][0][3] ?></p>
+            <h6>900</h6>
+            <p><?= $lang['01'][0][4] ?></p>
+          </div>
+          <div class="under">
+            <p>under</p>
+            <h6>2,5</h6>
+            <p>SEC/O-60 MPH</p>
+          </div>
+          <div class="over">
+            <p>over</p>
+            <h6>200</h6>
+            <p>MPH</p>
+          </div>
+        </div>
+      <div class="button details">
+        <input type="submit" value="<?= $lang['details-button']; ?>" />
+      </div>
+
+
+      <article class="content">
+        <div class="title right">
           <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
-        </article>
-        <article class="article right">
+        </div>
+        <div class="article right">
           <p><?= $lang['01'][1][1] ?></p>
-        </article>
-      </section>
+        </div>
+      </article>
 
         <!-- GALLERY-->
       <section class="gallery">
@@ -131,18 +133,18 @@ require __DIR__.'/header.php';
       </section>
         <!--END GALLERY-->
 
-      <section class="content">
-        <article class="title">
+      <article class="content">
+        <div class="title">
           <h5><?= $lang['01'][2][0] ?></h5>
           <hr />
-        </article>
-        <article class="article left">
+        </div>
+        <div class="article left">
           <p><?= $lang['01'][2][1] ?></p>
-        </article>
-        <article class="picture">
+        </div>
+        <div class="picture">
           <img src="images/Preview_16.jpg" alt="">
-        </article>
-      </section>
+        </div>
+      </article>
     </section>
 
     <!-- END 01 NEW ERA DESIGN -->
