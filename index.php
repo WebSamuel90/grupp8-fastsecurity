@@ -95,15 +95,15 @@ require __DIR__.'/header.php';
     <!-- 01 NEW ERA DESIGN-->
     <section class="section one">
       <article class="a one">
-        <article class="article one">
+        <div class="article one">
           <img src="images/Logo_design_WT_text.png" />
           <h5><?= $lang['01'][0][0] ?></h5>
           <p><?= $lang['01'][0][1] ?></p>
-        </article>
-        <article class="header">
+        </div>
+        <div class="header">
           <h3>01</h3>
           <h5><?= $lang['01'][0][2] ?></h5>
-        </article>
+        </div>
         <footer class="footer">
           <img src="images/Preview_19.png" />
         </footer>
@@ -181,14 +181,14 @@ require __DIR__.'/header.php';
 
   <!-- 02 ENERGY -->
   <section class="section two">
-    <article class="header">
+    <div class="header">
       <h3>02</h3>
       <h5><?= $lang['02'][0][0] ?></h5>
-    </article>
-    <article class="article">
+    </div>
+    <div class="article two">
       <h5><?= $lang['02'][0][1] ?></h5>
       <p><?= $lang['02'][0][2] ?></p>
-    </article>
+    </div>
 
     <section class="content">
       <article class="title right">
