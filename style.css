@@ -791,7 +791,7 @@ body {
   }
   .section.one .button {
     position: absolute;
-    top: 350%;
+    top: 350vh;
     right: 10%;
     z-index: 2;
   }
@@ -1078,6 +1078,7 @@ body {
   .content .article p, .content .article.right p{
     font-size: 18pt;
     line-height: 35px;
+    padding-bottom: 2%;
   }
 
   .content .picture.right img{

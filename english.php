@@ -23,13 +23,10 @@
               ],
               [
                 'Commune. Drive',
-                'Designed for you, is the on-board assistant
-                Artemys that not only tracks personal usage
-                patterns and behaviors but naturally communicates
-                your everyday digital life. Have a talk and the
-                smart AI will soon adjust, queuing the right track,
-                setting up the right temperature or
-                shifting color scheme.'
+                'MEET ARTEMYS',
+                'Designed for you, is the on-board assistant Artemys that not only tracks personal usage patterns and behaviors but naturally communicates your everyday digital life.',
+                'EXCLUSIONARY APPENDAGE',
+                'Expereince the joy of freedom with Fast Security wearables. Ask Artemys to pull up on the driveway and unlock the cardoors with a flick of the wrist carrying the exclusive FS watch.'
               ],
             ],
     '02' => [

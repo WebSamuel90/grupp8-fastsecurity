@@ -161,7 +161,8 @@ require __DIR__.'/header.php';
           <hr />
         </div>
         <div class="article left">
-          <p><?= $lang['01'][2][1] ?></p>
+          <p><?= $lang['01'][2][1] ?><br /><?= $lang['01'][2][2] ?></p>
+          <p><?= $lang['01'][2][3] ?><br /><?= $lang['01'][2][4] ?></p>
         </div>
         <div class="picture">
           <img src="images/Preview_16.jpg" alt="">
