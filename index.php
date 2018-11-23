@@ -204,7 +204,7 @@ require __DIR__.'/header.php';
       </section>
 
       <section class="content">
-        <article class="title">
+        <article class="title left">
           <h5><?= $lang['02'][0][5] ?></h5>
           <hr />
         </article>
