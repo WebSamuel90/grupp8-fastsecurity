@@ -1280,40 +1280,35 @@ body {
   flex-wrap: wrap;
 }
 
-.stroke-left {
+.stroke {
   background-color: black;
   height: 5px;
-  width: 25%;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-}
-
-.stroke-right {
-  background-color: black;
-  height: 5px;
-  width: 25%;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  width: 100%;
+  z-index: 1;
 }
 
 .footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 25%;
-  flex-wrap: nowrap;
+  z-index: 2;
 }
 
 .footer-logo img {
   width: 50%;
 }
 
-.news {
-  width: 100%;
-}
-
 .news-form {
-  width: 100%;
+  width: 50%;
 }
 
 .contact-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
 }
+
+
 /* END FOOTER */

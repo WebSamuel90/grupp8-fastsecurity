@@ -268,27 +268,26 @@ require __DIR__.'/header.php';
 
   <!-- FOOTER -->
   <footer class="footer-of-page">
-    <div class="stroke-left">
+    <div class="stroke">
 
     </div>
     <div class="footer-logo">
       <img src="images/Emanuel_Mardsjo_WU_Logo_design_BT.png" alt="">
-    </div>
-    <div class="stroke-right">
-
-    </div>
-    <div class="news">
-      <h5>Receive the Latest FS News</h5>
+      <h3>FAST SECURITY</h3>
     </div>
     <div class="news-form">
       <form>
+        <h5>Receive the Latest FS News</h5>
         <input type="email" name="" placeholder="Email" id="Email" />
+        <br><br>
         <input type="submit" value="subscribe"/>
       </form>
     </div>
     <div class="contact-info">
       <a href="#">CONTACT US</a>
+      <br><br>
       <a href="#">+46 131 800 00</a>
+      <br><br>
       <a href="#">info@fsproject.com</a>
     </div>
   </footer>
