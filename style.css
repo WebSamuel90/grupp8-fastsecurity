@@ -280,6 +280,8 @@ body {
     flex-direction: column;
     width:100%;
     z-index: 2;
+
+    border-right: 1px solid gray;
   }
   .mobile-navbar-left a{
     text-decoration: none;
