@@ -466,6 +466,13 @@ body {
   justify-content: space-around;
 }
 
+.section.two {
+  background-image: url("./images/cellava-energy_background_mobile.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 .a.one {
   background-image: url("./images/light-beams-mobile.jpg");
   background-repeat: no-repeat;
