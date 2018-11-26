@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
     <h2><?= $lang['popup-details']; ?></h2>
-    <img src="images/Download-button-01.svg" class="download-button"/>
+    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
    </sidebar>
  </div>
 
@@ -37,7 +37,7 @@ require __DIR__.'/header.php';
 
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
-     <progress class="progressbar" value="0" max="100"></progress>
+     <progress class="progressbar" value="0" max="300"></progress>
    </sidebar>
    <!-- END PROGRESSBAR -->
    <!--MOBILE NAVBAR-->
