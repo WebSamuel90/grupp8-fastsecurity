@@ -49,11 +49,23 @@ require __DIR__.'/header.php';
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
+          <div class="mobile-navbar-left-style2">
+            <a href="#">PHILOSOPHY</a>
+            <a href="#">LEADERSHIP</a>
+          </div>
        <a href="#">STORIES</a>
+       <a href="#">RESERVE</a>
+
      </div>
      <div class="mobile-navbar-right">
-       <a href="#">RESERVE</a>
-       <a href="#">AEROMOTIVE</a>
+       <a href="#">VESSEL</a>
+          <div class="mobile-navbar-right-style2">
+            <a href="#">GALLERY</a>
+            <a href="#">HOOVER</a>
+            <a href="#">ENERGY</a>
+            <a href="#">FUEL</a>
+            <a href="#">DETAILS</a>
+          </div>
      </div>
    </div>
    <!--END MOBILE NAVBAR-->

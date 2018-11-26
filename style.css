@@ -280,11 +280,17 @@ body {
     flex-direction: column;
     width:100%;
     z-index: 2;
-
     border-right: 1px solid gray;
+    font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-left a{
     text-decoration: none;
+  }
+  .mobile-navbar-left-style2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-right{
     display: flex;
@@ -293,9 +299,16 @@ body {
     flex-direction: column;
     width:100%;
     z-index:2;
+    font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-right a{
     text-decoration: none;
+  }
+  .mobile-navbar-right-style2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "AktivGrotesk-light";
   }
 
   /*MOBILE LOGO*/
@@ -326,7 +339,8 @@ body {
 
 /*DESKTOP NAVBAR--------------------------------------------------------------*/
 @media screen and (min-width: 768px) {
-  .mobile-navbar-container, .mobile-navbar-left, .mobile-navbar-right, .mobile-logo{
+  .mobile-navbar-container, .mobile-navbar-left, .mobile-navbar-right, .mobile-logo,
+  .mobile-navbar-left-style2, .mobile-navbar-right-style2{
     display: none;
   }
   .desktop-navbar-container{
