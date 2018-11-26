@@ -3,53 +3,48 @@
 declare(strict_types=1);
 
 $lang = [
-  'hero' => ['Ex', 'pedience defined', 'pand your horizons', 'perience aeromotive perfection'],
+  'hero' => ['Up', 'täck horisonten', 'lev aeromobilen', 'finningarnas <br />uppfinning'],
   '01' => [
             [
-            'An epoch in the making',
-            'Many people still think Saab makes cars, and that is correct.
-              We are on the go for the future. Saab is very much alive and well,
-              as one of the world’s most innovative companies. And now we are
-              proud to present our car for the future: FastSecurity, FS.',
-            'new era design',
-            'over',
-            'Mile range (epa)',
+            'UPPTAKTEN TILL EN EPOK ',
+            'Fast Securitys era är påväg raka vägen ner i historieböckerna. Denna högkvalitativa bil, med sin första klassiga komfort för med sig en reformering till trafiken som vi känner till den. Y-axelns tid är här.',
+            'EN DESIGN-EPOK',
+            'Över',
+            'MILSINTERVALL',
+            'Under',
+            'SEK/0-60 MPH',
+            'Över',
+            'MPH',
             ],
             [
-            'Aeromotive Luxury',
-            'A stunning view deserves sublime first class comfort.
-              The interior’s masterpiece-like proportions of the FS 0.1
-              are sculpted to deliver expansive convenience to driver and
-              passenger alike. '
+            'Ett mästerverk <br />till Aeromobil',
+            'En vacker utsick förtjänar komfort av allra högsta grad. Interiörens skulpturella proportioner är designade för att tillgodose extravagant bekvämlighet till både förare likväl passagerare.'
             ],
             [
-              'Commune. Drive',
-              'Designed for you, is the on-board assistant
-              Artemys that not only tracks personal usage
-              patterns and behaviors but naturally communicates
-              your everyday digital life. Have a talk and the
-              smart AI will soon adjust, queuing the right track,
-              setting up the right temperature or
-              shifting color scheme.'
+              'Förmedla. Kör',
+              'MÖT ARTEMYS',
+              'Ombordsassistenten Artmys skräddarsyr din FS-upplevelse genom att lära känna dig och dina behov och kanaliserar sedan ditt digitala vardagsliv på ett naturligt sätt.',
+              'EXTRAORDINÄRA TILLBEHÖR',
+              'Upplev friheten som kommer med Fast Securitys wearables. Be Artemys glida in på uppfarten och lås upp dörrarna genom ett fingerknäpp då du bär den exklusiva FS-klockan.',
             ],
           ],
   '02' => [
             [
-            'energi',
-            'Engines powered by cellava',
-            'Fast Security’s proprietary fuel changes performance standards by means unmeasurable. The pure bio-mass enforces an unparalleled engine capacity with little environmental strain.',
-            'Cellava Unleashed',
-            'FS 0.1’s top-class engines house unrivaled energy capacity. The integrated core reactor, developed entirely in-house, fuse the very elements of existence using Cellava — a supreme source of energy. To put it short: a system that turns impossibilities into possibilities.',
-            'Fly far, far away',
-            'The next level engine technology developed for the FS 0.1 enables 1000 miles of flying range. Take wing and go wherever the winds may guide you — running dry on gas is a vague prospect with the FS 0.1.'
+            'ENERGI',
+            'MOTORER DRIVNA AV CELLAVA',
+            'Fast Securitys proprietära bränsle kommer att förändra prestandastandard världen över. Den rena biomassan genererar ojämförbar motorkapacitet utan någon vidare miljöpåverkan.',
+            'Avfyra Cellavan',
+            'FS 1.0:s topklassmotorer är rum för energikapacitet utand dess like. Den integrerade kärnreaktorn som utvecklats helt in-house, fuserar grundelementen genom Cellava — en kraftfull energikälla. Kort och gott: detta är ett system som omvandlar omöjligheter till möjligheter.',
+            'Flyg långt, långt bort',
+            'Nästa nivåns teknologi som utvecklats för FS 1.0 bäddar för runt 1000 mils långa intervaller. Stig upp med vindarna och låt dem leda dig — tiden då man oroade sig för bränsletanken är förbi tack vare FS 1.0.'
           ],
         ],
   '03' => [
-          'flyga',
-          'Challenge the Gales',
-          'Hugging the wind currents is not a risk thanks to FS 0.1’s perfectly calibrated air glide turbine. Swiftly reaching top speeds, the FS 0.1’s advanced accelerator appendage, meticulous wind sheering dimensions, lightweight composition and gravity defying air pressure technology deliver accurate steering and a smooth ride.',
-          'Guardian Angel',
-          'Artemys, the seamlessly integrated AI to FS 0.1’s security system, keeps you safe and acts like a real-time guardian. The practically neuron-like AI connection comes with all round vision-tracking, GPS monitoring and  sensor based safety-measures. Artemys provides comfort on levels way beyond the tangible.'
+          'Lyft',
+          'Utmana vinden',
+          'Att krama vinden är sällan en risk tack vare FS 1.0’s perfekt kalibrerade luftglidningsturbin. Nå topphastigheter snabbt tack vare avancerade acceleratorer, vindskärande dimensioner, den lättvikta samansättningen och gravitationsnekande lufttrycksmotorer som ger dig kontroll över ratten och en mjuk åktur.',
+          'Skydds-<br />ängeln',
+          'Den, till säkerhetssystemet sömlöst integrerade AI:n Artemys beskyddar dig och ter sig som en livvakt. Det praktiskt taget neuronlika AI-kopplingarna förser aeromobilen med ett 180-gradigt synfält, GPS-övervakning och sensorbaserade säkerhetsåtgärder. Artemys skänker dig allt vad trygghet innebär.'
         ],
 
 'popup' => [

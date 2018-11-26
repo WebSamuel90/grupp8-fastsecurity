@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
     <h2><?= $lang['popup-details']; ?></h2>
-    <img src="images/Download-button-01.svg" class="download-button"/>
+    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
    </sidebar>
  </div>
 
@@ -37,7 +37,7 @@ require __DIR__.'/header.php';
 
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
-     <progress class="progressbar" value="0" max="100"></progress>
+     <progress class="progressbar" value="0" max="300"></progress>
    </sidebar>
    <!-- END PROGRESSBAR -->
    <!--MOBILE NAVBAR-->
@@ -49,11 +49,23 @@ require __DIR__.'/header.php';
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
+          <div class="mobile-navbar-left-style2">
+            <a href="#">PHILOSOPHY</a>
+            <a href="#">LEADERSHIP</a>
+          </div>
        <a href="#">STORIES</a>
+       <a href="#">RESERVE</a>
+
      </div>
      <div class="mobile-navbar-right">
-       <a href="#">RESERVE</a>
-       <a href="#">AEROMOTIVE</a>
+       <a href="#">VESSEL</a>
+          <div class="mobile-navbar-right-style2">
+            <a href="#">GALLERY</a>
+            <a href="#">HOOVER</a>
+            <a href="#">ENERGY</a>
+            <a href="#">FUEL</a>
+            <a href="#">DETAILS</a>
+          </div>
      </div>
    </div>
    <!--END MOBILE NAVBAR-->
@@ -116,14 +128,14 @@ require __DIR__.'/header.php';
             <p><?= $lang['01'][0][4] ?></p>
           </div>
           <div class="under">
-            <p>under</p>
+            <p><?= $lang['01'][0][5] ?></p>
             <h6>2,5</h6>
-            <p>SEC/O-60 MPH</p>
+            <p><?= $lang['01'][0][6] ?></p>
           </div>
           <div class="over">
-            <p>over</p>
+            <p><?= $lang['01'][0][7] ?></p>
             <h6>200</h6>
-            <p>MPH</p>
+            <p><?= $lang['01'][0][8] ?></p>
           </div>
         </div>
       <div class="button details">
@@ -164,9 +176,6 @@ require __DIR__.'/header.php';
           <p><?= $lang['01'][2][1] ?><br /><?= $lang['01'][2][2] ?></p>
           <p><?= $lang['01'][2][3] ?><br /><?= $lang['01'][2][4] ?></p>
         </div>
-        <div class="picture">
-          <img src="images/Preview_16.jpg" alt="">
-        </div>
       </article>
     </section>
 
@@ -196,14 +205,16 @@ require __DIR__.'/header.php';
 
   <!-- 02 ENERGY -->
   <section class="section two">
-    <div class="header">
-      <h3>02</h3>
-      <h5><?= $lang['02'][0][0] ?></h5>
-    </div>
-    <div class="article two">
-      <h5><?= $lang['02'][0][1] ?></h5>
-      <p><?= $lang['02'][0][2] ?></p>
-    </div>
+    <article class="bgpic">
+      <div class="header">
+        <h3>02</h3>
+        <h5><?= $lang['02'][0][0] ?></h5>
+      </div>
+      <div class="article two">
+        <h5><?= $lang['02'][0][1] ?></h5>
+        <p><?= $lang['02'][0][2] ?></p>
+      </div>
+    </article>
 
     <section class="content">
       <article class="title right">
