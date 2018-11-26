@@ -170,6 +170,20 @@ require __DIR__.'/header.php';
       </article>
     </section>
 
+    <!-- SECOND GALLERY-->
+  <section class="second-gallery">
+    <div class="box big">
+      <img src="images/Render_05.jpg" alt="">
+    </div>
+    <div class="box">
+      <img  src="images/Render_06.jpg" alt="">
+    </div>
+    <div class="box">
+      <img src="images/Render_08.jpg" alt="">
+    </div>
+  </section>
+    <!--END SECOND GALLERY-->
+
     <!-- END 01 NEW ERA DESIGN -->
 
 
@@ -254,11 +268,28 @@ require __DIR__.'/header.php';
 
   <!-- FOOTER -->
   <footer class="footer-of-page">
-    <h5>Receive the Latest FS News</h5>
-    <form class="">
-      <input type="email" name="" placeholder="Email" id="Email" />
-      <input type="submit" value="subscribe"/>
-    </form>
+    <div class="stroke">
+
+    </div>
+    <div class="footer-logo">
+      <img src="images/Emanuel_Mardsjo_WU_Logo_design_BT.png" alt="">
+      <h3>FAST SECURITY</h3>
+    </div>
+    <div class="news-form">
+      <form>
+        <h5>Receive the Latest FS News</h5>
+        <input type="email" name="" placeholder="Email" id="Email" />
+        <br><br>
+        <input type="submit" value="subscribe"/>
+      </form>
+    </div>
+    <div class="contact-info">
+      <a href="#">CONTACT US</a>
+      <br><br>
+      <a href="#">+46 131 800 00</a>
+      <br><br>
+      <a href="#">info@fsproject.com</a>
+    </div>
   </footer>
  <?php
  require __DIR__.'/footer.php';
