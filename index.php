@@ -116,14 +116,14 @@ require __DIR__.'/header.php';
             <p><?= $lang['01'][0][4] ?></p>
           </div>
           <div class="under">
-            <p>under</p>
+            <p><?= $lang['01'][0][5] ?></p>
             <h6>2,5</h6>
-            <p>SEC/O-60 MPH</p>
+            <p><?= $lang['01'][0][6] ?></p>
           </div>
           <div class="over">
-            <p>over</p>
+            <p><?= $lang['01'][0][7] ?></p>
             <h6>200</h6>
-            <p>MPH</p>
+            <p><?= $lang['01'][0][8] ?></p>
           </div>
         </div>
       <div class="button details">

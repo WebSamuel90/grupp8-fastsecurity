@@ -13,6 +13,10 @@
               'new era design',
               'over',
               'Mile range (EPA)',
+              'under',
+              'SEC/O-60 MPH',
+              'over',
+              'MPH',
               ],
               [
               'Aeromotive Luxury',

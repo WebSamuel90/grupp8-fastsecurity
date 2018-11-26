@@ -386,7 +386,7 @@ body {
 .sentence {
   font-family: "AktivGrotesk-Light";
   /* font-weight: 100; */
-  font-size: 16pt;
+  font-size: 14pt;
   letter-spacing: 0.67em;
   line-height: 22pt;
   width: 50%;
@@ -451,6 +451,8 @@ body {
 @media screen and (min-width: 768px) {
   .sentence {
     justify-content: flex-end;
+    font-size: 16pt;
+    letter-spacing: 0.67em;
   }
 
 }
