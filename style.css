@@ -468,11 +468,12 @@ body {
   justify-content: space-around;
 }
 
-.section.two {
+.section.two .bgpic {
   background-image: url("./images/cellava-energy_background_mobile.png");
-  background-size: contain;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .a.one {
@@ -522,6 +523,7 @@ body {
   margin: 0;
   padding: 0;
   color: #5c5c5c;
+  margin-top: 30%;
 }
 
 .section .article {
@@ -530,7 +532,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 117.33px 30px 146.66px 30px;
+  padding: 10% 5% 10% 5%;
   width: 100%;
 }
 
@@ -828,16 +830,19 @@ body {
     margin-right: 7%;
   }
 
-  .section.two {
+  .section.two .bgpic {
     background-image: url("./images/cellava-energy_background_cropped.png");
-    background-size: contain;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
   }
 
   .section .header h3 {
     font-size: 9.375em;
     margin-bottom: -20px;
+    margin-top: 35%;
   }
   .section .header h5 {
     font-size: 2.43em;
@@ -861,7 +866,7 @@ body {
     font-size: 1.3125em;
     line-height: 35px;
     margin: 0;
-    width: 50%;
+    width: 69%;
   }
 
   .section.one .article h5 {
@@ -907,11 +912,11 @@ body {
     background: linear-gradient(#1b1b1b 0%,#1b1b1b 60%,#212121 60%,#212121 100%);
   }
 
-  .section.two .article {
+  .section.two .bgpic .article {
     align-items: flex-start;
-    /* align-self: flex-start; */
-    /* margin-top: 20%; */
-    /* margin-left: 7%; */
+    align-self: flex-start;
+    margin-top: 20%;
+    margin-left: 7%;
   }
   .section .article.left {
     padding-left: 12%;
@@ -933,6 +938,7 @@ body {
 
 .content .title {
   align-self: flex-start;
+  margin-top: 10%;
 }
 
 
@@ -959,9 +965,9 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 0 38.66px 0 97.33px;
-  margin-top: 38.66px;
-  margin-bottom: 70.66px;
+  padding: 0 7% 0 10%;
+  margin-top: 10%;
+  margin-bottom: 18%;
 }
 
 .content .article p {

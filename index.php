@@ -193,14 +193,16 @@ require __DIR__.'/header.php';
 
   <!-- 02 ENERGY -->
   <section class="section two">
-    <div class="header">
-      <h3>02</h3>
-      <h5><?= $lang['02'][0][0] ?></h5>
-    </div>
-    <div class="article two">
-      <h5><?= $lang['02'][0][1] ?></h5>
-      <p><?= $lang['02'][0][2] ?></p>
-    </div>
+    <article class="bgpic">
+      <div class="header">
+        <h3>02</h3>
+        <h5><?= $lang['02'][0][0] ?></h5>
+      </div>
+      <div class="article two">
+        <h5><?= $lang['02'][0][1] ?></h5>
+        <p><?= $lang['02'][0][2] ?></p>
+      </div>
+    </article>
 
     <section class="content">
       <article class="title right">
