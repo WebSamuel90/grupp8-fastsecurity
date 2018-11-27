@@ -945,11 +945,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 
 .footer-of-page form {
-  position: relative;
+  
 }
 
 /* END FOOTER */
