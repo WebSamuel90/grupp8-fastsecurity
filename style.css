@@ -848,13 +848,14 @@ body {
   .section .header h3 {
     font-size: 9.375em;
     margin-bottom: -20px;
-    margin-top: -8%;
+    margin-top: 7%;
   }
   .section .header h5 {
     font-size: 2.43em;
     width: 250px;
     line-height: 40px;
     padding-left: 10px;
+    margin-top: 0;
   }
 
   .section .article h5 {
@@ -1144,6 +1145,7 @@ body {
     object-fit: cover;
     object-position: 10% 90%;
     width: 60%;
+    height: auto;
   }
 
   .content.white .picture img {
@@ -1304,7 +1306,7 @@ body {
 /* FOOTER */
 .footer-of-page {
   margin-top: -23px;
-  background-color: rgb(211, 211, 211);
+  background-color: #B2B2B2;
   height: 100vh;
   width: 100vw;
   display: flex;
