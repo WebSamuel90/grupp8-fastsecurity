@@ -1386,10 +1386,6 @@ body {
   flex-direction: column;
 }
 
-.footer-form {
-
-}
-
 .footer-center {
   height: 100%;
   width: 30%;
@@ -1397,6 +1393,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media img {
+  height: 12%;
+  width: 12%;
+  padding: 0px 5px 0px 5px;
 }
 
 .footer-right {
