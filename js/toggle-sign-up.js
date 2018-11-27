@@ -10,14 +10,21 @@ const arrowImg = document.querySelector('.popup-signup img')
 
 toggle.addEventListener('click', () => {
   popup.classList.toggle('active');
+  setTimeout(function(){
+    sidebar.classList.add('white');
+    arrowImg.src = 'images/icons_menu_arrow_active.svg';
+}, 1200);
   toggle.classList.toggle('active');
   form.reset();
 })
 
-sidebar.addEventListener('click', (e) => {
-  sidebar.classList.add('white');
-  arrowImg.src = 'images/icons_menu_arrow_active.svg';
-})
+// sidebar.addEventListener('DOMContentLoaded', (e) => {
+//   setTimeout(function(){
+//     sidebar.classList.add('white');
+//     arrowImg.src = 'images/icons_menu_arrow_active.svg';
+// }, 2000);
+//
+// })
 
 toggle.addEventListener('click', (e) => {
   sidebar.classList.remove('white');
