@@ -84,6 +84,14 @@ require __DIR__.'/header.php';
        <a href="#">AEROMOTIVE</a>
      </div>
    </div>
+   <div class="desktop-language-selector">
+     <form class="language">
+       <input type="submit" name="language" value="Sv">
+       <input type="submit" name="language" value="En">
+     </form>
+   </div>
+
+
    <!--END DESKTOP NAVBAR-->
 
 
