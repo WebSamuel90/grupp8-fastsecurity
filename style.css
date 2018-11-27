@@ -535,6 +535,7 @@ body {
 }
 
 
+
 .section .header {
   align-self: flex-start;
   height: 20vh;
@@ -564,6 +565,20 @@ body {
 
 .section.one .article.one img {
   width: 20%;
+}
+
+.section.one {
+  background-image: url('./images/01-aeromotive-luxury-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.section.two {
+  background-image: url('./images/02-cellava-unleasehd-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 /* fixa pt till em!!!! */
@@ -667,6 +682,7 @@ body {
   z-index: 3;
   opacity: 1;
   background-color: rgba(0, 33, 88, 0.90);
+  transition: opacity 0.2s ease;
 }
 
 .details.popup {
@@ -678,13 +694,6 @@ body {
   height: 100%;
   z-index: -1;
   opacity: 0;
-}
-
-.popup.active {
-  z-index: 3;
-  background-color: rgba(0, 33, 88, 0.90);
-  opacity: 1;
-  transition: opacity 0.2s ease;
 }
 
 .popup-details {
@@ -700,16 +709,9 @@ body {
   box-shadow: 0 20px 50px rgba(0,0,0,.5);
 }
 
-.popup-details img {
-  align-self: center;
-  padding-bottom: 40px;
-  width: 30px;
-  cursor: pointer;
-}
-
 .popup-details .download-button {
-  padding-bottom: 10px;
-  width: 150px;
+  align-self: center;
+  padding-bottom: 30%;
   cursor: pointer;
 }
 
@@ -719,6 +721,7 @@ body {
   font-size: 16pt;
   text-transform: uppercase;
   align-content: space-around;
+  padding: 20% 0 10% 0;
 }
 
 .section .button input[type="submit"],
@@ -736,10 +739,10 @@ body {
 }
 
 .section .fly {
-  background: url("images/Preview_02.jpg");
-  background-position: left;
+  background: url("./images/03_car_background_mobile.png");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   height: 100vh;
   width: 100%;
   margin-bottom: -1px;
@@ -758,6 +761,15 @@ body {
     align-self: flex-start;
     margin-left: 7%;
     letter-spacing: 2px;
+  }
+
+  .section .fly {
+    background: url("./images/03_car_background_full_paralax.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+    width: 100%;
   }
 
   .a.one {
@@ -804,7 +816,6 @@ body {
   }
   .popup-details .download-button {
     padding-bottom: 10px;
-    width: 150px;
     cursor: pointer;
   }
 
@@ -870,7 +881,7 @@ body {
   .section .header h3 {
     font-size: 9.375em;
     margin-bottom: -20px;
-    margin-top: 35%;
+    margin-top: -8%;
   }
   .section .header h5 {
     font-size: 2.43em;
@@ -933,11 +944,11 @@ body {
   }
 
   .section.two .content .picture.right {
-    background: linear-gradient(#1b1b1b 0%,#1b1b1b 40%,#212121 40%,#212121 100%);
+    background: linear-gradient(#1b1b1b 0%,#1b1b1b 40%,rgba(255, 255, 255, 0) 40%,rgba(255, 255, 255, 0) 100%);
   }
 
   .section.two .content .picture.left {
-    background: linear-gradient(#1b1b1b 0%,#1b1b1b 60%,#212121 60%,#212121 100%);
+    background: linear-gradient(#1b1b1b 0%,#1b1b1b 60%,rgba(255, 255, 255, 0) 60%,rgba(255, 255, 255, 0) 100%);
   }
 
   .section.two .bgpic .article {
@@ -957,7 +968,6 @@ body {
 .content {
   height: 100%;
   width: 100%;
-  background-color: #212121;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1198,7 +1208,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .box {
+  .gallery .box {
     height: 50%;
     width: 30%;
     order: 2;
@@ -1207,13 +1217,13 @@ body {
     cursor: pointer;
   }
 
-  .box img {
-    height: auto;
+  .gallery .box img {
+    /* height: auto; */
     width: 100%;
   }
 
 
-  .big {
+  .gallery .big {
     order: -1;
     height: 100%;
     width: 70%;
@@ -1229,16 +1239,15 @@ body {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 124px;
   }
 
-  .box img {
+  .gallery .box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .box {
+  .gallery .box {
     width: 50%;
     height: 35%;
     overflow: hidden;
@@ -1246,12 +1255,12 @@ body {
     cursor: pointer;
   }
 
-  .box img {
-    height: auto;
+  .gallery .box img {
+    /* height: auto; */
     width: 100%;
   }
 
-  .big {
+  .gallery .big {
     order: -1;
     height: 65%;
     width: 100%;
@@ -1272,7 +1281,7 @@ body {
       flex-wrap: wrap-reverse;
     }
 
-    .box {
+    .second-gallery .box {
       height: 50%;
       width: 30%;
       order: 2;
@@ -1281,13 +1290,13 @@ body {
       cursor: pointer;
     }
 
-    .box img {
-      height: auto;
+    .second-gallery .box img {
+      /* height: auto; */
       width: 100%;
     }
 
 
-    .big {
+    .second-gallery .big {
       order: -1;
       height: 100%;
       width: 70%;
@@ -1303,16 +1312,15 @@ body {
       width: 100vw;
       display: flex;
       flex-wrap: wrap-reverse;
-      margin-bottom: 124px;
     }
 
-    .box img {
+    .second-gallery .box img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    .box {
+    .second-gallery .box {
       width: 50%;
       height: 35%;
       overflow: hidden;
@@ -1320,12 +1328,12 @@ body {
       cursor: pointer;
     }
 
-    .box img {
-      height: auto;
+    .second-gallery .box img {
+      /* height: auto; */
       width: 100%;
     }
 
-    .big {
+    .second-gallery .big {
       order: -1;
       height: 65%;
       width: 100%;
