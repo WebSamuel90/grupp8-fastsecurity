@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
     <h2><?= $lang['popup-details']; ?></h2>
-    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
+    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-mobile.svg" class="download-button"/></a>
    </sidebar>
  </div>
 
@@ -49,6 +49,7 @@ require __DIR__.'/header.php';
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
+       <hr class="mobile-navbar-left-line">
           <div class="mobile-navbar-left-style2">
             <a href="#">PHILOSOPHY</a>
             <a href="#">LEADERSHIP</a>
@@ -105,8 +106,8 @@ require __DIR__.'/header.php';
 
 
     <!-- 01 NEW ERA DESIGN-->
-    <section class="section one">
-      <article class="a one">
+    <article class="section one">
+      <section class="a one">
         <div class="article one">
           <img src="images/Logo_design_WT_text.png" />
           <h5><?= $lang['01'][0][0] ?></h5>
@@ -119,7 +120,6 @@ require __DIR__.'/header.php';
         <footer class="footer">
           <img src="images/Preview_19.png" />
         </footer>
-      </article>
 
         <div class="footer-info">
           <div class="over">
@@ -138,12 +138,13 @@ require __DIR__.'/header.php';
             <p><?= $lang['01'][0][8] ?></p>
           </div>
         </div>
+      </section>
       <div class="button details">
         <input type="submit" value="<?= $lang['details-button']; ?>" />
       </div>
 
 
-      <article class="content">
+      <section class="content">
         <div class="title right">
           <h5><?= $lang['01'][1][0] ?></h5>
           <hr />
@@ -151,7 +152,7 @@ require __DIR__.'/header.php';
         <div class="article right">
           <p><?= $lang['01'][1][1] ?></p>
         </div>
-      </article>
+      </section>
 
         <!-- GALLERY-->
       <section class="gallery">
@@ -167,7 +168,7 @@ require __DIR__.'/header.php';
       </section>
         <!--END GALLERY-->
 
-      <article class="content">
+      <section class="content">
         <div class="title">
           <h5><?= $lang['01'][2][0] ?></h5>
           <hr />
@@ -176,36 +177,38 @@ require __DIR__.'/header.php';
           <p><?= $lang['01'][2][1] ?><br /><?= $lang['01'][2][2] ?></p>
           <p><?= $lang['01'][2][3] ?><br /><?= $lang['01'][2][4] ?></p>
         </div>
-      </article>
-    </section>
+      </section>
 
-    <!-- SECOND GALLERY-->
-  <section class="second-gallery">
-    <div class="box big">
-      <img src="images/Render_05.jpg" alt="">
-    </div>
-    <div class="box">
-      <img  src="images/Render_06.jpg" alt="">
-    </div>
-    <div class="box">
-      <img src="images/Render_08.jpg" alt="">
-    </div>
-  </section>
-    <!--END SECOND GALLERY-->
+      <!-- SECOND GALLERY-->
+      <section class="second-gallery">
+        <div class="box big">
+          <img src="images/Render_05.jpg" alt="">
+        </div>
+        <div class="box">
+          <img  src="images/Render_06.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="images/Render_08.jpg" alt="">
+        </div>
+      </section>
+      <!--END SECOND GALLERY-->
+
+    </article>
+
 
     <!-- END 01 NEW ERA DESIGN -->
 
 
   <!-- TRANSLATE -->
-  <form class="language">
+  <!-- <form class="language">
     <input type="submit" name="language" value="Sv">
     <input type="submit" name="language" value="En">
-  </form>
+  </form> -->
   <!-- END TRANSLATE -->
 
   <!-- 02 ENERGY -->
-  <section class="section two">
-    <article class="bgpic">
+  <article class="section two">
+    <section class="bgpic">
       <div class="header">
         <h3>02</h3>
         <h5><?= $lang['02'][0][0] ?></h5>
@@ -214,67 +217,67 @@ require __DIR__.'/header.php';
         <h5><?= $lang['02'][0][1] ?></h5>
         <p><?= $lang['02'][0][2] ?></p>
       </div>
-    </article>
+    </section>
 
     <section class="content">
-      <article class="title right">
+      <div class="title right">
         <h5><?= $lang['02'][0][3] ?></h5>
         <hr />
-      </article>
-      <article class="article right">
+      </div>
+      <div class="article right">
         <p><?= $lang['02'][0][4] ?></p>
-        </article>
-        <article class="picture right">
+      </div>
+        <div class="picture right">
           <img src="images/Preview_09.jpg" alt="">
-        </article>
+        </div>
       </section>
 
       <section class="content">
-        <article class="title left">
+        <div class="title left">
           <h5><?= $lang['02'][0][5] ?></h5>
           <hr />
-        </article>
-        <article class="article left">
+        </div>
+        <div class="article left">
           <p><?= $lang['02'][0][6] ?></p>
-        </article>
-        <article class="picture left">
+        </div>
+        <div class="picture left">
           <img src="images/Preview_12.jpg" alt="">
-        </article>
+        </div>
       </section>
-  </section>
+  </article>
   <!-- END 02 ENERGY -->
 
   <!-- 03 FLY -->
-  <section class="section three">
-    <article class="fly">
-      <article class="header">
+  <article class="section three">
+    <section class="fly">
+      <section class="header">
         <h3>03</h3>
         <h5><?= $lang['03'][0] ?></h5>
-        </article>
-    </article>
+      </section>
+    </section>
     <section class="content white">
-      <article class="title">
+      <section class="title">
         <h5><?= $lang['03'][1] ?></h5>
         <hr />
-      </article>
-      <article class="article left">
+      </section>
+      <section class="article left">
           <p><?= $lang['03'][2] ?></p>
-      </article>
-      <article class="picture">
+      </section>
+      <section class="picture">
         <img src="images/Preview_06.jpg" alt="">
-      </article>
-      <article class="title">
+      </section>
+      <section class="title">
         <h5><?= $lang['03'][3] ?></h5>
         <hr />
-      </article>
-      <article class="article left">
+      </section>
+      <section class="article left">
         <p><?= $lang['03'][4] ?></p>
-      </article>
-      <article class="picture right">
+      </section>
+      <section class="picture right">
         <img src="images/Preview_05.jpg" alt="">
-      </article>
+      </section>
     </section>
-  </section>
+  </article>
   <!-- END 03 FLY -->
 
   <!-- FOOTER -->
