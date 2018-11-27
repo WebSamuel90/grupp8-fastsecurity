@@ -404,10 +404,10 @@ body {
   .desktop-language-selector{
     float: left;
     position: fixed;
+    right:0;
     padding-top: 4%;
     padding-right: 5%;
     z-index: 3;
-    right:0;
   }
   /*END DESKTOP LANGUAGE SELECTOR*/
 }
