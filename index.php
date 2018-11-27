@@ -177,21 +177,23 @@ require __DIR__.'/header.php';
           <p><?= $lang['01'][2][3] ?><br /><?= $lang['01'][2][4] ?></p>
         </div>
       </section>
+
+      <!-- SECOND GALLERY-->
+      <section class="second-gallery">
+        <div class="box big">
+          <img src="images/Render_05.jpg" alt="">
+        </div>
+        <div class="box">
+          <img  src="images/Render_06.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="images/Render_08.jpg" alt="">
+        </div>
+      </section>
+      <!--END SECOND GALLERY-->
+      
     </article>
 
-    <!-- SECOND GALLERY-->
-  <section class="second-gallery">
-    <div class="box big">
-      <img src="images/Render_05.jpg" alt="">
-    </div>
-    <div class="box">
-      <img  src="images/Render_06.jpg" alt="">
-    </div>
-    <div class="box">
-      <img src="images/Render_08.jpg" alt="">
-    </div>
-  </section>
-    <!--END SECOND GALLERY-->
 
     <!-- END 01 NEW ERA DESIGN -->
 

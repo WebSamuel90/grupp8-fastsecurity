@@ -555,6 +555,10 @@ body {
   background-repeat: repeat;
 }
 
+.section.one .article.one {
+  text-shadow: 2px 2px 10px #212121;
+}
+
 .section.two {
   background-image: url('./images/02-cellava-unleasehd-background.png');
   background-position: center;
@@ -783,7 +787,7 @@ body {
 
   .section.one .a.one .footer {
     position: relative;
-    bottom: -7em;
+    bottom: -9em;
   }
 
   .section.one .a.one .article.one {
@@ -794,6 +798,7 @@ body {
     padding: 0;
     width: 100%;
     color: rgba(255, 255, 255, 0.6);
+    margin: 0;
   }
   .section .footer-info .over,
   .section .footer-info .under {
