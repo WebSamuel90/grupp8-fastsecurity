@@ -49,6 +49,7 @@ require __DIR__.'/header.php';
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
+       <hr class="mobile-navbar-left-line">
           <div class="mobile-navbar-left-style2">
             <a href="#">PHILOSOPHY</a>
             <a href="#">LEADERSHIP</a>
@@ -191,7 +192,7 @@ require __DIR__.'/header.php';
         </div>
       </section>
       <!--END SECOND GALLERY-->
-      
+
     </article>
 
 
