@@ -1323,56 +1323,107 @@ body {
       cursor: default;
     }
   }
-
-  /* END GALLERY */
-
 /* END SECOND GALLERY */
 
-/* FOOTER */
+
 .footer-of-page {
-  position: relative;
-  margin-top: -23px;
-  background-color: rgb(211, 211, 211);
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  background-color: rgb(211, 211, 211);
 }
 
-.stroke {
-  background-color: black;
-  margin-top: 10px;
+.footer-row-one {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.whiteLine {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+.footer-row-two {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stroke-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.center-logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-logo img {
+  height: 48%;
+  width: 48%;
+}
+
+.stroke-right {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.line {
   height: 5px;
   width: 100%;
-  z-index: 1;
+  background-color: black;
 }
 
-.footer-logo {
-  position: absolute;
+.footer-row-three {
+  height: 33%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  top: -7px;
-  width: 25%;
-  z-index: 2;
 }
 
-.footer-logo img {
-  width: 300px;
-}
-
-.news-form {
-  width: 50%;
-}
-
-.contact-info {
+.footer-left {
+  height: 100%;
+  width: 35%;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 100%;
 }
+
+.footer-form {
+
+}
+
+.footer-center {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-right {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 
 
 /* END FOOTER */

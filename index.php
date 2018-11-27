@@ -279,7 +279,7 @@ require __DIR__.'/header.php';
 
   <!-- FOOTER -->
   <footer class="footer-of-page">
-    <div class="stroke">
+    <!-- <div class="stroke">
 
     </div>
     <div class="footer-logo">
@@ -300,6 +300,44 @@ require __DIR__.'/header.php';
       <a href="#">+46 131 800 00</a>
       <br><br>
       <a href="#">info@fsproject.com</a>
+    </div> -->
+
+    <div class="footer-row-one">
+      <div class="whiteLine"></div>
+    </div>
+    <div class="footer-row-two">
+      <div class="stroke-left">
+        <div class="line"></div>
+      </div>
+      <div class="center-logo">
+        <img src="images/Emanuel_Mardsjo_WU_Logo_design_BT.png" alt="">
+        <p>FAST SECURITY</p>
+      </div>
+      <div class="stroke-right">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="footer-row-three">
+      <div class="footer-left">
+      <form class="footer-form" action="index.html" method="post">
+        <p>Receive the Latest FS News</p>
+        <input type="email" name="" placeholder="Email" id="Email" />
+        <br><br>
+        <button type="submit" name="button">SUBSCRIBE</button>
+      </form>
+      </div>
+      <div class="footer-center">
+        <a href="">+46 131 800 00</a>
+        <br>
+        <a href="">info@fsproject.com</a>
+        <br>
+        <a href=""><img src="images/facebook-logo.svg" alt=""></a>
+        <span><a href=""><img src="images/instagram-logo.svg" alt=""></a></span>
+        <span> <a href=""></a><img src="images/facebook-logo.svg" alt=""></span>
+      </div>
+      <div class="footer-right">
+        <p>(SAAB)</p>
+      </div>
     </div>
   </footer>
  <?php
