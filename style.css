@@ -508,25 +508,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-.a.one::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #212121 100%);
-  margin-top: -150px;
-  height: 150px;
-  width: 100%;
-  content: '';
-  padding-top: 0;
-}
-
-.a.one::before {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #212121 100%);
-  height: 150px;
-  width: 100%;
-  content: '';
-}
 
 .section.one .a.one .article.one img {
   margin: 0 0 20% 0;
@@ -772,31 +753,12 @@ body {
   }
 
   .a.one {
-    background-image: url("./images/lightbeams-cellava_background_cropped.png");
+    background-image: url("./images/01_cellava_beam_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 200vh;
-  }
-
-  .a.one::after {
-    display: block;
-    position: relative;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #212121 100%);
-    height: 100%;
-    width: 100%;
-    content: '';
-  }
-  .a.one::before {
-    display: block;
-    position: relative;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #000 100%);
-    height: 50px;
-    width: 100%;
-    content: '';
-    padding-bottom: 30%;
   }
 
   .section.one .article.one img {
@@ -820,7 +782,7 @@ body {
 
   .section.one .a.one .footer {
     position: relative;
-    bottom: 0vh;
+    bottom: -7em;
   }
 
   .section.one .a.one .article.one {
@@ -831,7 +793,6 @@ body {
     padding: 0;
     width: 100%;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 21.33px;
   }
   .section .footer-info .over,
   .section .footer-info .under {
@@ -858,7 +819,7 @@ body {
   }
   .section.one .button {
     position: absolute;
-    top: 280vh;
+    top: 165em;
     right: 10%;
     z-index: 2;
   }
@@ -866,6 +827,7 @@ body {
   .section.two .header {
     align-self: flex-end;
     margin-right: 7%;
+    margin-top: 7%;
   }
 
   .section.two .bgpic {
@@ -1022,7 +984,7 @@ body {
 }
 
 .content.white {
-  background-color: #fff;
+  background-image: linear-gradient(#fff, #B2B2B2);
 }
 
 .content.white img{
@@ -1041,29 +1003,7 @@ body {
   color: rgb(5, 5, 5);
 }
 
-.content.gray {
-  background-color: rgb(211, 211, 211);
-}
-
-.content.gray .title h5 {
-  margin-top: 124px;
-  color: rgb(5, 5, 5);
-}
-
-.content.gray .title hr {
-  border-color: rgb(5, 5, 5);
-}
-
-.content.gray .article p {
-  color: rgb(5, 5, 5);
-}
-
-.content.gray .picture img{
-  height: 428px;
-  object-fit: cover;
-}
-
-.content.gray .picture img{
+.content.white .picture.right img{
   height: 428px;
   object-fit: cover;
   object-position: 34% 66%;
@@ -1112,7 +1052,11 @@ body {
   .content .title h5 {
     margin:  0 0 0 24%;
     align-self: flex-start;
-    width: 283px;
+    width: 20%;
+  }
+
+  .section.one .content .title h5 {
+    width: 86%;
   }
 
   .content .title.right h5 {
@@ -1129,7 +1073,10 @@ body {
     width: 163px;
   }
 
-  .content .article.right {
+
+
+
+  .section .content .article.right {
     height: auto;
     align-self: flex-end;
     padding-left: 0px;
@@ -1141,6 +1088,14 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+
+  }
+
+  .section.one .content .article.right {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .section.two .content .article.right {
     background-color: #1b1b1b;
   }
 
@@ -1188,10 +1143,6 @@ body {
   .content.white .picture img {
     width: 80%;
     object-fit: scale-down;
-  }
-
-  .content.white {
-    background-image: linear-gradient(#fff, #B2B2B2);
   }
 }
 /* END CONTENT */
