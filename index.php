@@ -49,6 +49,7 @@ require __DIR__.'/header.php';
      <div class="mobile-navbar-left">
        <a href="#">HOME</a>
        <a href="#">COMPANY</a>
+       <hr class="mobile-navbar-left-line">
           <div class="mobile-navbar-left-style2">
             <a href="#">PHILOSOPHY</a>
             <a href="#">LEADERSHIP</a>
@@ -59,12 +60,19 @@ require __DIR__.'/header.php';
      </div>
      <div class="mobile-navbar-right">
        <a href="#">VESSEL</a>
+       <hr class="mobile-navbar-right-line">
           <div class="mobile-navbar-right-style2">
             <a href="#">GALLERY</a>
             <a href="#">HOOVER</a>
             <a href="#">ENERGY</a>
             <a href="#">FUEL</a>
             <a href="#">DETAILS</a>
+          </div>
+          <div class="mobile-language-selector">
+            <form class="language">
+              <input type="submit" name="language" value="Sv">
+              <input type="submit" name="language" value="En">
+            </form>
           </div>
      </div>
    </div>
