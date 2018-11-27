@@ -84,11 +84,11 @@ require __DIR__.'/header.php';
    </div>
    <div class="desktop-navbar-container">
      <div class="desktop-navbar">
-       <a href="#">HOME</a>
-       <a href="#">COMPANY</a>
-       <a href="#">STORIES</a>
-       <a href="#">RESERVE</a>
-       <a href="#">AEROMOTIVE</a>
+       <a href="#"><?=$lang['desktop-navbar'][0];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][1];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][2];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][3];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][4];?></a>
      </div>
    </div>
    <div class="desktop-language-selector">

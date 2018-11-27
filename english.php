@@ -56,7 +56,8 @@
                 'Contact fast Security', 'Name', 'E-mail', 'Message', 'send'
               ],
   'popup-details' => 'Download Broshure',
-  'details-button' => 'Details'
+  'details-button' => 'Details',
+  'desktop-navbar' => ['HOME', 'COMPANY', 'STORIES', 'RESERVE', 'AEROMOTIVE'],
   ];
 
  ?>
