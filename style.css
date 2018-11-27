@@ -281,6 +281,8 @@ body {
     width:100%;
     z-index: 2;
     border-right: 1px solid gray;
+
+    font-weight: 900;
     font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-left a{
@@ -290,7 +292,13 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     font-family: "AktivGrotesk-light";
+    font-weight: 200;
+    text-decoration: none;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .mobile-navbar-right{
     display: flex;
