@@ -58,6 +58,20 @@
   'popup-details' => 'Download Broshure',
   'details-button' => 'Details',
   'desktop-navbar' => ['HOME', 'COMPANY', 'STORIES', 'RESERVE', 'AEROMOTIVE'],
+  'mobile-navbar' => [
+      'HOME',
+      'COMPANY',
+      'PHILOSOPHY',
+      'LEADERSHIP',
+      'STORIES',
+      'RESERVE',
+      'VESSEL',
+      'GALLERY',
+      'HOOVER',
+      'ENERGY',
+      'FUEL',
+      'DETAILS'
+    ]
   ];
 
  ?>

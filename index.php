@@ -47,26 +47,26 @@ require __DIR__.'/header.php';
    </div>
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
-       <a href="#">HOME</a>
-       <a href="#">COMPANY</a>
+       <a href="#"><?=$lang['mobile-navbar'][0];?></a>
+       <a href="#"><?=$lang['mobile-navbar'][1];?></a>
        <hr class="mobile-navbar-left-line">
           <div class="mobile-navbar-left-style2">
-            <a href="#">PHILOSOPHY</a>
-            <a href="#">LEADERSHIP</a>
+            <a href="#"><?=$lang['mobile-navbar'][2];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][3];?></a>
           </div>
-       <a href="#">STORIES</a>
-       <a href="#">RESERVE</a>
+       <a href="#"><?=$lang['mobile-navbar'][4];?></a>
+       <a href="#"><?=$lang['mobile-navbar'][5];?></a>
 
      </div>
      <div class="mobile-navbar-right">
-       <a href="#">VESSEL</a>
+       <a href="#"><?=$lang['mobile-navbar'][6];?></a>
        <hr class="mobile-navbar-right-line">
           <div class="mobile-navbar-right-style2">
-            <a href="#">GALLERY</a>
-            <a href="#">HOOVER</a>
-            <a href="#">ENERGY</a>
-            <a href="#">FUEL</a>
-            <a href="#">DETAILS</a>
+            <a href="#"><?=$lang['mobile-navbar'][7];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][8];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][9];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][10];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][11];?></a>
           </div>
           <div class="mobile-language-selector">
             <form class="language">
