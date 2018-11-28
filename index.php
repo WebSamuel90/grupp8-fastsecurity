@@ -75,6 +75,7 @@ require __DIR__.'/header.php';
             </form>
           </div>
      </div>
+     <img src="images/icons_menu_arrow_blue.svg" class="mobile-closing-arrow" alt="Close arrow">
    </div>
    <!--END MOBILE NAVBAR-->
 
@@ -338,5 +339,5 @@ require __DIR__.'/header.php';
  <?php
 
  require __DIR__.'/footer.php';
- 
+
   ?>
