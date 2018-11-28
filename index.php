@@ -47,24 +47,32 @@ require __DIR__.'/header.php';
    </div>
    <div class="mobile-navbar-container">
      <div class="mobile-navbar-left">
-       <a href="#">HOME</a>
-       <a href="#">COMPANY</a>
+       <a href="#"><?=$lang['mobile-navbar'][0];?></a>
+       <a href="#"><?=$lang['mobile-navbar'][1];?></a>
+       <hr class="mobile-navbar-left-line">
           <div class="mobile-navbar-left-style2">
-            <a href="#">PHILOSOPHY</a>
-            <a href="#">LEADERSHIP</a>
+            <a href="#"><?=$lang['mobile-navbar'][2];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][3];?></a>
           </div>
-       <a href="#">STORIES</a>
-       <a href="#">RESERVE</a>
+       <a href="#"><?=$lang['mobile-navbar'][4];?></a>
+       <a href="#"><?=$lang['mobile-navbar'][5];?></a>
 
      </div>
      <div class="mobile-navbar-right">
-       <a href="#">VESSEL</a>
+       <a href="#"><?=$lang['mobile-navbar'][6];?></a>
+       <hr class="mobile-navbar-right-line">
           <div class="mobile-navbar-right-style2">
-            <a href="#">GALLERY</a>
-            <a href="#">HOOVER</a>
-            <a href="#">ENERGY</a>
-            <a href="#">FUEL</a>
-            <a href="#">DETAILS</a>
+            <a href="#"><?=$lang['mobile-navbar'][7];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][8];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][9];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][10];?></a>
+            <a href="#"><?=$lang['mobile-navbar'][11];?></a>
+          </div>
+          <div class="mobile-language-selector">
+            <form class="language">
+              <input type="submit" name="language" value="Sv">
+              <input type="submit" name="language" value="En">
+            </form>
           </div>
      </div>
    </div>
@@ -76,13 +84,21 @@ require __DIR__.'/header.php';
    </div>
    <div class="desktop-navbar-container">
      <div class="desktop-navbar">
-       <a href="#">HOME</a>
-       <a href="#">COMPANY</a>
-       <a href="#">STORIES</a>
-       <a href="#">RESERVE</a>
-       <a href="#">AEROMOTIVE</a>
+       <a href="#"><?=$lang['desktop-navbar'][0];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][1];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][2];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][3];?></a>
+       <a href="#"><?=$lang['desktop-navbar'][4];?></a>
      </div>
    </div>
+   <div class="desktop-language-selector">
+     <form class="language">
+       <input type="submit" name="language" value="Sv">
+       <input type="submit" name="language" value="En">
+     </form>
+   </div>
+
+
    <!--END DESKTOP NAVBAR-->
 
 
@@ -117,7 +133,7 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][0][2] ?></h5>
         </div>
         <footer class="footer">
-          <img src="images/Preview_19.png" />
+          <img src="images/01_Neon_intro.png" />
         </footer>
       </article>
 
@@ -197,10 +213,10 @@ require __DIR__.'/header.php';
 
 
   <!-- TRANSLATE -->
-  <form class="language">
+  <!-- <form class="language">
     <input type="submit" name="language" value="Sv">
     <input type="submit" name="language" value="En">
-  </form>
+  </form> -->
   <!-- END TRANSLATE -->
 
   <!-- 02 ENERGY -->
@@ -225,7 +241,7 @@ require __DIR__.'/header.php';
         <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture right">
-          <img src="images/Preview_09.jpg" alt="">
+          <img src="images/energy_image_1.png" alt="">
         </article>
       </section>
 
@@ -238,7 +254,7 @@ require __DIR__.'/header.php';
           <p><?= $lang['02'][0][6] ?></p>
         </article>
         <article class="picture left">
-          <img src="images/Preview_12.jpg" alt="">
+          <img src="images/energy_image_2.png" alt="">
         </article>
       </section>
   </section>
@@ -261,7 +277,7 @@ require __DIR__.'/header.php';
           <p><?= $lang['03'][2] ?></p>
       </article>
       <article class="picture">
-        <img src="images/Preview_06.jpg" alt="">
+        <img src="images/avaite_image_1.png" alt="">
       </article>
       <article class="title">
         <h5><?= $lang['03'][3] ?></h5>
@@ -271,7 +287,7 @@ require __DIR__.'/header.php';
         <p><?= $lang['03'][4] ?></p>
       </article>
       <article class="picture right">
-        <img src="images/Preview_05.jpg" alt="">
+        <img src="images/aviate_image_2.png" alt="">
       </article>
     </section>
   </section>
@@ -318,6 +334,9 @@ require __DIR__.'/header.php';
       </div>
     </div>
   </footer>
+
  <?php
+
  require __DIR__.'/footer.php';
+ 
   ?>

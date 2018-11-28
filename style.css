@@ -35,7 +35,7 @@ body {
 }
 
 .popup.active {
-  z-index: 2;
+  z-index: 3;
   background-color: rgba(0, 33, 88, 0.90);
   opacity: 1;
   transition: opacity 0.4s ease;
@@ -159,19 +159,19 @@ body {
   align-items: center;
   margin-right: 20px;
   line-height: 40px;
-  z-index: 2;
+  z-index: 3;
   }
 
   .toggle-signup .plus {
     width: 30px;
     color: #fff;
-    padding-bottom: 3px;
+    padding: 2px 3px 2px 3px;
   }
 
   .toggle-signup .mail {
     width: 25px;
     color: #fff;
-    padding-bottom: 3px;
+    padding: 1px 3px 1px 3px;
   }
 
 
@@ -182,7 +182,7 @@ body {
 }
 
 .toggle-signup.active{
-  z-index: 2;
+  z-index: 3;
 }
 
 @media screen and (min-width: 768px) {
@@ -199,21 +199,17 @@ body {
   transform: rotate(90deg);
   top: 50%;
   left: -158px;
+  z-index: 2;
 }
 
 .progressbar-side .progressbar[value] {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   width: 350px;
   height: 2px;
 }
 
 .progressbar-side .progressbar[value]::-webkit-progress-bar {
-  background-color: rgba(0,0,0, 0);
-  border-radius: 2px;
-}
-.progressbar-side .progressbar[value]::-moz-progress-bar {
   background-color: rgba(0,0,0, 0);
   border-radius: 2px;
 }
@@ -232,20 +228,6 @@ body {
   background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
-.progressbar-side .progressbar[value]::-moz-progress-value {
-  background-image:
-	   -moz-linear-gradient(-90deg,
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -moz-linear-gradient(top,
-	                           rgba(255, 255, 255, .25),
-	                           rgba(0, 0, 0, .25)),
-	   -moz-linear-gradient(left, #7e3de1, #d22c55, #de473a, #3df39e);
-
-  border-radius: 2px;
-  background-size: 35px 20px, 100% 100%, 100% 100%;
-}
-
 /* END PROGRESSBAR */
 
 
@@ -259,7 +241,7 @@ body {
 
 /*MOBILE NAVBAR---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
-  .desktop-navbar-container, .desktop-navbar, .desktop-logo{
+  .desktop-navbar-container, .desktop-navbar, .desktop-logo, .desktop-language-selector{
     display:none;
   }
   .mobile-navbar-container{
@@ -274,7 +256,7 @@ body {
     z-index: 2;
     opacity: 0;
     transition: all 0.2s ease-in-out;
-    border-bottom: solid 7px #00205A;
+    border-bottom: solid 8px #00205A;
   }
   .mobile-navbar-left{
     display: flex;
@@ -285,18 +267,24 @@ body {
     height:80%;
     padding-left: 10%;
     z-index: 2;
-    border-right: 1px solid gray;
+    border-right: 1px solid #00205A;
 
     font-weight: 900;
     font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-left a{
     text-decoration: none;
+    color: #00205A;
     margin: 10% 0%;
   }
   .mobile-navbar-left-line{
-    margin-right: 70%;
-    width: 20%;
+    margin-right: 75%;
+    width: 15%;
+
+    background-color: #00205A;
+    color: #00205A;
+    border:none;
+    height: 1px;
   }
   .mobile-navbar-left-style2{
     display: flex;
@@ -312,21 +300,39 @@ body {
   }
   .mobile-navbar-right{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: column;
     width:100%;
-    z-index:2;
+    height:80%;
+    padding-left: 10%;
+    z-index: 2;
+
+    font-weight: 900;
     font-family: "AktivGrotesk-light";
   }
   .mobile-navbar-right a{
     text-decoration: none;
+    color: #00205A;
+    margin: 10% 0%;
+  }
+  .mobile-navbar-right-line{
+    margin-right: 75%;
+    width: 15%;
+    background-color: #00205A;
+    color: #00205A;
+    border:none;
+    height: 1px;
+    margin-bottom: 20px;
   }
   .mobile-navbar-right-style2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     font-family: "AktivGrotesk-light";
+    font-weight: 200;
+    padding-bottom: 35%;
+    padding-left: 10%;
   }
 
   /*MOBILE LOGO*/
@@ -343,6 +349,11 @@ body {
     z-index:3;
   }
   /*END MOBILE LOGO*/
+  /*MOBILE LANGUAGE SELECTOR*/
+  .mobile-language-selector{
+  }
+
+  /*MOBILE LANGUAGE SELECTOR*/
 
   /*MOBILE POPUP*/
   .mobile-navbar-popup{
@@ -397,19 +408,28 @@ body {
     padding-left: 5%;
     z-index: 2;
   }
+  /*END DESKTOP LOGO*/
+  /*DESKTOP LANGUAGE SELECTOR*/
+  .desktop-language-selector{
+    float: left;
+    position: fixed;
+    right:0;
+    padding-top: 4%;
+    padding-right: 5%;
+    z-index: 3;
+  }
+  /*END DESKTOP LANGUAGE SELECTOR*/
 }
-/*END DESKTOP LOGO*/
 /*END DESKTOP NAVBAR----------------------------------------------------------*/
 
 /* HERO */
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-image: url("images/Preview_34.jpg");
+  background-image: url("./images/Hero-image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -419,7 +439,7 @@ body {
 /* ROTATING TEXT */
 .sentence {
   font-family: "AktivGrotesk-Light";
-  /* font-weight: 100; */
+  font-weight: 100;
   font-size: 14pt;
   letter-spacing: 0.67em;
   line-height: 22pt;
@@ -484,9 +504,10 @@ body {
 
 @media screen and (min-width: 768px) {
   .sentence {
-    justify-content: flex-end;
-    font-size: 16pt;
-    letter-spacing: 0.67em;
+    justify-content: center;
+    font-size: 2.5em;
+    letter-spacing: 0.5em;
+    line-height: 1.4em;
   }
 
 }
@@ -539,8 +560,8 @@ body {
   line-height: normal;
   margin: 0;
   padding: 0;
-  color: #5c5c5c;
-  margin-top: 30%;
+  color: rgba(255, 255, 255, 0.48);
+  margin-top: 10%;
 }
 
 .section .article {
@@ -591,15 +612,11 @@ body {
 }
 
 .section .article h5 {
-  font-size: 2.5em;
-}
-
-.section .article h5 {
   font-family: "AktivGrotesk-Bold";
+  font-size: 2.5em;
   color: #fff;
   text-transform: uppercase;
   line-height: normal;
-  /* margin: 10px; */
   margin-bottom: 20px;
   align-self: flex-start;
 }
@@ -610,16 +627,16 @@ body {
   font-size: 1.33em;
 }
 
-.section .footer {
+.section.one .footer {
   margin-bottom: -50px;
   z-index: 1;
 }
 
-.section .footer img {
+.section.one .footer img {
   width: 100vw;
 }
 
-.section .footer-info {
+.section.one .footer-info {
   display: flex;
   padding: 0;
   justify-content: center;
@@ -628,8 +645,8 @@ body {
   margin: 0 21.33px 0px 21.33px;
 }
 
-.section .footer-info .over,
-.section .footer-info .under {
+.section.one .footer-info .over,
+.section.one .footer-info .under {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -639,23 +656,23 @@ body {
   height: 96px;
 }
 
-.section .footer-info .over {
+.section.one .footer-info .over {
   background-color: rgb(46, 46, 46);
 }
 
-.section .footer-info .under {
+.section.one .footer-info .under {
   background-color: rgb(31,31,31);
 }
 
-.section .footer-info .over p,
-.section .footer-info .under p {
+.section.one .footer-info .over p,
+.section.one .footer-info .under p {
   font-family: "AktivGrotesk-Light";
   margin: 0;
   font-size: 9pt;
 }
 
-.section .footer-info .over h6,
-.section .footer-info .under h6 {
+.section.one .footer-info .over h6,
+.section.one .footer-info .under h6 {
   font-family: "AktivGrotesk-Light";
   margin: 0;
   font-size: 20pt;
@@ -705,7 +722,7 @@ body {
 
 .popup-details .download-button {
   align-self: center;
-  padding-bottom: 30%;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -715,7 +732,7 @@ body {
   font-size: 16pt;
   text-transform: uppercase;
   align-content: space-around;
-  padding: 20% 0 10% 0;
+  padding: 20% 0 0 0;
 }
 
 .section .button input[type="submit"],
@@ -736,7 +753,7 @@ body {
   background: url("./images/03_car_background_mobile.png");
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   margin-bottom: -1px;
@@ -746,112 +763,29 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section .header {
-    align-self: flex-start;
-    margin-left: 7%;
-    letter-spacing: 2px;
-  }
-
-  .section .fly {
-    background: url("./images/03_car_background_full_paralax.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100vh;
-    width: 100%;
-  }
-
-  .a.one {
-    background-image: url("./images/01_cellava_beam_background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .section.one .article.one img {
-    margin: 0 0 20% 0;
-    width: 30%;
-  }
-
-  .section .article {
-    align-self: center;
-    width: 60%;
-  }
-  .popup-details{
+  .popup-details {
     width: 40%;
     height: 460px;
     justify-content: space-around;
   }
+
   .popup-details .download-button {
     padding-bottom: 10px;
     cursor: pointer;
   }
 
-  .section.one .a.one .footer {
-    position: relative;
-    bottom: -9em;
+  .section .header {
+    margin-left: 7%;
+    letter-spacing: 2px;
   }
 
-  .section.one .a.one .article.one {
-    margin-bottom: 10%;
-  }
-  .section .footer-info {
-    display: flex;
-    padding: 0;
-    width: 100%;
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0;
-  }
-  .section .footer-info .over,
-  .section .footer-info .under {
-    display: flex;
-    width: 33.33%;
-    height: 25vh;
-  }
-  .section .footer {
-    /* vill inte använda z-index!!!!!!!!! */
-    z-index: 1;
-  }
-  .section .footer-info .over p,
-  .section .footer-info .under p {
-    font-size: 20pt;
+  .a.one {
+    background-image: url("./images/01_cellava_beam_background.png");
   }
 
-  .section .footer-info .over h6,
-  .section .footer-info .under h6 {
-    font-size: 60pt;
-    font-weight: lighter;
-  }
-  .section.one {
-    /* position: relative; */
-  }
-  .section.one .button {
-    position: absolute;
-    top: 165em;
-    right: 10%;
-    z-index: 2;
-  }
-
-  .section.two .header {
-    align-self: flex-end;
-    margin-right: 7%;
-    margin-top: 7%;
-  }
-
-  .section.two .bgpic {
-    background-image: url("./images/cellava-energy_background_cropped.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
+  .section .article {
+    align-self: center;
+    width: 60%;
   }
 
   .section .header h3 {
@@ -859,6 +793,7 @@ body {
     margin-bottom: -20px;
     margin-top: 7%;
   }
+
   .section .header h5 {
     font-size: 2.43em;
     width: 250px;
@@ -874,10 +809,6 @@ body {
     align-self: center;
   }
 
-  .section.two .article h5 {
-    align-self: flex-start;
-  }
-
   .section .article p {
     font-size: 1.3125em;
     line-height: 35px;
@@ -885,12 +816,83 @@ body {
     width: 69%;
   }
 
-  .section.one .article h5 {
-    width: 584px;
+  .section .article.left {
+    padding-left: 12%;
+  }
+
+  .section .content .article.right {
+    height: auto;
+    align-self: flex-end;
+    padding-left: 0px;
+    padding-right: 9.2%;
+    padding-top: 6.1%;
+    padding-bottom: 6.1%;
+    width: 100%;
+    align-items: flex-end;
+  }
+
+  .section.one .content .article.right {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .section.one .a.one .footer {
+    position: relative;
+    bottom: -9em;
+    z-index: 1;
+  }
+
+  .section.one .a.one .article.one {
+    margin-bottom: 10%;
+  }
+
+  .section.one .button {
+    position: absolute;
+    top: 170em;
+    right: 10%;
+    z-index: 1;
   }
 
   .section.one .article.one p {
-    width: 818px;
+    width: 100%;
+  }
+
+  .section.one .footer-info {
+    width: 100%;
+    margin:0;
+  }
+
+  .section.one .footer-info .over,
+  .section.one .footer-info .under {
+    display: flex;
+    width: 33.33%;
+    height: 25vh;
+  }
+
+  .section.one .footer-info .over p,
+  .section.one .footer-info .under p {
+    font-size: 20pt;
+  }
+
+  .section.one .footer-info .over h6,
+  .section.one .footer-info .under h6 {
+    font-size: 60pt;
+    font-weight: lighter;
+  }
+
+  .section.two .header {
+    align-self: flex-end;
+    margin-right: 7%;
+    margin-top: 7%;
+  }
+
+  .section.two .bgpic {
+    background-image: url("./images/cellava-energy_background_cropped.png");
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section.two .article h5 {
+    align-self: flex-start;
   }
 
   .section.two .article.two p{
@@ -898,7 +900,7 @@ body {
   }
 
   .section.two .article h5 {
-    width: 689px;
+    width: 120%;
   }
 
   .section.two section:nth-last-child(1) {
@@ -910,14 +912,14 @@ body {
     padding-top: 5%;
   }
 
-  .section.two .content .article.right {
+  .section.two .content .article.right,
+  .section.two .content .article.left {
     margin: 0;
+    background-color: #1b1b1b;
   }
 
   .section.two .content .article.left {
-    margin: 0;
     padding-bottom: 6.1%;
-    background-color: #1b1b1b;
   }
 
   .section.two .content .picture.right {
@@ -931,11 +933,49 @@ body {
   .section.two .bgpic .article {
     align-items: flex-start;
     align-self: flex-start;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 7%;
   }
-  .section .article.left {
-    padding-left: 12%;
+
+  .section.three .fly {
+    background: url("./images/avaite_background.png");
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .section.three .content.white::before {
+    display: block;
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+  }
+
+  .section.three .content.white .picture {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .section.three .content.white .picture.right {
+    justify-content: flex-end;
+  }
+
+  .section.three .content.white .picture.right img {
+    width: 60%;
+    height: auto;
+  }
+
+  .section.three .content.white .picture img {
+    width: 70%;
+    margin-left: -2%;
+    object-fit: scale-down;
   }
 }
 
@@ -950,12 +990,10 @@ body {
   justify-content: space-around;
 }
 
-
 .content .title {
   align-self: flex-start;
   margin-top: 10%;
 }
-
 
 .content .title h5 {
   font-size: 2.08em;
@@ -981,8 +1019,8 @@ body {
   align-items: center;
   height: auto;
   padding: 0 7% 0 10%;
+  margin-bottom: 10%;
   margin-top: 10%;
-  margin-bottom: 18%;
 }
 
 .content .article p {
@@ -1058,8 +1096,6 @@ body {
     margin:  0 0 0 10%;
   }
 
-
-
   .content .title.right h5 {
     margin:  0 9.5% 0 0 ;
     align-self: flex-end;
@@ -1089,41 +1125,28 @@ body {
     width: 163px;
   }
 
+  .content .article {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
 
-
-
-  .section .content .article.right {
-    height: auto;
-    align-self: flex-end;
-    padding-left: 0px;
-    padding-right: 9.2%;
-    padding-top: 6.1%;
-    padding-bottom: 6.1%;
+  .content.white .article {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .content.white h5 {
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-
   }
-
-  .section.one .content .article.right {
-    background-color: rgba(255, 255, 255, 0);
-  }
-
-  .section.two .content .article.right {
-    background-color: #1b1b1b;
-  }
-
-  .content .article, .content .article.left {
+  .content .article.left {
     height: auto;
     align-self: flex-start;
     margin-right: 0px;
     padding-top: 6.1%;
     width: 100%;
-    display: flex;
     align-items: flex-start;
   }
+
+
   .content .article p, .content .article.right p{
     font-size: 18pt;
     line-height: 35px;
@@ -1138,28 +1161,6 @@ body {
   .content .picture.left img{
     width: 60%;
     margin-left: 30%;
-  }
-
-  .content.white .picture {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .content.white .picture.right {
-    justify-content: flex-end;
-  }
-
-  .content.white .picture.right img {
-    object-fit: cover;
-    object-position: 10% 90%;
-    width: 60%;
-    height: auto;
-  }
-
-  .content.white .picture img {
-    width: 80%;
-    object-fit: scale-down;
   }
 }
 /* END CONTENT */
@@ -1451,6 +1452,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+<<<<<<< HEAD
 
 .footer-right img {
   height: auto;
@@ -1497,4 +1499,6 @@ body {
 }
 
 
+=======
+>>>>>>> e76799a7a48203f99d8a6a8c51b4bb75ab5805ed
 /* END FOOTER */
