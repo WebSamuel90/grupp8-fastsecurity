@@ -203,17 +203,12 @@ body {
 
 .progressbar-side .progressbar[value] {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   width: 350px;
   height: 2px;
 }
 
 .progressbar-side .progressbar[value]::-webkit-progress-bar {
-  background-color: rgba(0,0,0, 0);
-  border-radius: 2px;
-}
-.progressbar-side .progressbar[value]::-moz-progress-bar {
   background-color: rgba(0,0,0, 0);
   border-radius: 2px;
 }
@@ -227,20 +222,6 @@ body {
 	                           rgba(255, 255, 255, .25),
 	                           rgba(0, 0, 0, .25)),
 	   -webkit-linear-gradient(left, #7e3de1, #d22c55, #de473a, #3df39e);
-
-  border-radius: 2px;
-  background-size: 35px 20px, 100% 100%, 100% 100%;
-}
-
-.progressbar-side .progressbar[value]::-moz-progress-value {
-  background-image:
-	   -moz-linear-gradient(-90deg,
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -moz-linear-gradient(top,
-	                           rgba(255, 255, 255, .25),
-	                           rgba(0, 0, 0, .25)),
-	   -moz-linear-gradient(left, #7e3de1, #d22c55, #de473a, #3df39e);
 
   border-radius: 2px;
   background-size: 35px 20px, 100% 100%, 100% 100%;
@@ -579,7 +560,7 @@ body {
   margin: 0;
   padding: 0;
   color: #5c5c5c;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .section .article {
@@ -744,7 +725,7 @@ body {
 
 .popup-details .download-button {
   align-self: center;
-  padding-bottom: 30%;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -754,7 +735,7 @@ body {
   font-size: 16pt;
   text-transform: uppercase;
   align-content: space-around;
-  padding: 20% 0 10% 0;
+  padding: 20% 0 0 0;
 }
 
 .section .button input[type="submit"],
@@ -775,7 +756,7 @@ body {
   background: url("./images/03_car_background_mobile.png");
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   margin-bottom: -1px;
@@ -800,7 +781,7 @@ body {
     background: url("./images/03_car_background_full_paralax.png");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 100vh;
     width: 100%;
   }
