@@ -763,7 +763,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .popup-details{
+  .popup-details {
     width: 40%;
     height: 460px;
     justify-content: space-around;
@@ -1415,8 +1415,4 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
-
-
-
 /* END FOOTER */

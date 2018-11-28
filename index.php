@@ -335,6 +335,9 @@ require __DIR__.'/header.php';
       </div>
     </div>
   </footer>
+
  <?php
+
  require __DIR__.'/footer.php';
+ 
   ?>
