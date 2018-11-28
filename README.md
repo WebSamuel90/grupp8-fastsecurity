@@ -2,7 +2,7 @@
 <img src="https://media.giphy.com/media/iNjZMRbcxqtzi/giphy.gif" width="100%">
 
 ## Assignment
-- Make a landing-page for FastSecurity, FS 1.0.
+Make a landing-page for FastSecurity, FS 1.0.
 
 ## Tech/framework used
 <b>Built in [Atom](https://atom.io/) with</b>
