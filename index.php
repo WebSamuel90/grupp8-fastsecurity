@@ -213,10 +213,10 @@ require __DIR__.'/header.php';
 
 
   <!-- TRANSLATE -->
-  <form class="language">
+  <!-- <form class="language">
     <input type="submit" name="language" value="Sv">
     <input type="submit" name="language" value="En">
-  </form>
+  </form> -->
   <!-- END TRANSLATE -->
 
   <!-- 02 ENERGY -->

@@ -425,7 +425,6 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   justify-content: center;
   height: 100vh;
   width: 100%;
@@ -611,15 +610,11 @@ body {
 }
 
 .section .article h5 {
-  font-size: 2.5em;
-}
-
-.section .article h5 {
   font-family: "AktivGrotesk-Bold";
+  font-size: 2.5em;
   color: #fff;
   text-transform: uppercase;
   line-height: normal;
-  /* margin: 10px; */
   margin-bottom: 20px;
   align-self: flex-start;
 }
@@ -630,16 +625,16 @@ body {
   font-size: 1.33em;
 }
 
-.section .footer {
+.section.one .footer {
   margin-bottom: -50px;
   z-index: 1;
 }
 
-.section .footer img {
+.section.one .footer img {
   width: 100vw;
 }
 
-.section .footer-info {
+.section.one .footer-info {
   display: flex;
   padding: 0;
   justify-content: center;
@@ -648,8 +643,8 @@ body {
   margin: 0 21.33px 0px 21.33px;
 }
 
-.section .footer-info .over,
-.section .footer-info .under {
+.section.one .footer-info .over,
+.section.one .footer-info .under {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -659,23 +654,23 @@ body {
   height: 96px;
 }
 
-.section .footer-info .over {
+.section.one .footer-info .over {
   background-color: rgb(46, 46, 46);
 }
 
-.section .footer-info .under {
+.section.one .footer-info .under {
   background-color: rgb(31,31,31);
 }
 
-.section .footer-info .over p,
-.section .footer-info .under p {
+.section.one .footer-info .over p,
+.section.one .footer-info .under p {
   font-family: "AktivGrotesk-Light";
   margin: 0;
   font-size: 9pt;
 }
 
-.section .footer-info .over h6,
-.section .footer-info .under h6 {
+.section.one .footer-info .over h6,
+.section.one .footer-info .under h6 {
   font-family: "AktivGrotesk-Light";
   margin: 0;
   font-size: 20pt;
@@ -766,13 +761,24 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .popup-details{
+    width: 40%;
+    height: 460px;
+    justify-content: space-around;
+  }
+
+  .popup-details .download-button {
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
   .section {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+
   .section .header {
-    align-self: flex-start;
     margin-left: 7%;
     letter-spacing: 2px;
   }
@@ -788,75 +794,86 @@ body {
 
   .a.one {
     background-image: url("./images/01_cellava_beam_background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .section.one .article.one img {
-    margin: 0 0 20% 0;
-    width: 30%;
   }
 
   .section .article {
     align-self: center;
     width: 60%;
   }
-  .popup-details{
-    width: 40%;
-    height: 460px;
-    justify-content: space-around;
+
+  .section.one .footer-info {
+    width: 100%;
   }
-  .popup-details .download-button {
-    padding-bottom: 10px;
-    cursor: pointer;
+
+  .section.one .footer-info .over,
+  .section.one .footer-info .under {
+    display: flex;
+    width: 33.33%;
+    height: 25vh;
+  }
+
+  .section.one .footer-info .over p,
+  .section.one .footer-info .under p {
+    font-size: 20pt;
+  }
+
+  .section.one .footer-info .over h6,
+  .section.one .footer-info .under h6 {
+    font-size: 60pt;
+    font-weight: lighter;
+  }
+
+  .section .header h3 {
+    font-size: 9.375em;
+    margin-bottom: -20px;
+    margin-top: 7%;
+  }
+
+  .section .header h5 {
+    font-size: 2.43em;
+    width: 250px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-top: 0;
+  }
+
+  .section .article h5 {
+    font-size: 2.75em;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    align-self: center;
+  }
+
+  .section .article p {
+    font-size: 1.3125em;
+    line-height: 35px;
+    margin: 0;
+    width: 69%;
+  }
+
+  .section .article.left {
+    padding-left: 12%;
   }
 
   .section.one .a.one .footer {
     position: relative;
     bottom: -9em;
+    z-index: 1;
   }
 
   .section.one .a.one .article.one {
     margin-bottom: 10%;
   }
-  .section .footer-info {
-    display: flex;
-    padding: 0;
-    width: 100%;
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0;
-  }
-  .section .footer-info .over,
-  .section .footer-info .under {
-    display: flex;
-    width: 33.33%;
-    height: 25vh;
-  }
-  .section .footer {
-    /* vill inte använda z-index!!!!!!!!! */
-    z-index: 1;
-  }
-  .section .footer-info .over p,
-  .section .footer-info .under p {
-    font-size: 20pt;
-  }
 
-  .section .footer-info .over h6,
-  .section .footer-info .under h6 {
-    font-size: 60pt;
-    font-weight: lighter;
-  }
-  .section.one {
-    /* position: relative; */
-  }
   .section.one .button {
     position: absolute;
     top: 165em;
     right: 10%;
     z-index: 2;
+  }
+
+  .section.one .article.one p {
+    width: 100%;
   }
 
   .section.two .header {
@@ -874,43 +891,8 @@ body {
     flex-direction: column;
   }
 
-  .section .header h3 {
-    font-size: 9.375em;
-    margin-bottom: -20px;
-    margin-top: 7%;
-  }
-  .section .header h5 {
-    font-size: 2.43em;
-    width: 250px;
-    line-height: 40px;
-    padding-left: 10px;
-    margin-top: 0;
-  }
-
-  .section .article h5 {
-    font-size: 2.75em;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    align-self: center;
-  }
-
   .section.two .article h5 {
     align-self: flex-start;
-  }
-
-  .section .article p {
-    font-size: 1.3125em;
-    line-height: 35px;
-    margin: 0;
-    width: 69%;
-  }
-
-  .section.one .article h5 {
-    width: 584px;
-  }
-
-  .section.one .article.one p {
-    width: 818px;
   }
 
   .section.two .article.two p{
@@ -930,12 +912,11 @@ body {
     padding-top: 5%;
   }
 
-  .section.two .content .article.right {
+  .section.two .content .article.right, .section.two .content .article.left {
     margin: 0;
   }
 
   .section.two .content .article.left {
-    margin: 0;
     padding-bottom: 6.1%;
     background-color: #1b1b1b;
   }
@@ -953,9 +934,6 @@ body {
     align-self: flex-start;
     margin-top: 20%;
     margin-left: 7%;
-  }
-  .section .article.left {
-    padding-left: 12%;
   }
 }
 
