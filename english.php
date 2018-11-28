@@ -45,7 +45,7 @@
             ],
           ],
     '03' => [
-            'fly',
+            'Aviate',
             'Challenge the Gales',
             'Hugging the wind currents is not a risk thanks to FS 1.0’s perfectly calibrated air glide turbine. Swiftly reaching top speeds, the FS 1.0’s advanced accelerator appendage, meticulous wind sheering dimensions, lightweight composition and gravity defying air pressure technology deliver accurate steering and a smooth ride.',
             'Guardian Angel',

@@ -133,7 +133,7 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][0][2] ?></h5>
         </div>
         <footer class="footer">
-          <img src="images/Preview_19.png" />
+          <img src="images/01_Neon_intro.png" />
         </footer>
       </article>
 
