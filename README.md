@@ -6,7 +6,7 @@
 
 ## Tech/framework used
 <b>Built in [Atom](https://atom.io/) with</b>
-- With HTML, CSS, Vanilla JS and PHP
+- HTML, CSS, Vanilla JS and PHP
 
 ## Installation
 * Clone this repository to your computer:
