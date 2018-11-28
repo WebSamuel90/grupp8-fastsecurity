@@ -296,15 +296,13 @@ require __DIR__.'/header.php';
   <!-- FOOTER -->
   <footer class="footer-of-page">
     <div class="footer-row-one">
-      <div class="whiteLine"></div>
     </div>
     <div class="footer-row-two">
       <div class="stroke-left">
         <div class="line"></div>
       </div>
       <div class="center-logo">
-        <img src="images/Emanuel_Mardsjo_WU_Logo_design_BT.png" alt="">
-        <p>FAST SECURITY</p>
+        <img src="images/FS-logo.png" alt="">
       </div>
       <div class="stroke-right">
         <div class="line"></div>
@@ -314,9 +312,10 @@ require __DIR__.'/header.php';
       <div class="footer-left">
       <form class="footer-form" action="index.html" method="post">
         <p>Receive the Latest FS News</p>
-        <input type="email" name="" placeholder="Email" id="Email" />
+        <input type="email" name="" placeholder="E-mail" id="Email" />
         <br><br>
-        <button type="submit" name="button">SUBSCRIBE</button>
+        <input type="submit" name="" value="SUBSCRIBE">
+        <!-- <button type="submit" name="button">SUBSCRIBE</button> -->
       </form>
       </div>
       <div class="footer-center">
@@ -331,7 +330,7 @@ require __DIR__.'/header.php';
         </div>
       </div>
       <div class="footer-right">
-        <p>(SAAB)</p>
+        <img src="images/saab-logo.png" alt="">
       </div>
     </div>
   </footer>
