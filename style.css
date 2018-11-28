@@ -1315,7 +1315,7 @@ body {
   height: 70vh;
   margin-top: -23px;
   width: 100vw;
-  background-color: rgb(211, 211, 211);
+  background-color: #B2B2B2;
 }
 
 .footer-row-one {
@@ -1397,7 +1397,7 @@ body {
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid #474747;
-    background-color: rgb(211, 211, 211);
+    background-color: #B2B2B2;
     color: #474747;
     font-family: AktivGrotesk-light;
     font-size: 24px;
@@ -1452,7 +1452,6 @@ body {
   align-items: center;
   flex-direction: column;
 }
-<<<<<<< HEAD
 
 .footer-right img {
   height: auto;
@@ -1497,8 +1496,4 @@ body {
   	width: 128px;
   }
 }
-
-
-=======
->>>>>>> e76799a7a48203f99d8a6a8c51b4bb75ab5805ed
 /* END FOOTER */
