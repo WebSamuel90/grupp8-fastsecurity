@@ -240,7 +240,7 @@ body {
 /* END TRANSLATE */
 
 /*MOBILE NAVBAR---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
   .desktop-navbar-container, .desktop-navbar, .desktop-logo, .desktop-language-selector{
     display:none;
   }
@@ -379,7 +379,7 @@ body {
 /*END MOBILE NAVBAR-----------------------------------------------------------*/
 
 /*DESKTOP NAVBAR--------------------------------------------------------------*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
   .mobile-navbar-container, .mobile-navbar-left, .mobile-navbar-right, .mobile-logo,
   .mobile-navbar-left-style2, .mobile-navbar-right-style2, .mobile-closing-arrow{
     display: none;
@@ -389,6 +389,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     top: 0;
     width: 100%;
     /* background-image: linear-gradient(rgba(128,128,128, 0.8), rgba(255, 0, 0, 0)); */
