@@ -136,6 +136,10 @@ require __DIR__.'/header.php';
           <img class="desktop" src="images/desktop_images/01_Neon_intro.png" />
           <img class="mobile" src="images/mobile_images/mobile_01_neon_intro.png" />
         </footer>
+        <div class="button details desktop">
+            <input type="submit" class="show" value="<?= $lang['details-button'][0]; ?>" />
+            <input type="submit" class="hover" value="<?= $lang['details-button'][1]; ?>" />
+        </div>
       </article>
 
         <div class="footer-info">
@@ -155,7 +159,7 @@ require __DIR__.'/header.php';
             <p><?= $lang['01'][0][8] ?></p>
           </div>
         </div>
-      <div class="button details">
+      <div class="button details mobile">
         <input type="submit" class="show" value="<?= $lang['details-button'][0]; ?>" />
         <input type="submit" class="hover" value="<?= $lang['details-button'][1]; ?>" />
       </div>

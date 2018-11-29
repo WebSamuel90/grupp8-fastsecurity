@@ -50,8 +50,8 @@ $lang = [
 'popup' => [
               'Kontakta fast Security', 'Namn', 'E-mail', 'Meddelande', 'sänd'
             ],
-'popup-details' => 'Ladda ner broschyr',
-'details-button' => ['Detaljer', 'Ladda ner broschyr'],
+'popup-details' => 'Ladda ner broschyren',
+'details-button' => ['Detaljer', 'produktbeskrivning'],
 'desktop-navbar' => ['HEM', 'FÖRETAG', 'HISTORIER', 'RESERVERA', 'LUFTMOTIV'],
 'mobile-navbar' => [
     'HEM',

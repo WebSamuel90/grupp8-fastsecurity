@@ -813,12 +813,16 @@ body {
   padding: 5px 30px 1px 30px;
 }
 
-
-.section .button .hover {
-    display: none;
+.section .a.one .button.desktop:hover .hover{
+    display: block;
 }
 
-.section .button:hover .show {
+.section .button .hover,
+.section .button:hover .show,
+.section .a.one .button .hover,
+.section .a.one .button:hover .show,
+.section .a.one .button.desktop .hover,
+.section .a.one .button.desktop {
     display: none;
 }
 
@@ -867,6 +871,26 @@ body {
     padding-bottom: 10px;
     cursor: pointer;
   }
+
+  .section .a.one .button.desktop {
+      display: block;
+  }
+
+  .section .button.mobile {
+      display: none;
+  }
+
+  .section.one .button.desktop {
+    position: relative;
+    bottom: 2px;
+    right: 7%;
+    z-index: 2;
+  }
+
+  .section .button {
+    align-self: flex-end;
+  }
+
 
   .section .header {
     margin-left: 7%;
@@ -944,20 +968,12 @@ body {
   }
 
   .section.one .a.one .footer {
-    position: relative;
-    bottom: -9em;
+    margin-bottom: -24%;
     z-index: 1;
   }
 
   .section.one .a.one .article.one {
     margin-bottom: 10%;
-  }
-
-  .section.one .button {
-    position: absolute;
-    top: 170em;
-    right: 10%;
-    z-index: 1;
   }
 
   .section.one .article.one p {

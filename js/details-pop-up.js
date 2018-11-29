@@ -1,16 +1,18 @@
 
 
 const buttonDiv = document.querySelector('.details.popup');
-const details = document.querySelector('.button.details .hover');
+const details = document.querySelectorAll('.button.details .hover');
 const box = document.querySelector('.popup-details');
 
+console.log(details);
 //gör medtoder tillgängliga. spread operatior.
 // const arrowClose = [...document.querySelectorAll('.arrow-close')];
 const arrowClose = document.querySelector('.arrow-close');
 // console.log(typeof arrowClose);
-
-details.addEventListener('click', () => {
-  buttonDiv.classList.add('active');
+details.forEach((detail) => {
+    detail.addEventListener('click', () => {
+        buttonDiv.classList.add('active');
+    })
 })
 
 arrowClose.addEventListener('click', () => {
