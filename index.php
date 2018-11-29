@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
     <h2><?= $lang['popup-details']; ?></h2>
-    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
+    <a href="Brochure_project_FS_Webb.pdf" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
    </sidebar>
  </div>
 
@@ -134,7 +134,8 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][0][2] ?></h5>
         </div>
         <footer class="footer">
-          <img src="images/01_Neon_intro.png" />
+          <img class="desktop" src="images/desktop_images/01_Neon_intro.png" />
+          <img class="mobile" src="images/mobile_images/mobile_01_neon_intro.png" />
         </footer>
       </article>
 
@@ -244,7 +245,8 @@ require __DIR__.'/header.php';
         <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture right">
-          <img src="images/energy_image_1.png" alt="">
+          <img class="desktop" src="images/desktop_images/energy_image_1.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_02_energy_image_1.png" alt="">
         </article>
       </section>
 
@@ -257,7 +259,8 @@ require __DIR__.'/header.php';
           <p><?= $lang['02'][0][6] ?></p>
         </article>
         <article class="picture left">
-          <img src="images/energy_image_2.png" alt="">
+          <img class="desktop"src="images/desktop_images/energy_image_2.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_02_energy_image_2.png" alt="">
         </article>
       </section>
   </section>
@@ -280,7 +283,8 @@ require __DIR__.'/header.php';
           <p><?= $lang['03'][2] ?></p>
       </article>
       <article class="picture">
-        <img src="images/avaite_image_1.png" alt="">
+          <img class="desktop"src="images/desktop_images/avaite_image_1.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_03_aviate_image_1.png" alt="">
       </article>
       <article class="title">
         <h5><?= $lang['03'][3] ?></h5>
@@ -290,7 +294,8 @@ require __DIR__.'/header.php';
         <p><?= $lang['03'][4] ?></p>
       </article>
       <article class="picture right">
-        <img src="images/aviate_image_2.png" alt="">
+          <img class="desktop" src="./images/desktop_images/aviate_image_2.png" alt="">
+          <img class="mobile" src="./images/mobile_images/mobile_03_aviate_image_2.png" alt="">
       </article>
     </section>
   </section>

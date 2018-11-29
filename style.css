@@ -418,7 +418,7 @@ body {
   .desktop-navbar a{
     color: white;
     text-shadow: 1px 1px 2px gray;
-    font-family: "AktivGrotesk-Light";
+    font-family: "AktivGrotesk-Light", sans-serif;
     text-decoration: none;
     font-weight: 100;
     letter-spacing: 2px;
@@ -453,16 +453,25 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-image: url("./images/Hero-image.png");
+  background-image: url("./images/mobile_images/mobile_Hero_image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+      background-image: url("./images/desktop_images/Hero-image.png");
+  }
+
+}
+
+
 /* END HERO */
 
 /* ROTATING TEXT */
 .sentence {
-  font-family: "AktivGrotesk-Light";
+  font-family: AktivGrotesk-Light, sans-serif;
   font-weight: 100;
   font-size: 14pt;
   letter-spacing: 0.67em;
@@ -562,7 +571,6 @@ body {
   background-position: center;
   display: flex;
   flex-direction: column;
-  height: 114vh;
 }
 
 .section.one .a.one .article.one img {
@@ -577,7 +585,7 @@ body {
 }
 
 .section .header h3 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
   font-size: 54pt;
   line-height: normal;
@@ -593,7 +601,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 10% 5% 10% 5%;
+  padding: 60% 5% 10% 5%;
   width: 100%;
 }
 
@@ -602,7 +610,7 @@ body {
 }
 
 .section.one {
-  background-image: url('./images/01-aeromotive-luxury-background.png');
+  background-image: url('./images/background_images/01-aeromotive-luxury-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -613,7 +621,7 @@ body {
 }
 
 .section.two {
-  background-image: url('./images/02-cellava-unleasehd-background.png');
+  background-image: url('./images/background_images/02-cellava-unleasehd-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -621,7 +629,7 @@ body {
 
 /* fixa pt till em!!!! */
 .section .header h5, .article h5 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
   line-height: 20px;
   margin: 0;
@@ -645,9 +653,13 @@ body {
 }
 
 .section .article p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   color: #fff;
   font-size: 1.33em;
+}
+
+.section.one .article.one h5, .section.one .article.one p {
+    text-align: center;
 }
 
 .section.one .footer {
@@ -655,8 +667,12 @@ body {
   z-index: 1;
 }
 
-.section.one .footer img {
-  width: 100vw;
+.section.one .footer .mobile {
+  width: 100%;
+}
+
+.section .desktop{
+    display: none;
 }
 
 .section.one .footer-info {
@@ -689,14 +705,14 @@ body {
 
 .section.one .footer-info .over p,
 .section.one .footer-info .under p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
   font-size: 9pt;
 }
 
 .section.one .footer-info .over h6,
 .section.one .footer-info .under h6 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
   font-size: 20pt;
 }
@@ -760,7 +776,7 @@ body {
 
 .section .button input[type="submit"],
 .section .button input[type="button"] {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   background-color: #212121;
   color: #fff;
   border: 1px solid #fff;
@@ -773,7 +789,7 @@ body {
 }
 
 .section .fly {
-  background: url("./images/03_car_background_mobile.png");
+  background: url("./images/mobile_images/mobile_03_aviate_background.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -783,6 +799,23 @@ body {
 }
 .section .fly .header {
   margin-top: 106.66px
+}
+
+.section.three .content.white::before {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+.section.three .content.white .picture.right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -809,6 +842,7 @@ body {
   .section .article {
     align-self: center;
     width: 60%;
+    padding: 10% 5% 10% 5%;
   }
 
   .section .header h3 {
@@ -852,6 +886,19 @@ body {
     padding-bottom: 6.1%;
     width: 100%;
     align-items: flex-end;
+  }
+
+  .section.one .footer .mobile {
+  }
+  .section.one .footer .desktop {
+    width: 100%;
+  }
+
+  .section .desktop{
+      display: block;
+  }
+  .section .mobile {
+      display: none;
   }
 
   .section.one .content .article.right {
@@ -961,23 +1008,12 @@ body {
   }
 
   .section.three .fly {
-    background: url("./images/avaite_background.png");
+    background: url("./images/desktop_images/avaite_background.png");
     background-position: 80% 20%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
-  }
-
-  .section.three .content.white::before {
-    display: block;
-    position: relative;
-    z-index: 1;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -150px;
-    height: 150px;
-    width: 100%;
-    content: '';
   }
 
   .section.three .content.white .picture {
@@ -988,6 +1024,9 @@ body {
 
   .section.three .content.white .picture.right {
     justify-content: flex-end;
+    padding-left: 0;
+    overflow: visible;
+    flex-direction: row;
   }
 
   .section.three .content.white .picture.right img {
@@ -1020,7 +1059,7 @@ body {
 
 .content .title h5 {
   font-size: 2.08em;
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   color: #fff;
   line-height: normal;
   margin: 0 0 0 38.66px;
@@ -1047,7 +1086,7 @@ body {
 }
 
 .content .article p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-size: 1.33em;
   color: #fff;
   margin: 0;
@@ -1081,8 +1120,7 @@ body {
 }
 
 .content.white .picture.right img{
-  height: 428px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 34% 66%;
 }
 
@@ -1261,9 +1299,77 @@ body {
 
 /* END GALLERY */
 
-/* GALLERY-SLIDER */
+/* SECOND GALLERY */
 
-/* END GALLERY-SLIDER */
+@media screen and (min-width: 768px) {
+  .second-gallery {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+
+  .second-gallery .box {
+    height: 50%;
+    width: 30%;
+    order: 2;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .second-gallery .box img {
+    /* height: auto; */
+    width: 100%;
+  }
+
+
+  .second-gallery .big {
+    order: -1;
+    height: 100%;
+    width: 70%;
+    cursor: default;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .second-gallery {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .second-gallery .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .second-gallery .box {
+    width: 50%;
+    height: 35%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .second-gallery .box img {
+    /* height: auto; */
+    width: 100%;
+  }
+
+  .second-gallery .big {
+    order: -1;
+    height: 65%;
+    width: 100%;
+    cursor: default;
+  }
+}
+/* END SECOND GALLERY */
 
 
 .footer-of-page {
@@ -1367,7 +1473,6 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   cursor: pointer;
-  height: 40px;
 }
 
 .footer-center {
@@ -1448,11 +1553,6 @@ body {
   .center-logo img {
   	height: 110px;
   	width: 128px;
-  }
-
-  .footer-center img {
-    height: 34px;
-  	width: 33px;
   }
 }
 /* END FOOTER */
