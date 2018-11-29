@@ -134,7 +134,7 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][0][2] ?></h5>
         </div>
         <footer class="footer">
-          <img class="desktop" src="images/01_Neon_intro.png" />
+          <img class="desktop" src="images/desktop_images/01_Neon_intro.png" />
           <img class="mobile" src="images/mobile_images/mobile_01_neon_intro.png" />
         </footer>
       </article>
