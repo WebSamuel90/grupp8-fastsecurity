@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $lang = [
-  'hero' => ['Up', 'ptäck horisonten', 'lev aeromobilen', 'finningarnas <br />uppfinning'],
+  'hero' => ['Upp', 'täck horisonten', 'lev aeromobilen', 'finningarnas <br />uppfinning'],
   '01' => [
             [
             'UPPTAKTEN TILL EN EPOK ',
