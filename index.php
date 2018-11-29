@@ -174,13 +174,16 @@ require __DIR__.'/header.php';
         <!-- GALLERY-->
       <section class="gallery">
         <div class="box big">
-          <img src="images/desktop_images/detail_view_1.png" alt="">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_1.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_1.png" alt="">
         </div>
         <div class="box">
-          <img  src="images/desktop_images/detail_view_2.png" alt="">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_2.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_2.png" alt="">
         </div>
         <div class="box">
-          <img src="images/desktop_images/detail_view_3.png" alt="">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_3.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_3.png" alt="">
         </div>
       </section>
         <!--END GALLERY-->
