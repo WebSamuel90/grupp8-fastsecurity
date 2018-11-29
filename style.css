@@ -82,7 +82,7 @@ body {
 }
 
 .popup-signup h2 {
-  font-size: 14pt;
+  font-size: 1.166em;
   text-transform: uppercase;
 }
 
@@ -102,7 +102,7 @@ body {
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
-  font-size: 16pt;
+  font-size: 1.333em;
   text-transform: capitalize;
 }
 
@@ -163,13 +163,13 @@ body {
   }
 
   .toggle-signup .plus {
-    width: 30px;
+    width: 20px;
     color: #fff;
     padding: 2px 3px 2px 3px;
   }
 
   .toggle-signup .mail {
-    width: 25px;
+    width: 30px;
     color: #fff;
     padding: 1px 3px 1px 3px;
   }
@@ -494,9 +494,9 @@ body {
 .sentence {
   font-family: AktivGrotesk-Light, sans-serif;
   font-weight: 100;
-  font-size: 14pt;
+  font-size: 1em;
   letter-spacing: 0.67em;
-  line-height: 22pt;
+  line-height: 1.833em;
   width: 50%;
   color: #f2f2f2;
   display: flex;
@@ -609,7 +609,7 @@ body {
 .section .header h3 {
   font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
-  font-size: 54pt;
+  font-size: 4.5em;
   line-height: normal;
   margin: 0;
   padding: 0;
@@ -649,7 +649,6 @@ body {
   background-repeat: repeat;
 }
 
-/* fixa pt till em!!!! */
 .section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
@@ -729,14 +728,14 @@ body {
 .section.one .footer-info .under p {
   font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
-  font-size: 9pt;
+  font-size: 0.75em;
 }
 
 .section.one .footer-info .over h6,
 .section.one .footer-info .under h6 {
   font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
-  font-size: 20pt;
+  font-size: 1.666em;
 }
 
 
@@ -794,7 +793,7 @@ body {
 .popup-details h2 {
   text-align: center;
   width: 152px;
-  font-size: 16pt;
+  font-size: 1.333em;
   text-transform: uppercase;
   align-content: space-around;
   padding: 20% 0 0 0;
@@ -994,12 +993,12 @@ body {
 
   .section.one .footer-info .over p,
   .section.one .footer-info .under p {
-    font-size: 20pt;
+    font-size: 1.666em;
   }
 
   .section.one .footer-info .over h6,
   .section.one .footer-info .under h6 {
-    font-size: 60pt;
+    font-size: 5em;
     font-weight: lighter;
   }
 
@@ -1231,7 +1230,7 @@ body {
   }
 
   .content .title h5 {
-    font-size: 37pt;
+    font-size: 3.083em;
     text-align: left;
   }
 
@@ -1263,7 +1262,7 @@ body {
 
 
   .content .article p, .content .article.right p{
-    font-size: 18pt;
+    font-size: 1.5em;
     line-height: 35px;
     padding-bottom: 2%;
   }
