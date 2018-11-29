@@ -440,7 +440,7 @@ body {
   .desktop-navbar a{
     color: white;
     text-shadow: 1px 1px 2px gray;
-    font-family: "AktivGrotesk-Light", sans-serif;
+    font-family: AktivGrotesk-Light, sans-serif;
     text-decoration: none;
     font-weight: 100;
     letter-spacing: 2px;
