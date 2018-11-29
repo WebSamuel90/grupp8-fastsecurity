@@ -12,7 +12,7 @@ Make a landing-page for FastSecurity, FS 1.0.
 * Clone this repository to your computer:
     * `$ git clone https://github.com/WebSamuel90/grupp8-fastsecurity.git`
 * Start your server
-* Open the `public/index.php` file in you favorite browser.
+* Open the `public/index.php` file in your browser.
 
 ## Members
 - Ahmad Qaddura (CGD)
