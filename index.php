@@ -174,13 +174,13 @@ require __DIR__.'/header.php';
         <!-- GALLERY-->
       <section class="gallery">
         <div class="box big">
-          <img src="images/Render_05.jpg" alt="">
+          <img src="images/desktop_images/detail_view_1.png" alt="">
         </div>
         <div class="box">
-          <img  src="images/Render_06.jpg" alt="">
+          <img  src="images/desktop_images/detail_view_2.png" alt="">
         </div>
         <div class="box">
-          <img src="images/Render_08.jpg" alt="">
+          <img src="images/desktop_images/detail_view_3.png" alt="">
         </div>
       </section>
         <!--END GALLERY-->
@@ -197,21 +197,22 @@ require __DIR__.'/header.php';
       </article>
     </section>
 
-    <!-- SECOND GALLERY-->
+    <!--GALLERY SLIDER-->
   <section class="gallery-slider">
-    <div class="slider">
-      <div class="slide">
-        <img src="images/Render_05.jpg" alt="">
-      </div>
-      <div class="slide">
-        <img  src="images/Render_06.jpg" alt="">
-      </div>
-      <div class="slide">
-        <img src="images/Render_08.jpg" alt="">
-      </div>
+    <div class="slider-desktop">
+      <div><img src="images/desktop_images/interior_view_1.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_2.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_3.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_4.png" alt=""></div>
+    </div>
+    <div class="slider-mobile">
+        <div><img src="images/mobile_images/mobile_interior_slider_1.png" alt=""></div>
+        <div><img src="images/mobile_images/mobile_interior_slider_2.png" alt=""></div>
+        <div><img src="images/mobile_images/mobile_interior_slider_3.png" alt=""></div>
+        <div><img src="images/mobile_images/mobile_interior_slider_4.png" alt=""></div>
     </div>
   </section>
-    <!--END SECOND GALLERY-->
+    <!--END GALLERY SLIDER--->
 
     <!-- END 01 NEW ERA DESIGN -->
 
