@@ -270,8 +270,8 @@ body {
     z-index: 2;
     border-right: 1px solid #00205A;
 
-    font-weight: 900;
-    font-family: "AktivGrotesk-light";
+    /* font-weight: 900; */
+    font-family: AktivGrotesk-Bold, sans-serif;
   }
   .mobile-navbar-left a{
     text-decoration: none;
@@ -292,7 +292,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 
-    font-family: "AktivGrotesk-light";
+    font-family: AktivGrotesk-light, sans-serif;
     font-weight: 200;
     text-decoration: none;
     padding-left: 10%;
@@ -309,8 +309,8 @@ body {
     padding-left: 10%;
     z-index: 2;
 
-    font-weight: 900;
-    font-family: "AktivGrotesk-light";
+    /* font-weight: 900; */
+    font-family: AktivGrotesk-Bold, sans-serif;
   }
   .mobile-navbar-right a{
     text-decoration: none;
@@ -330,7 +330,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    font-family: "AktivGrotesk-light";
+    font-family: AktivGrotesk-light, sans-serif;
     font-weight: 200;
     padding-bottom: 35%;
     padding-left: 10%;
@@ -344,8 +344,8 @@ body {
     flex-direction: column;
     width: 100%;
     color: white;
-    font-family: "AktivGrotesk-light";
-    font-weight: 900;
+    font-family: AktivGrotesk-Bold, sans-serif;
+    /* font-weight: 900; */
     padding-top: 4%;
     z-index:3;
   }
