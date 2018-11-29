@@ -327,9 +327,9 @@ require __DIR__.'/header.php';
         <a href="">info@fsproject.com</a>
         <br>
         <div class="social-media">
-          <img src="images/facebook-logo.svg" alt="">
-          <img src="images/instagram-logo.svg" alt="">
-          <img src="images/twitter-logo.svg" alt="">
+          <a href="https://www.facebook.com/"><img src="images/facebook-logo.svg" alt=""></a>
+          <a href="https://www.instagram.com/?hl=sv"><img src="images/instagram-logo.svg" alt=""></a>
+          <a href="https://twitter.com/"><img src="images/twitter-logo.svg" alt=""></a>
         </div>
       </div>
       <div class="footer-right">

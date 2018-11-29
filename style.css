@@ -1416,13 +1416,11 @@ body {
 
 @media screen and (max-width: 768px) {
   .footer-left {
-    width: 0%;
-    visibility: hidden;
+    display: none;
   }
 
   .footer-right {
-    width: 0%;
-    visibility: hidden;
+    display: none;
   }
 
   .footer-center {
