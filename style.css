@@ -1448,7 +1448,10 @@ body {
   font-family: AktivGrotesk-regular;
   font-size: 24px;
   line-height: 19px;
-  text-align: center;
+}
+
+.footer-form p {
+    margin: 0px;
 }
 
 .footer-form input[type=email] {
@@ -1468,6 +1471,7 @@ body {
 
 .footer-form input[type=submit] {
   border: 10px;
+  padding: 9px;
   background-color: rgba(0, 33, 88, 0.90);
   color: white;
   box-sizing: border-box;
@@ -1479,7 +1483,7 @@ body {
   height: 100%;
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   flex-direction: column;
 }
@@ -1495,21 +1499,20 @@ body {
 }
 
 .social-media {
-  display: flex;
-  justify-content: center;
+    margin: 50px;
 }
 
 .social-media img {
   height: auto;
   width: 4vw;
-  padding: 0px 8px 0px 8px;
+  padding: 0px 10px 0px 10px;
 }
 
 .footer-right {
   height: 100%;
   width: 35%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: baseline;
   align-items: center;
   flex-direction: column;
 }
