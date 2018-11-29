@@ -556,20 +556,19 @@ body {
 }
 
 .a.one {
-  background-image: url("./images/light-beams-mobile.jpg");
+  background-image: url("./images/mobile_images/mobile_lightbeam_background-gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
+  height: 114vh;
 }
 
 .section.one .a.one .article.one img {
   margin: 0 0 20% 0;
   width: 40%;
 }
-
-
 
 .section .header {
   align-self: flex-start;
