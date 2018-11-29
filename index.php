@@ -105,6 +105,39 @@ require __DIR__.'/header.php';
 
    <!--HERO-->
    <section class="hero">
+<<<<<<< HEAD
+     <!--NAVBAR-->
+     <!--div id="navbar">
+       <a href="#home">Home</a>
+       <div class="downArrow">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <a href="#contact">Contact</a>
+     </div-->
+    <!--/END NAVBAR-->
+  </section>
+  <!--/END HERO-->
+
+  <!-- SECOND FRAME -->
+  <section class="second-frame">
+    <div class="scd-text">
+
+    </div>
+  </section>
+  <!-- END SECOND FRAME -->
+
+  <!-- BOTTOM CARDS -->
+  <section class="cards">
+    <div class="card rain">
+      <i class="fas fa-cloud-rain"></i>
+      <h2>RAIN</h2>
+      <p>Many Pepole still think Saab makes cars, and that is correct. We are
+      on the go for the future. Saab is very much alive and well.</p>
+=======
 
      <!-- ROTATING TEXT -->
      <h2 class="sentence"><?= $lang['hero'][0]; ?>
@@ -304,6 +337,7 @@ require __DIR__.'/header.php';
   <!-- FOOTER -->
   <footer class="footer-of-page">
     <div class="footer-row-one">
+>>>>>>> 91e7c520afc5d35415035b9bbb12adb86d71c299
     </div>
     <div class="footer-row-two">
       <div class="stroke-left">
@@ -341,7 +375,11 @@ require __DIR__.'/header.php';
         <img src="images/saab-logo.png" alt="">
       </div>
     </div>
+<<<<<<< HEAD
+  </section>
+=======
   </footer>
+>>>>>>> 91e7c520afc5d35415035b9bbb12adb86d71c299
 
  <?php
 
