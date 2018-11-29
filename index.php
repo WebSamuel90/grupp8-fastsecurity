@@ -260,7 +260,7 @@ require __DIR__.'/header.php';
         </article>
         <article class="picture left">
           <img class="desktop"src="images/desktop_images/energy_image_2.png" alt="">
-          <img class="mobile" src="images/mobile_images/energy_image_2.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_02_energy_image_2.png" alt="">
         </article>
       </section>
   </section>

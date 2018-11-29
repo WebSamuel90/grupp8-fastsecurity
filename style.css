@@ -671,10 +671,6 @@ body {
   width: 100%;
 }
 
-.section.one .footer .desktop {
-    display: none;
-}
-
 .section .desktop{
     display: none;
 }
@@ -893,10 +889,8 @@ body {
   }
 
   .section.one .footer .mobile {
-    display: none;
   }
   .section.one .footer .desktop {
-    display: block;
     width: 100%;
   }
 
