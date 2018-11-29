@@ -198,15 +198,17 @@ require __DIR__.'/header.php';
     </section>
 
     <!-- SECOND GALLERY-->
-  <section class="second-gallery">
-    <div class="box big">
-      <img src="images/Render_05.jpg" alt="">
-    </div>
-    <div class="box">
-      <img  src="images/Render_06.jpg" alt="">
-    </div>
-    <div class="box">
-      <img src="images/Render_08.jpg" alt="">
+  <section class="gallery-slider">
+    <div class="slider">
+      <div class="slide">
+        <img src="images/Render_05.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img  src="images/Render_06.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/Render_08.jpg" alt="">
+      </div>
     </div>
   </section>
     <!--END SECOND GALLERY-->
