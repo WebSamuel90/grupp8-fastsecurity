@@ -418,7 +418,7 @@ body {
   .desktop-navbar a{
     color: white;
     text-shadow: 1px 1px 2px gray;
-    font-family: "AktivGrotesk-Light";
+    font-family: "AktivGrotesk-Light", sans-serif;
     text-decoration: none;
     font-weight: 100;
     letter-spacing: 2px;
@@ -462,7 +462,7 @@ body {
 
 /* ROTATING TEXT */
 .sentence {
-  font-family: "AktivGrotesk-Light";
+  font-family: AktivGrotesk-Light, sans-serif;
   font-weight: 100;
   font-size: 14pt;
   letter-spacing: 0.67em;
@@ -562,7 +562,6 @@ body {
   background-position: center;
   display: flex;
   flex-direction: column;
-  height: 114vh;
 }
 
 .section.one .a.one .article.one img {
@@ -577,7 +576,7 @@ body {
 }
 
 .section .header h3 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
   font-size: 54pt;
   line-height: normal;
@@ -593,7 +592,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 10% 5% 10% 5%;
+  padding: 60% 5% 10% 5%;
   width: 100%;
 }
 
@@ -621,7 +620,7 @@ body {
 
 /* fixa pt till em!!!! */
 .section .header h5, .article h5 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-weight: 100;
   line-height: 20px;
   margin: 0;
@@ -645,9 +644,13 @@ body {
 }
 
 .section .article p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   color: #fff;
   font-size: 1.33em;
+}
+
+.section.one .article.one h5, .section.one .article.one p {
+    text-align: center;
 }
 
 .section.one .footer {
@@ -655,8 +658,16 @@ body {
   z-index: 1;
 }
 
-.section.one .footer img {
-  width: 100vw;
+.section.one .footer .mobile {
+  width: 100%;
+}
+
+.section.one .footer .desktop {
+    display: none;
+}
+
+.section .desktop{
+    display: none;
 }
 
 .section.one .footer-info {
@@ -689,14 +700,14 @@ body {
 
 .section.one .footer-info .over p,
 .section.one .footer-info .under p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
   font-size: 9pt;
 }
 
 .section.one .footer-info .over h6,
 .section.one .footer-info .under h6 {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
   font-size: 20pt;
 }
@@ -760,7 +771,7 @@ body {
 
 .section .button input[type="submit"],
 .section .button input[type="button"] {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   background-color: #212121;
   color: #fff;
   border: 1px solid #fff;
@@ -773,7 +784,7 @@ body {
 }
 
 .section .fly {
-  background: url("./images/03_car_background_mobile.png");
+  background: url("./images/mobile_images/mobile_03_aviate_background.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -783,6 +794,23 @@ body {
 }
 .section .fly .header {
   margin-top: 106.66px
+}
+
+.section.three .content.white::before {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+.section.three .content.white .picture.right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -809,6 +837,7 @@ body {
   .section .article {
     align-self: center;
     width: 60%;
+    padding: 10% 5% 10% 5%;
   }
 
   .section .header h3 {
@@ -852,6 +881,21 @@ body {
     padding-bottom: 6.1%;
     width: 100%;
     align-items: flex-end;
+  }
+
+  .section.one .footer .mobile {
+    display: none;
+  }
+  .section.one .footer .desktop {
+    display: block;
+    width: 100%;
+  }
+
+  .section .desktop{
+      display: block;
+  }
+  .section .mobile {
+      display: none;
   }
 
   .section.one .content .article.right {
@@ -969,17 +1013,6 @@ body {
     width: 100%;
   }
 
-  .section.three .content.white::before {
-    display: block;
-    position: relative;
-    z-index: 1;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -150px;
-    height: 150px;
-    width: 100%;
-    content: '';
-  }
-
   .section.three .content.white .picture {
     width: 100%;
     display: flex;
@@ -988,6 +1021,9 @@ body {
 
   .section.three .content.white .picture.right {
     justify-content: flex-end;
+    padding-left: 0;
+    overflow: visible;
+    flex-direction: row;
   }
 
   .section.three .content.white .picture.right img {
@@ -1020,7 +1056,7 @@ body {
 
 .content .title h5 {
   font-size: 2.08em;
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   color: #fff;
   line-height: normal;
   margin: 0 0 0 38.66px;
@@ -1047,7 +1083,7 @@ body {
 }
 
 .content .article p {
-  font-family: "AktivGrotesk-Light";
+  font-family: "AktivGrotesk-Light", sans-serif;
   font-size: 1.33em;
   color: #fff;
   margin: 0;
@@ -1081,8 +1117,7 @@ body {
 }
 
 .content.white .picture.right img{
-  height: 428px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 34% 66%;
 }
 

@@ -134,7 +134,8 @@ require __DIR__.'/header.php';
           <h5><?= $lang['01'][0][2] ?></h5>
         </div>
         <footer class="footer">
-          <img src="images/01_Neon_intro.png" />
+          <img class="desktop" src="images/01_Neon_intro.png" />
+          <img class="mobile" src="images/mobile_images/mobile_01_neon_intro.png" />
         </footer>
       </article>
 
@@ -242,7 +243,8 @@ require __DIR__.'/header.php';
         <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture right">
-          <img src="images/energy_image_1.png" alt="">
+          <img class="desktop" src="images/energy_image_1.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_02_energy_image_1.png" alt="">
         </article>
       </section>
 
