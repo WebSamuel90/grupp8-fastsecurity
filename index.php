@@ -320,5 +320,4 @@
    </footer>
    <?php
       require __DIR__.'/footer.php';
-
-       ?>
+   ?>

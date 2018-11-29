@@ -502,6 +502,7 @@ body {
   justify-content: center;
   padding: 0;
   text-transform: uppercase;
+  font-weight: 100;
 }
 
 .sliding-vertical span{
@@ -654,6 +655,7 @@ body {
   padding: 0;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 100;
 }
 
 .section .header h5 {
