@@ -515,20 +515,20 @@ body {
 	position: absolute;
 }
 .sliding-vertical span:nth-child(2){
-	animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	-webkit-animation-delay: 3s;
+	animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	-webkit-animation-delay: 2s;
 }
 .sliding-vertical span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
+	animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
 }
-.sliding-vertical span:nth-child(4){
+/* .sliding-vertical span:nth-child(4){
 	animation-delay: 7s;
 	-ms-animation-delay: 7s;
 	-webkit-animation-delay: 7s;
-}
+} */
 
 @-moz-keyframes topToBottom{
 	0% { opacity: 0; }
@@ -745,6 +745,10 @@ body {
   align-self: center;
 }
 
+.section .button.details {
+    margin: 57.33px 0 57.33px 0;
+}
+
 .details.popup.active {
   position: fixed;
   display: flex;
@@ -800,7 +804,7 @@ body {
 .section .button input[type="submit"],
 .section .button input[type="button"] {
   font-family: "AktivGrotesk-Light", sans-serif;
-  background-color: #212121;
+  background-color: rgba(255, 255, 255, 0);
   color: #fff;
   border: 1px solid #fff;
   border-radius: 20px;
@@ -808,7 +812,19 @@ body {
   text-transform: uppercase;
   font-size: 1.33em;
   padding: 5px 30px 1px 30px;
-  margin: 57.33px 0 57.33px 0;
+}
+
+
+.section .button .hover {
+    display: none;
+}
+
+.section .button:hover .show {
+    display: none;
+}
+
+.section .button:hover .hover {
+    display: block;
 }
 
 .section .fly {

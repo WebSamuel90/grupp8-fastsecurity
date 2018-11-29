@@ -156,7 +156,8 @@ require __DIR__.'/header.php';
           </div>
         </div>
       <div class="button details">
-        <input type="submit" value="<?= $lang['details-button']; ?>" />
+        <input type="submit" class="show" value="<?= $lang['details-button'][0]; ?>" />
+        <input type="submit" class="hover" value="<?= $lang['details-button'][1]; ?>" />
       </div>
 
 
