@@ -1,19 +1,12 @@
-const progressbar = document.querySelector('#progressbar')
+'use strict';
+const progressbar = document.querySelector('.progressbar');
 
 
-window.addEventListener('scroll', () => {
-  var s = window.scrollTop(),
-  d = document.height(),
-  c = window.height();
-  scrollPercent = (s / (d-c)) * 100;
-  var position = scrollPercent;
-
+window.addEventListener('scroll', (e) => {
+  let s = window.pageYOffset,
+    d = document.documentElement.scrollHeight,
+    c = window.pageYOffset;
+  let scrollPercent = (s / (d-c)) * 100;
+  let position = scrollPercent;
+  progressbar.value = position;
 })
-
-
-
-// $(window).scroll(function () {
-//
-//    $("#progressbar").attr('value', position);
-//
-// });
