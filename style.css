@@ -1453,6 +1453,7 @@ body {
 
 .footer-form p {
     margin: 0px;
+    font-family: AktivGrotesk-regular, sans-serif;
 }
 
 .footer-form input[type=email] {
@@ -1464,7 +1465,7 @@ body {
     border-bottom: 2px solid #474747;
     background-color: #B2B2B2;
     color: #474747;
-    font-family: AktivGrotesk-light;
+    font-family: AktivGrotesk-light, sans-serif;
     font-size: 24px;
     line-height: 19px;
     text-align: left;
@@ -1475,6 +1476,7 @@ body {
   padding: 9px;
   background-color: rgba(0, 33, 88, 0.90);
   color: white;
+  font-family: AktivGrotesk-regular, sans-serif;
   box-sizing: border-box;
   font-size: 18px;
   cursor: pointer;
@@ -1491,7 +1493,7 @@ body {
 
 .footer-center a {
   color: #474747;
-  font-family: AktivGrotesk-Regular;
+  font-family: AktivGrotesk-Regular, sans-serif;
   font-size: 24px;
   letter-spacing: 2.39px;
   line-height: 19px;
