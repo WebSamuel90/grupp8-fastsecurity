@@ -336,6 +336,9 @@ require __DIR__.'/header.php';
           <a href="https://www.facebook.com/"><img src="images/facebook-logo.svg" alt=""></a>
           <a href="https://www.instagram.com/?hl=sv"><img src="images/instagram-logo.svg" alt=""></a>
           <a href="https://twitter.com/"><img src="images/twitter-logo.svg" alt=""></a>
+          <br>
+          <a href="" class="not-active"><img class="saab-logo-mobile" src="images/saab-logo.png" alt=""></a>
+
         </div>
       </div>
       <div class="footer-right">
