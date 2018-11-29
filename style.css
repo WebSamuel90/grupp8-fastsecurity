@@ -493,7 +493,6 @@ body {
 /* ROTATING TEXT */
 .sentence {
   font-family: AktivGrotesk-Light, sans-serif;
-  font-weight: 100;
   font-size: 1em;
   letter-spacing: 0.67em;
   line-height: 1.833em;
@@ -608,7 +607,6 @@ body {
 
 .section .header h3 {
   font-family: "AktivGrotesk-Light", sans-serif;
-  font-weight: 100;
   font-size: 4.5em;
   line-height: normal;
   margin: 0;
@@ -651,7 +649,6 @@ body {
 
 .section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light", sans-serif;
-  font-weight: 100;
   line-height: 20px;
   margin: 0;
   padding: 0;
