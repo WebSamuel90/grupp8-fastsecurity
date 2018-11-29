@@ -502,7 +502,6 @@ body {
   justify-content: center;
   padding: 0;
   text-transform: uppercase;
-  font-weight: 100;
 }
 
 .sliding-vertical span{
@@ -563,6 +562,7 @@ body {
     font-size: 2.5em;
     letter-spacing: 0.5em;
     line-height: 1.4em;
+    font-weight: 100;
   }
 
 }
@@ -861,7 +861,6 @@ body {
 @media screen and (min-width: 768px) {
   .popup-details {
     width: 40%;
-    height: 460px;
     justify-content: space-around;
   }
 
@@ -1602,6 +1601,10 @@ body {
 
   .stroke-right {
     width: 30vw;
+  }
+
+  .footer-right img {
+    display: none;
   }
 
   .center-logo img {
