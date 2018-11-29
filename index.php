@@ -29,7 +29,7 @@ require __DIR__.'/header.php';
   <sidebar class="popup-details">
     <img src="images/icons_menu_arrow_active.svg" class="arrow-close" />
     <h2><?= $lang['popup-details']; ?></h2>
-    <a href="#" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
+    <a href="Brochure_project_FS_Webb.pdf" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
    </sidebar>
  </div>
 
