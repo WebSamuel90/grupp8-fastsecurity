@@ -610,7 +610,7 @@ body {
 }
 
 .section.one {
-  background-image: url('./images/01-aeromotive-luxury-background.png');
+  background-image: url('./images/background_images/01-aeromotive-luxury-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -621,7 +621,7 @@ body {
 }
 
 .section.two {
-  background-image: url('./images/02-cellava-unleasehd-background.png');
+  background-image: url('./images/background_images/02-cellava-unleasehd-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
