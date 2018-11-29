@@ -245,7 +245,7 @@ require __DIR__.'/header.php';
         <p><?= $lang['02'][0][4] ?></p>
         </article>
         <article class="picture right">
-          <img class="desktop" src="images/energy_image_1.png" alt="">
+          <img class="desktop" src="images/desktop_images/energy_image_1.png" alt="">
           <img class="mobile" src="images/mobile_images/mobile_02_energy_image_1.png" alt="">
         </article>
       </section>
@@ -259,7 +259,8 @@ require __DIR__.'/header.php';
           <p><?= $lang['02'][0][6] ?></p>
         </article>
         <article class="picture left">
-          <img src="images/energy_image_2.png" alt="">
+          <img class="desktop"src="images/desktop_images/energy_image_2.png" alt="">
+          <img class="mobile" src="images/mobile_images/energy_image_2.png" alt="">
         </article>
       </section>
   </section>
@@ -282,7 +283,8 @@ require __DIR__.'/header.php';
           <p><?= $lang['03'][2] ?></p>
       </article>
       <article class="picture">
-        <img src="images/avaite_image_1.png" alt="">
+          <img class="desktop"src="images/desktop_images/avaite_image_1.png" alt="">
+          <img class="mobile" src="images/mobile_images/mobile_03_aviate_image_1.png" alt="">
       </article>
       <article class="title">
         <h5><?= $lang['03'][3] ?></h5>
@@ -292,7 +294,8 @@ require __DIR__.'/header.php';
         <p><?= $lang['03'][4] ?></p>
       </article>
       <article class="picture right">
-        <img src="images/aviate_image_2.png" alt="">
+          <img class="desktop" src="./images/desktop_images/aviate_image_2.png" alt="">
+          <img class="mobile" src="./images/mobile_images/mobile_03_aviate_image_2.png" alt="">
       </article>
     </section>
   </section>
