@@ -350,11 +350,25 @@ body {
   /*END MOBILE CLOSING ARROW*/
 
   /*MOBILE LANGUAGE SELECTOR*/
+  .language input[type=submit] {
+    background: none;
+    border: none;
+    color: #00205A;
+    /* text-shadow: 1px 1px 2px gray; */
+    font-family: "AktivGrotesk-regular", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .active-lang {
+    border-bottom: 1px solid #00205A !important;
+  }
   .mobile-language-selector{
     padding-bottom: 15px;
   }
 
-  /*MOBILE LANGUAGE SELECTOR*/
+  /*END MOBILE LANGUAGE SELECTOR*/
 
   /*MOBILE POPUP*/
   .mobile-navbar-popup{

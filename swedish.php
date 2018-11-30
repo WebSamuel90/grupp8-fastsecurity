@@ -52,7 +52,7 @@ $lang = [
             ],
 'popup-details' => 'Ladda ner broschyr',
 'details-button' => 'Detaljer',
-'desktop-navbar' => ['HEM', 'FÖRETAG', 'HISTORIER', 'RESERVERA', 'LUFTMOTIV'],
+'desktop-navbar' => ['HEM', 'FÖRETAG', 'HISTORIER', 'RESERVERA', 'AEROMOBIL'],
 'mobile-navbar' => [
     'HEM',
     'FÖRETAG',
