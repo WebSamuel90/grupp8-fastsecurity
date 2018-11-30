@@ -67,5 +67,6 @@ $lang = [
     'ENERGI',
     'BRÄNSLE',
     'DETALJER'
-  ]
+  ],
+  'footer-form' => ['Få de senaste nyheterna', 'E-post', 'PRENUMERERA']
 ];

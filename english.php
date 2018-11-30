@@ -71,7 +71,9 @@
       'ENERGY',
       'FUEL',
       'DETAILS'
-    ]
+    ],
+    'footer-form' => ['Receive the Latest FS News', 'E-mail', 'SUBSCRIBE']
+
   ];
 
  ?>

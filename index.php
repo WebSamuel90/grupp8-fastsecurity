@@ -305,10 +305,10 @@
     <div class="footer-row-three">
       <div class="footer-left">
       <form class="footer-form" action="index.php" method="post">
-        <p>Receive the Latest FS News</p>
-        <input type="email" name="" placeholder="E-mail" id="Email" />
+        <p><?= $lang['footer-form'][0]; ?></p>
+        <input type="email" name="" placeholder="<?= $lang['footer-form'][1]; ?>" id="Email" />
         <br><br>
-        <input type="submit" name="" value="SUBSCRIBE">
+        <input type="submit" name="" value="<?= $lang['footer-form'][2]; ?>">
       </form>
       </div>
       <div class="footer-center">
