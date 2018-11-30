@@ -32,7 +32,6 @@ require __DIR__.'/header.php';
     <a href="Brochure_project_FS_Webb.pdf" download="broschyr-fastsecurity.pdf"><img src="images/Download-button-01.svg" class="download-button"/></a>
    </sidebar>
  </div>
-
  <!--END DETIALS-->
 
    <!-- PROGRESSBAR -->
@@ -94,8 +93,8 @@ require __DIR__.'/header.php';
    </div>
    <div class="desktop-language-selector">
      <form class="language">
-       <input type="submit" name="language" value="Sv">
-       <input type="submit" name="language" value="En">
+       <input class="<?= $_GET['language'] === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
+       <input class="<?= $_GET['language'] === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
      </form>
    </div>
    <!--END DESKTOP NAVBAR-->

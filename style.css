@@ -219,7 +219,6 @@ body {
   border-radius: 2px;
   background-size: 35px 20px, 100% 100%, 100% 100%;
 }
-
 /* END PROGRESSBAR */
 
 /* TRANSLATE */
@@ -430,6 +429,21 @@ body {
     padding-right: 5%;
     z-index: 3;
   }
+
+  .language input[type=submit] {
+    background: none;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+    font-family: "AktivGrotesk-regular", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .active-lang {
+    border-bottom: 1px solid white !important;
+  }
   /*END DESKTOP LANGUAGE SELECTOR*/
 }
 /*END DESKTOP NAVBAR----------------------------------------------------------*/
@@ -528,12 +542,10 @@ body {
     letter-spacing: 0.5em;
     line-height: 1.4em;
   }
-
 }
 /* END ROTATING TEXT */
 
 /* SECTION */
-
 .section {
   height: 100%;
   background-color: #212121;
@@ -1323,7 +1335,6 @@ body {
       pointer-events: none;
   }
 }
-
 /* END GALLERY */
 
 /* GALLERY SLIDER- */
@@ -1370,6 +1381,7 @@ body {
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 768px) {
 
     .slider-desktop {
@@ -1413,7 +1425,6 @@ body {
         cursor: pointer;
     }
 }
-
 /* END GALLERY SLIDER- */
 
 /* FOOTER */
@@ -1496,23 +1507,23 @@ body {
 }
 
 .footer-form p {
-    margin: 0px;
-    font-family: AktivGrotesk-regular, sans-serif;
+  margin: 0px;
+  font-family: AktivGrotesk-regular, sans-serif;
 }
 
 .footer-form input[type=email] {
-    width: 100%;
-    padding: 12px 0px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid #474747;
-    background-color: #B2B2B2;
-    color: #474747;
-    font-family: AktivGrotesk-light, sans-serif;
-    font-size: 24px;
-    line-height: 19px;
-    text-align: left;
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #474747;
+  background-color: #B2B2B2;
+  color: #474747;
+  font-family: AktivGrotesk-light, sans-serif;
+  font-size: 24px;
+  line-height: 19px;
+  text-align: left;
 }
 
 .footer-form input[type=submit] {
