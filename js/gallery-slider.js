@@ -8,11 +8,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.slider-mobile').slick({
-      // prevArrow: '<img class="slide-left" src="images/slider_arrow_mobile.svg">',
-      // nextArrow: '<img class="slide-right" src="images/slider_arrow_mobile.svg">',
+      prevArrow: '<img class="slide-left" src="images/slider_arrow_mobile.svg">',
+      nextArrow: '<img class="slide-right" src="images/slider_arrow_mobile.svg">',
       mobileFirst: true,
-      arrows: false,
-      dots: true
-
   });
 });
