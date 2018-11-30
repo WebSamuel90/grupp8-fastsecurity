@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+$language = 'En';
+
 if (isset($_GET['language'])) {
   $language = $_GET['language'];
 
@@ -24,5 +26,8 @@ else {
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
   <title>FastSecurity</title>
 </head>

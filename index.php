@@ -29,6 +29,7 @@
       </sidebar>
    </div>
    <!--END DETIALS-->
+
    <!-- PROGRESSBAR -->
    <sidebar class="progressbar-side">
       <progress class="progressbar" value="0" max="300"></progress>
@@ -63,8 +64,8 @@
          </div>
          <div class="mobile-language-selector">
             <form class="language">
-               <input type="submit" name="language" value="Sv">
-               <input type="submit" name="language" value="En">
+              <input class="<?= $language === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
+              <input class="<?= $language === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
             </form>
          </div>
       </div>
@@ -85,28 +86,29 @@
       </div>
    </div>
    <div class="desktop-language-selector">
-      <form class="language">
-         <input type="submit" name="language" value="Sv">
-         <input type="submit" name="language" value="En">
-      </form>
+     <form class="language">
+       <input class="<?= $language === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
+       <input class="<?= $language === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
+     </form>
    </div>
    <!--END DESKTOP NAVBAR-->
+
    <!--HERO-->
    <section class="hero">
-      <!-- ROTATING TEXT -->
-      <h2 class="sentence">
-         <?= $lang['hero'][0]; ?>
+     <!-- ROTATING TEXT -->
+     <h2 class="sentence"><?= $lang['hero'][0]; ?>
          <div class="sliding-vertical">
-            <span><?= $lang['hero'][1]; ?></span>
-            <span><?= $lang['hero'][2]; ?></span>
-            <span><?= $lang['hero'][3]; ?></span>
-         </div>
-      </h2>
-      <!-- END ROTATING TEXT -->
+         <span><?= $lang['hero'][1]; ?></span>
+         <span><?= $lang['hero'][2]; ?></span>
+         <span><?= $lang['hero'][3]; ?></span>
+       </div>
+     </h2>
+     <!-- END ROTATING TEXT -->
    </section>
-   <!--/END HERO-->
-   <!-- 01 NEW ERA DESIGN-->
-   <section class="section one">
+  <!--/END HERO-->
+
+    <!-- 01 NEW ERA DESIGN-->
+    <section class="section one">
       <article class="a one">
          <div class="article one">
             <img src="images/Logo_design_WT_text.png" />
@@ -158,15 +160,24 @@
       </article>
       <!-- GALLERY-->
       <section class="gallery">
-         <div class="box big">
-            <img src="images/Render_05.jpg" alt="">
-         </div>
-         <div class="box">
-            <img  src="images/Render_06.jpg" alt="">
-         </div>
-         <div class="box">
-            <img src="images/Render_08.jpg" alt="">
-         </div>
+        <div class="box big">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_1.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_1.png" alt="">
+        </div>
+        <div class="box">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_2.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_2.png" alt="">
+        </div>
+        <div class="box">
+          <img class="gallery-desktop" src="images/desktop_images/detail_view_3.png" alt="">
+          <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_3.png" alt="">
+        </div>
+        <div class="enlarge-arrow-one">
+          <img src="images/enlarge.svg" alt="">
+        </div>
+        <div class="enlarge-arrow-two">
+          <img src="images/enlarge.svg" alt="">
+        </div>
       </section>
       <!--END GALLERY-->
       <article class="content">
@@ -179,29 +190,27 @@
             <p><?= $lang['01'][2][3] ?><br /><?= $lang['01'][2][4] ?></p>
          </div>
       </article>
-   </section>
-   <!-- SECOND GALLERY-->
-   <section class="gallery-slider">
-      <div class="slider">
-         <div class="slide">
-            <img src="images/Render_05.jpg" alt="">
-         </div>
-         <div class="slide">
-            <img  src="images/Render_06.jpg" alt="">
-         </div>
-         <div class="slide">
-            <img src="images/Render_08.jpg" alt="">
-         </div>
-      </div>
-   </section>
-   <!--END SECOND GALLERY-->
-   <!-- END 01 NEW ERA DESIGN -->
-   <!-- TRANSLATE -->
-   <!-- <form class="language">
-      <input type="submit" name="language" value="Sv">
-      <input type="submit" name="language" value="En">
-      </form> -->
-   <!-- END TRANSLATE -->
+    </section>
+
+    <!--GALLERY SLIDER-->
+  <section class="gallery-slider">
+    <div class="slider-desktop">
+      <div><img src="images/desktop_images/interior_view_1.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_2.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_3.png" alt=""></div>
+      <div><img src="images/desktop_images/interior_view_4.png" alt=""></div>
+    </div>
+    <div class="slider-mobile">
+      <div><img src="images/mobile_images/mobile_interior_slider_1.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_2.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_3.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_4.png" alt=""></div>
+    </div>
+  </section>
+    <!--END GALLERY SLIDER--->
+
+    <!-- END 01 NEW ERA DESIGN -->
+
    <!-- 02 ENERGY -->
    <section class="section two">
       <article class="bgpic">
@@ -242,6 +251,7 @@
       </section>
    </section>
    <!-- END 02 ENERGY -->
+
    <!-- 03 FLY -->
    <section class="section three">
       <article class="fly">
@@ -250,7 +260,7 @@
             <h5><?= $lang['03'][0] ?></h5>
          </article>
       </article>
-      <section class="content white">
+     <section class="content white">
          <article class="title">
             <h5><?= $lang['03'][1] ?></h5>
             <hr />
@@ -276,47 +286,48 @@
       </section>
    </section>
    <!-- END 03 FLY -->
-   <!-- FOOTER -->
-   <footer class="footer-of-page">
-      <div class="footer-row-one">
+
+  <!-- FOOTER -->
+  <footer class="footer-of-page">
+    <div class="footer-row-one">
+    </div>
+    <div class="footer-row-two">
+      <div class="stroke-left">
+        <div class="line"></div>
       </div>
-      <div class="footer-row-two">
-         <div class="stroke-left">
-            <div class="line"></div>
-         </div>
-         <div class="center-logo">
-            <img src="images/FS-logo.png" alt="">
-         </div>
-         <div class="stroke-right">
-            <div class="line"></div>
-         </div>
+      <div class="center-logo">
+        <img src="images/FS-logo.png" alt="">
       </div>
-      <div class="footer-row-three">
-         <div class="footer-left">
-            <form class="footer-form" action="index.html" method="post">
-               <p>Receive the Latest FS News</p>
-               <input type="email" name="" placeholder="E-mail" id="Email" />
-               <br><br>
-               <input type="submit" name="" value="SUBSCRIBE">
-               <!-- <button type="submit" name="button">SUBSCRIBE</button> -->
-            </form>
-         </div>
-         <div class="footer-center">
-            <a href="">+46 131 800 00</a>
-            <br>
-            <a href="">info@fsproject.com</a>
-            <br>
-            <div class="social-media">
-               <img src="images/facebook-logo.svg" alt="">
-               <img src="images/instagram-logo.svg" alt="">
-               <img src="images/twitter-logo.svg" alt="">
-            </div>
-         </div>
-         <div class="footer-right">
-            <img src="images/saab-logo.png" alt="">
-         </div>
+      <div class="stroke-right">
+        <div class="line"></div>
       </div>
-      </section>
+    </div>
+    <div class="footer-row-three">
+      <div class="footer-left">
+      <form class="footer-form" action="index.php" method="post">
+        <p>Receive the Latest FS News</p>
+        <input type="email" name="" placeholder="E-mail" id="Email" />
+        <br><br>
+        <input type="submit" name="" value="SUBSCRIBE">
+      </form>
+      </div>
+      <div class="footer-center">
+        <a href="">+46 131 800 00</a>
+        <br>
+        <a href="">info@fsproject.com</a>
+        <br>
+        <div class="social-media">
+          <a href="https://www.facebook.com/"><img src="images/facebook-logo.svg" alt=""></a>
+          <a href="https://www.instagram.com/?hl=sv"><img src="images/instagram-logo.svg" alt=""></a>
+          <a href="https://twitter.com/"><img src="images/twitter-logo-01.svg" alt=""></a>
+          <br>
+          <a href="" class="not-active"><img class="saab-logo-mobile" src="images/saab-logo.png" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <img src="images/saab-logo.png" alt="">
+      </div>
+    </div>
    </footer>
    <?php
       require __DIR__.'/footer.php';
