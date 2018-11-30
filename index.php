@@ -93,8 +93,8 @@ require __DIR__.'/header.php';
    </div>
    <div class="desktop-language-selector">
      <form class="language">
-       <input class="<?= $_GET['language'] === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
-       <input class="<?= $_GET['language'] === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
+       <input class="<?= $language === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
+       <input class="<?= $language === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
      </form>
    </div>
    <!--END DESKTOP NAVBAR-->

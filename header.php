@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+$language = 'En';
+
 if (isset($_GET['language'])) {
   $language = $_GET['language'];
 
