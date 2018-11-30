@@ -211,34 +211,6 @@
 
     <!-- END 01 NEW ERA DESIGN -->
 
-
-  <!-- TRANSLATE -->
-  <!-- <form class="language">
-    <input type="submit" name="language" value="Sv">
-    <input type="submit" name="language" value="En">
-  </form> -->
-  <!-- END TRANSLATE -->
-
-  <!-- 02 ENERGY -->
-  <section class="section two">
-    <article class="bgpic">
-      <div class="header">
-        <h3>02</h3>
-        <h5><?= $lang['02'][0][0] ?></h5>
-      </div>
-      <div class="article two">
-        <h5><?= $lang['02'][0][1] ?></h5>
-        <p><?= $lang['02'][0][2] ?></p>
-      </div>
-   </section>
-   <!--END SECOND GALLERY-->
-   <!-- END 01 NEW ERA DESIGN -->
-   <!-- TRANSLATE -->
-   <!-- <form class="language">
-      <input type="submit" name="language" value="Sv">
-      <input type="submit" name="language" value="En">
-      </form> -->
-   <!-- END TRANSLATE -->
    <!-- 02 ENERGY -->
    <section class="section two">
       <article class="bgpic">
@@ -279,6 +251,7 @@
       </section>
    </section>
    <!-- END 02 ENERGY -->
+
    <!-- 03 FLY -->
    <section class="section three">
       <article class="fly">
@@ -349,13 +322,12 @@
           <a href="https://twitter.com/"><img src="images/twitter-logo-01.svg" alt=""></a>
           <br>
           <a href="" class="not-active"><img class="saab-logo-mobile" src="images/saab-logo.png" alt=""></a>
-
         </div>
       </div>
       <div class="footer-right">
         <img src="images/saab-logo.png" alt="">
       </div>
-    </div>  
+    </div>
    </footer>
    <?php
       require __DIR__.'/footer.php';
