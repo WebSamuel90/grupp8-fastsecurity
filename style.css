@@ -82,7 +82,7 @@ body {
 }
 
 .popup-signup h2 {
-  font-size: 14pt;
+  font-size: 1.166em;
   text-transform: uppercase;
 }
 
@@ -102,7 +102,7 @@ body {
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
-  font-size: 16pt;
+  font-size: 1.333em;
   text-transform: capitalize;
 }
 
@@ -163,13 +163,13 @@ body {
   }
 
   .toggle-signup .plus {
-    width: 30px;
+    width: 20px;
     color: #fff;
     padding: 2px 3px 2px 3px;
   }
 
   .toggle-signup .mail {
-    width: 25px;
+    width: 30px;
     color: #fff;
     padding: 1px 3px 1px 3px;
   }
@@ -494,10 +494,9 @@ body {
 /* ROTATING TEXT */
 .sentence {
   font-family: AktivGrotesk-Light, sans-serif;
-  font-weight: 100;
-  font-size: 14pt;
+  font-size: 1em;
   letter-spacing: 0.67em;
-  line-height: 22pt;
+  line-height: 1.833em;
   width: 50%;
   color: #f2f2f2;
   display: flex;
@@ -515,20 +514,20 @@ body {
 	position: absolute;
 }
 .sliding-vertical span:nth-child(2){
-	animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	-webkit-animation-delay: 3s;
+	animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	-webkit-animation-delay: 2s;
 }
 .sliding-vertical span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
+	animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
 }
-.sliding-vertical span:nth-child(4){
+/* .sliding-vertical span:nth-child(4){
 	animation-delay: 7s;
 	-ms-animation-delay: 7s;
 	-webkit-animation-delay: 7s;
-}
+} */
 
 @-moz-keyframes topToBottom{
 	0% { opacity: 0; }
@@ -564,6 +563,7 @@ body {
     font-size: 2.5em;
     letter-spacing: 0.5em;
     line-height: 1.4em;
+    font-weight: 100;
   }
 
 }
@@ -609,8 +609,7 @@ body {
 
 .section .header h3 {
   font-family: "AktivGrotesk-Light", sans-serif;
-  font-weight: 100;
-  font-size: 54pt;
+  font-size: 4.5em;
   line-height: normal;
   margin: 0;
   padding: 0;
@@ -650,15 +649,14 @@ body {
   background-repeat: repeat;
 }
 
-/* fixa pt till em!!!! */
 .section .header h5, .article h5 {
   font-family: "AktivGrotesk-Light", sans-serif;
-  font-weight: 100;
   line-height: 20px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 100;
 }
 
 .section .header h5 {
@@ -730,19 +728,23 @@ body {
 .section.one .footer-info .under p {
   font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
-  font-size: 9pt;
+  font-size: 0.75em;
 }
 
 .section.one .footer-info .over h6,
 .section.one .footer-info .under h6 {
   font-family: "AktivGrotesk-Light", sans-serif;
   margin: 0;
-  font-size: 20pt;
+  font-size: 1.666em;
 }
 
 
 .section .button {
   align-self: center;
+}
+
+.section .button.details {
+    margin: 57.33px 0 57.33px 0;
 }
 
 .details.popup.active {
@@ -791,7 +793,7 @@ body {
 .popup-details h2 {
   text-align: center;
   width: 152px;
-  font-size: 16pt;
+  font-size: 1.333em;
   text-transform: uppercase;
   align-content: space-around;
   padding: 20% 0 0 0;
@@ -800,7 +802,7 @@ body {
 .section .button input[type="submit"],
 .section .button input[type="button"] {
   font-family: "AktivGrotesk-Light", sans-serif;
-  background-color: #212121;
+  background-color: rgba(255, 255, 255, 0);
   color: #fff;
   border: 1px solid #fff;
   border-radius: 20px;
@@ -808,7 +810,23 @@ body {
   text-transform: uppercase;
   font-size: 1.33em;
   padding: 5px 30px 1px 30px;
-  margin: 57.33px 0 57.33px 0;
+}
+
+.section .a.one .button.desktop:hover .hover{
+    display: block;
+}
+
+.section .button .hover,
+.section .button:hover .show,
+.section .a.one .button .hover,
+.section .a.one .button:hover .show,
+.section .a.one .button.desktop .hover,
+.section .a.one .button.desktop {
+    display: none;
+}
+
+.section .button:hover .hover {
+    display: block;
 }
 
 .section .fly {
@@ -844,7 +862,6 @@ body {
 @media screen and (min-width: 768px) {
   .popup-details {
     width: 40%;
-    height: 460px;
     justify-content: space-around;
   }
 
@@ -852,6 +869,26 @@ body {
     padding-bottom: 10px;
     cursor: pointer;
   }
+
+  .section .a.one .button.desktop {
+      display: block;
+  }
+
+  .section .button.mobile {
+      display: none;
+  }
+
+  .section.one .button.desktop {
+    position: relative;
+    bottom: 2px;
+    right: 7%;
+    z-index: 2;
+  }
+
+  .section .button {
+    align-self: flex-end;
+  }
+
 
   .section .header {
     margin-left: 7%;
@@ -929,20 +966,12 @@ body {
   }
 
   .section.one .a.one .footer {
-    position: relative;
-    bottom: -9em;
+    margin-bottom: -24%;
     z-index: 1;
   }
 
   .section.one .a.one .article.one {
     margin-bottom: 10%;
-  }
-
-  .section.one .button {
-    position: absolute;
-    top: 170em;
-    right: 10%;
-    z-index: 1;
   }
 
   .section.one .article.one p {
@@ -963,12 +992,12 @@ body {
 
   .section.one .footer-info .over p,
   .section.one .footer-info .under p {
-    font-size: 20pt;
+    font-size: 1.666em;
   }
 
   .section.one .footer-info .over h6,
   .section.one .footer-info .under h6 {
-    font-size: 60pt;
+    font-size: 5em;
     font-weight: lighter;
   }
 
@@ -1200,7 +1229,7 @@ body {
   }
 
   .content .title h5 {
-    font-size: 37pt;
+    font-size: 3.083em;
     text-align: left;
   }
 
@@ -1232,7 +1261,7 @@ body {
 
 
   .content .article p, .content .article.right p{
-    font-size: 18pt;
+    font-size: 1.5em;
     line-height: 35px;
     padding-bottom: 2%;
   }
@@ -1573,6 +1602,10 @@ body {
 
   .stroke-right {
     width: 30vw;
+  }
+
+  .footer-right img {
+    display: none;
   }
 
   .center-logo img {
