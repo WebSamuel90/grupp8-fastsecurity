@@ -98,14 +98,10 @@ require __DIR__.'/header.php';
        <input type="submit" name="language" value="En">
      </form>
    </div>
-
-
    <!--END DESKTOP NAVBAR-->
-
 
    <!--HERO-->
    <section class="hero">
-
      <!-- ROTATING TEXT -->
      <h2 class="sentence"><?= $lang['hero'][0]; ?>
          <div class="sliding-vertical">
@@ -115,11 +111,8 @@ require __DIR__.'/header.php';
        </div>
      </h2>
      <!-- END ROTATING TEXT -->
-
    </section>
-
   <!--/END HERO-->
-
 
     <!-- 01 NEW ERA DESIGN-->
     <section class="section one">
@@ -185,6 +178,12 @@ require __DIR__.'/header.php';
           <img class="gallery-desktop" src="images/desktop_images/detail_view_3.png" alt="">
           <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_3.png" alt="">
         </div>
+        <div class="enlarge-arrow-one">
+
+        </div>
+        <div class="enlarge-arrow-two">
+
+        </div>
       </section>
         <!--END GALLERY-->
 
@@ -209,10 +208,10 @@ require __DIR__.'/header.php';
       <div><img src="images/desktop_images/interior_view_4.png" alt=""></div>
     </div>
     <div class="slider-mobile">
-        <div><img src="images/mobile_images/mobile_interior_slider_1.png" alt=""></div>
-        <div><img src="images/mobile_images/mobile_interior_slider_2.png" alt=""></div>
-        <div><img src="images/mobile_images/mobile_interior_slider_3.png" alt=""></div>
-        <div><img src="images/mobile_images/mobile_interior_slider_4.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_1.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_2.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_3.png" alt=""></div>
+      <div><img src="images/mobile_images/mobile_interior_slider_4.png" alt=""></div>
     </div>
   </section>
     <!--END GALLERY SLIDER--->
@@ -322,12 +321,11 @@ require __DIR__.'/header.php';
     </div>
     <div class="footer-row-three">
       <div class="footer-left">
-      <form class="footer-form" action="index.html" method="post">
+      <form class="footer-form" action="index.php" method="post">
         <p>Receive the Latest FS News</p>
         <input type="email" name="" placeholder="E-mail" id="Email" />
         <br><br>
         <input type="submit" name="" value="SUBSCRIBE">
-        <!-- <button type="submit" name="button">SUBSCRIBE</button> -->
       </form>
       </div>
       <div class="footer-center">
