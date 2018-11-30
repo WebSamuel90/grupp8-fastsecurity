@@ -69,8 +69,8 @@ require __DIR__.'/header.php';
           </div>
           <div class="mobile-language-selector">
             <form class="language">
-              <input type="submit" name="language" value="Sv">
-              <input type="submit" name="language" value="En">
+              <input class="<?= $language === 'Sv' ? 'active-lang' : '' ?>" type="submit" name="language" value="Sv">
+              <input class="<?= $language === 'En' ? 'active-lang' : '' ?>" type="submit" name="language" value="En">
             </form>
           </div>
      </div>
