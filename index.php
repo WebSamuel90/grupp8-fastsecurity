@@ -178,10 +178,10 @@ require __DIR__.'/header.php';
           <img class="gallery-mobile" src="images/mobile_images/mobile_detail_view_3.png" alt="">
         </div>
         <div class="enlarge-arrow-one">
-
+          <img src="images/enlarge.svg" alt="">
         </div>
         <div class="enlarge-arrow-two">
-
+          <img src="images/enlarge.svg" alt="">
         </div>
       </section>
         <!--END GALLERY-->
@@ -335,7 +335,7 @@ require __DIR__.'/header.php';
         <div class="social-media">
           <a href="https://www.facebook.com/"><img src="images/facebook-logo.svg" alt=""></a>
           <a href="https://www.instagram.com/?hl=sv"><img src="images/instagram-logo.svg" alt=""></a>
-          <a href="https://twitter.com/"><img src="images/twitter-logo.svg" alt=""></a>
+          <a href="https://twitter.com/"><img src="images/twitter-logo-01.svg" alt=""></a>
           <br>
           <a href="" class="not-active"><img class="saab-logo-mobile" src="images/saab-logo.png" alt=""></a>
 

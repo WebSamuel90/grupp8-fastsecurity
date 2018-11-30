@@ -1233,6 +1233,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    pointer-events: none;
   }
 
   .gallery .box {
@@ -1263,6 +1264,7 @@ body {
       height: 40px;
       width: 40px;
       pointer-events: none;
+      display: none;
   }
 
   .enlarge-arrow-two {
@@ -1273,6 +1275,7 @@ body {
       height: 40px;
       width: 40px;
       pointer-events: none;
+      display: none;
   }
 }
 
@@ -1319,20 +1322,20 @@ body {
       position: absolute;
       top: 95%;
       left: 24%;
-      background-color: yellow;
       height: 20px;
       width: 20px;
       pointer-events: none;
+      display: flex;
   }
 
   .enlarge-arrow-two {
       position: absolute;
       top: 95%;
       left: 73%;
-      background-color: red;
       height: 20px;
       width: 20px;
       pointer-events: none;
+      display: flex;
   }
 }
 /* END GALLERY */
