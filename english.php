@@ -2,7 +2,7 @@
   declare(strict_types=1);
 
   $lang = [
-    'hero' => ['Ex', 'pedience defined', 'pand your horizons', 'perience aeromotive perfection'],
+    'hero' => ['Exp', 'edience defined', 'and your horizons', 'erience aeromotive perfection'],
     '01' => [
               [
               'An epoch in the making',
@@ -56,7 +56,7 @@
                 'Contact fast Security', 'Name', 'E-mail', 'Message', 'send'
               ],
   'popup-details' => 'Download Broshure',
-  'details-button' => 'Details',
+  'details-button' => ['Details', 'Download Broshure'],
   'desktop-navbar' => ['HOME', 'COMPANY', 'STORIES', 'RESERVE', 'AEROMOTIVE'],
   'mobile-navbar' => [
       'HOME',

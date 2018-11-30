@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $lang = [
-  'hero' => ['Up', 'täck horisonten', 'lev aeromobilen', 'finningarnas <br />uppfinning'],
+  'hero' => ['Upp', 'täck horisonten', 'lev aeromobilen', 'finningarnas <br />uppfinning'],
   '01' => [
             [
             'UPPTAKTEN TILL EN EPOK ',
@@ -53,6 +53,7 @@ $lang = [
 'popup-details' => 'Ladda ner broschyr',
 'details-button' => 'Detaljer',
 'desktop-navbar' => ['HEM', 'FÖRETAG', 'HISTORIER', 'RESERVERA', 'AEROMOBIL'],
+
 'mobile-navbar' => [
     'HEM',
     'FÖRETAG',
